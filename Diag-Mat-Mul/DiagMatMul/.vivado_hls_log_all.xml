@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('A_0_load_2', matmul.cpp:9) on array 'A_0' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'A_0'." projectName="DiagMatMul" solutionName="solution1" date="2021-09-20T13:23:09.572+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'." projectName="DiagMatMul" solutionName="solution1" date="2021-09-20T13:22:55.659+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'." projectName="DiagMatMul" solutionName="solution1" date="2021-09-20T13:22:54.525+0530" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

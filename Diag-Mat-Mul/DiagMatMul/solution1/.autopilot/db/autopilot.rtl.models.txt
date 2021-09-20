@@ -1,0 +1,9 @@
+matmul_fadd_32ns_bkb
+matmul_fmul_32ns_cud
+matmul_mux_164_32dEe
+matmul_A_0
+matmul_B_0
+matmul_control_s_axi
+regslice_core
+DiagMatMul
+matmul
