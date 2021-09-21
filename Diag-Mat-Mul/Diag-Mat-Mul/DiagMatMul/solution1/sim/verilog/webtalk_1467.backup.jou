@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Sep 21 15:18:22 2021
+# Process ID: 1467
+# Current directory: /ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog
+# Command line: wbtcv -mode batch -source /ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/xsim.dir/matmul/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/webtalk.log
+# Journal file: /ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/webtalk.jou
+#-----------------------------------------------------------
+source /ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/xsim.dir/matmul/webtalk/xsim_webtalk.tcl -notrace

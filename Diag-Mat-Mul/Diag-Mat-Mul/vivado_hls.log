@@ -1,0 +1,32 @@
+INFO: [HLS 200-10] Running '/ext_disk/ext_hdd/downloads/Vivado_2020_1/Vivado/2020.1/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'iiitd' on host 'iiitd-OptiPlex-7080' (Linux_x86_64 version 5.4.0-81-generic) on Tue Sep 21 15:23:43 IST 2021
+INFO: [HLS 200-10] On os Ubuntu 18.04.2 LTS (beaver-osp1-ygritte X40)
+INFO: [HLS 200-10] In directory '/ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul'
+Sourcing Tcl script '/ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul/DiagMatMul/solution1/export.tcl'
+INFO: [HLS 200-10] Opening project '/ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul/DiagMatMul'.
+INFO: [HLS 200-10] Opening solution '/ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul/DiagMatMul/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/ext_disk/ext_hdd/downloads/Vivado_2020_1/Vivado/2020.1/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/ext_disk/ext_hdd/downloads/Vivado_2020_1/Vivado/2020.1/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'matmul_ap_fadd_2_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'matmul_ap_fadd_2_full_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'matmul_ap_fadd_2_full_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'matmul_ap_fmul_0_max_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'matmul_ap_fmul_0_max_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'matmul_ap_fmul_0_max_dsp_32'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/ext_disk/ext_hdd/downloads/Vivado_2020_1/Vivado/2020.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 21 15:23:56 2021...

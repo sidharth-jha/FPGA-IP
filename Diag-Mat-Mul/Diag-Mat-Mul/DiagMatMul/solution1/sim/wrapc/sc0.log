@@ -1,0 +1,5 @@
+   Build using "/ext_disk/ext_hdd/downloads/Vivado_2020_1/Vivado/2020.1/tps/lnx64/gcc-6.2.0/bin/g++"
+   Compiling matmul-tb.cpp_pre.cpp.tb.cpp
+   Compiling apatb_matmul.cpp
+   Compiling matmul.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="matmul.h" path="/ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul/matmul.h"/>
+    <originFiles name="matmul.cpp" path="/ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul/matmul.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="matmul-tb.cpp" path="/ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul/matmul-tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
