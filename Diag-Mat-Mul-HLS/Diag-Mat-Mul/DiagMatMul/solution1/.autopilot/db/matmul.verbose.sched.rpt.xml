@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'matmul'" level="0">
-<item name = "Date">Tue Sep 21 15:14:20 2021
+<item name = "Date">Tue Oct  5 15:27:05 2021
 </item>
-<item name = "Version">2020.1 (Build 2897737 on Wed May 27 20:21:37 MDT 2020)</item>
+<item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
 <item name = "Project">DiagMatMul</item>
 <item name = "Solution">solution1</item>
 <item name = "Product family">zynquplus</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">1302, 1302, 13.020 us, 13.020 us, 1302, 1302, none</column>
+<column name="">703, 703, 7.030 us, 7.030 us, 703, 703, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,10 +35,10 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- loop_input_A1">544, 544, 34, -, -, 16, no</column>
-<column name=" + loop_input_A2">32, 32, 2, -, -, 16, no</column>
-<column name="- loop_input_B1">544, 544, 34, -, -, 16, no</column>
-<column name=" + loop_input_B2">32, 32, 2, -, -, 16, no</column>
+<column name="- loop_input_A1">288, 288, 18, -, -, 16, no</column>
+<column name=" + loop_input_A2">16, 16, 1, -, -, 16, no</column>
+<column name="- loop_input_B1">288, 288, 18, -, -, 16, no</column>
+<column name=" + loop_input_B2">16, 16, 1, -, -, 16, no</column>
 <column name="- loop_out1">17, 17, 3, 1, 1, 16, yes</column>
 </table>
 </item>

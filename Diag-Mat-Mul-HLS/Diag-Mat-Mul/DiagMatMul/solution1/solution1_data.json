@@ -21,7 +21,7 @@
       "index": "0",
       "type": {
         "kinds": ["struct"],
-        "dataType": "ap_axiu<32, 0, 0, 0>",
+        "dataType": "ap_axiu<64, 0, 0, 0>",
         "structImpl": "flat-field",
         "dataPack": true,
         "fields": {
@@ -48,7 +48,7 @@
       "index": "1",
       "type": {
         "kinds": ["struct"],
-        "dataType": "ap_axiu<32, 0, 0, 0>",
+        "dataType": "ap_axiu<64, 0, 0, 0>",
         "structImpl": "flat-field",
         "dataPack": true,
         "fields": {
@@ -80,7 +80,7 @@
     "ClockPeriod": "10",
     "IsCombLogic": "0",
     "II": "x",
-    "Latency": "1302",
+    "Latency": "703",
     "Uncertainty": "1.25"
   },
   "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.000 [get_ports ap_clk]"]},
@@ -99,23 +99,26 @@
     "CSource": ["..\/..\/matmul.cpp"],
     "Vhdl": [
       "impl\/vhdl\/DiagMatMul.vhd",
-      "impl\/vhdl\/matmul_A_0.vhd",
-      "impl\/vhdl\/matmul_B_0.vhd",
+      "impl\/vhdl\/matmul_A_M_real_0.vhd",
       "impl\/vhdl\/matmul_control_s_axi.vhd",
-      "impl\/vhdl\/matmul_fadd_32ns_bkb.vhd",
-      "impl\/vhdl\/matmul_fmul_32ns_cud.vhd",
-      "impl\/vhdl\/matmul_mux_164_32dEe.vhd",
+      "impl\/vhdl\/matmul_fadd_32ns_cud.vhd",
+      "impl\/vhdl\/matmul_fmul_32ns_dEe.vhd",
+      "impl\/vhdl\/matmul_fsub_32ns_bkb.vhd",
+      "impl\/vhdl\/matmul_mux_165_32eOg.vhd",
+      "impl\/vhdl\/operator_mul_float.vhd",
       "impl\/vhdl\/regslice_core.vhd",
       "impl\/vhdl\/matmul.vhd"
     ],
     "Verilog": [
       "impl\/verilog\/DiagMatMul.v",
-      "impl\/verilog\/matmul_A_0.v",
-      "impl\/verilog\/matmul_B_0.v",
+      "impl\/verilog\/matmul_A_M_real_0.v",
+      "impl\/verilog\/matmul_A_M_real_0_ram.dat",
       "impl\/verilog\/matmul_control_s_axi.v",
-      "impl\/verilog\/matmul_fadd_32ns_bkb.v",
-      "impl\/verilog\/matmul_fmul_32ns_cud.v",
-      "impl\/verilog\/matmul_mux_164_32dEe.v",
+      "impl\/verilog\/matmul_fadd_32ns_cud.v",
+      "impl\/verilog\/matmul_fmul_32ns_dEe.v",
+      "impl\/verilog\/matmul_fsub_32ns_bkb.v",
+      "impl\/verilog\/matmul_mux_165_32eOg.v",
+      "impl\/verilog\/operator_mul_float.v",
       "impl\/verilog\/regslice_core.v",
       "impl\/verilog\/matmul.v"
     ],
@@ -132,11 +135,12 @@
     "Misc": ["impl\/misc\/logo.png"],
     "Subcore": [
       "impl\/misc\/matmul_ap_fadd_2_full_dsp_32_ip.tcl",
-      "impl\/misc\/matmul_ap_fmul_0_max_dsp_32_ip.tcl"
+      "impl\/misc\/matmul_ap_fmul_0_max_dsp_32_ip.tcl",
+      "impl\/misc\/matmul_ap_fsub_2_full_dsp_32_ip.tcl"
     ],
-    "DesignXml": "\/ext_disk\/ext_hdd\/Sidharth_207\/FPGA-IP-main\/Diag-Mat-Mul\/DiagMatMul\/solution1\/.autopilot\/db\/matmul.design.xml",
-    "DebugDir": "\/ext_disk\/ext_hdd\/Sidharth_207\/FPGA-IP-main\/Diag-Mat-Mul\/DiagMatMul\/solution1\/.debug",
-    "ProtoInst": ["\/ext_disk\/ext_hdd\/Sidharth_207\/FPGA-IP-main\/Diag-Mat-Mul\/DiagMatMul\/solution1\/.debug\/matmul.protoinst"]
+    "DesignXml": "\/home\/sidharth\/Documents\/BTP\/Diag-Mat-Mul\/DiagMatMul\/solution1\/.autopilot\/db\/matmul.design.xml",
+    "DebugDir": "\/home\/sidharth\/Documents\/BTP\/Diag-Mat-Mul\/DiagMatMul\/solution1\/.debug",
+    "ProtoInst": ["\/home\/sidharth\/Documents\/BTP\/Diag-Mat-Mul\/DiagMatMul\/solution1\/.debug\/matmul.protoinst"]
   },
   "SubcoreInfo": {
     "HasXpmMemory": false,
@@ -151,6 +155,11 @@
         "name": "matmul_ap_fmul_0_max_dsp_32",
         "vlnv": "xilinx.com:ip:floating_point:7.1",
         "params": "CONFIG.a_precision_type Single CONFIG.a_tuser_width 1 CONFIG.add_sub_value Both CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 8 CONFIG.c_a_fraction_width 24 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 0 CONFIG.c_mult_usage Max_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 8 CONFIG.c_result_fraction_width 24 CONFIG.component_name matmul_ap_fmul_0_max_dsp_32 CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken false CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Multiply CONFIG.result_precision_type Single CONFIG.result_tlast_behv Null"
+      },
+      {
+        "name": "matmul_ap_fsub_2_full_dsp_32",
+        "vlnv": "xilinx.com:ip:floating_point:7.1",
+        "params": "CONFIG.a_precision_type Single CONFIG.a_tuser_width 1 CONFIG.add_sub_value Subtract CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 8 CONFIG.c_a_fraction_width 24 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 2 CONFIG.c_mult_usage Full_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 8 CONFIG.c_result_fraction_width 24 CONFIG.component_name matmul_ap_fsub_2_full_dsp_32 CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken true CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Add_Subtract CONFIG.result_precision_type Single CONFIG.result_tlast_behv Null"
       }
     ]
   },
@@ -178,7 +187,7 @@
       "ctype": {
         "TDATA": {
           "Type": "integer unsigned",
-          "Width": "32"
+          "Width": "64"
         },
         "TVALID": {"Type": "bool"},
         "TREADY": {"Type": "bool"},
@@ -188,18 +197,18 @@
         },
         "TKEEP": {
           "Type": "integer unsigned",
-          "Width": "4"
+          "Width": "8"
         },
         "TSTRB": {
           "Type": "integer unsigned",
-          "Width": "4"
+          "Width": "8"
         }
       },
       "port_width": {
-        "TDATA": "32",
-        "TKEEP": "4",
+        "TDATA": "64",
+        "TKEEP": "8",
         "TLAST": "1",
-        "TSTRB": "4"
+        "TSTRB": "8"
       }
     },
     "interrupt": {
@@ -216,7 +225,7 @@
       "ctype": {
         "TDATA": {
           "Type": "integer unsigned",
-          "Width": "32"
+          "Width": "64"
         },
         "TVALID": {"Type": "bool"},
         "TREADY": {"Type": "bool"},
@@ -226,18 +235,18 @@
         },
         "TKEEP": {
           "Type": "integer unsigned",
-          "Width": "4"
+          "Width": "8"
         },
         "TSTRB": {
           "Type": "integer unsigned",
-          "Width": "4"
+          "Width": "8"
         }
       },
       "port_width": {
-        "TDATA": "32",
-        "TKEEP": "4",
+        "TDATA": "64",
+        "TKEEP": "8",
         "TLAST": "1",
-        "TSTRB": "4"
+        "TSTRB": "8"
       }
     },
     "s_axi_control": {
@@ -539,7 +548,7 @@
     },
     "in_stream_TDATA": {
       "dir": "in",
-      "width": "32"
+      "width": "64"
     },
     "in_stream_TVALID": {
       "dir": "in",
@@ -556,15 +565,15 @@
     },
     "in_stream_TKEEP": {
       "dir": "in",
-      "width": "4"
+      "width": "8"
     },
     "in_stream_TSTRB": {
       "dir": "in",
-      "width": "4"
+      "width": "8"
     },
     "out_stream_TDATA": {
       "dir": "out",
-      "width": "32"
+      "width": "64"
     },
     "out_stream_TVALID": {
       "dir": "out",
@@ -581,11 +590,11 @@
     },
     "out_stream_TKEEP": {
       "dir": "out",
-      "width": "4"
+      "width": "8"
     },
     "out_stream_TSTRB": {
       "dir": "out",
-      "width": "4"
+      "width": "8"
     }
   },
   "ModuleInfo": {
@@ -593,10 +602,51 @@
       "ModuleName": "matmul",
       "Instances": [{
           "ModuleName": "DiagMatMul",
-          "InstanceName": "grp_DiagMatMul_fu_725"
+          "InstanceName": "grp_DiagMatMul_fu_506",
+          "Instances": [
+            {
+              "ModuleName": "operator_mul_float",
+              "InstanceName": "grp_operator_mul_float_fu_1288"
+            },
+            {
+              "ModuleName": "operator_mul_float",
+              "InstanceName": "grp_operator_mul_float_fu_1296"
+            },
+            {
+              "ModuleName": "operator_mul_float",
+              "InstanceName": "grp_operator_mul_float_fu_1304"
+            },
+            {
+              "ModuleName": "operator_mul_float",
+              "InstanceName": "grp_operator_mul_float_fu_1312"
+            },
+            {
+              "ModuleName": "operator_mul_float",
+              "InstanceName": "grp_operator_mul_float_fu_1320"
+            },
+            {
+              "ModuleName": "operator_mul_float",
+              "InstanceName": "grp_operator_mul_float_fu_1328"
+            },
+            {
+              "ModuleName": "operator_mul_float",
+              "InstanceName": "grp_operator_mul_float_fu_1336"
+            },
+            {
+              "ModuleName": "operator_mul_float",
+              "InstanceName": "grp_operator_mul_float_fu_1344"
+            }
+          ]
         }]
     },
     "Info": {
+      "operator_mul_float": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "1",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
       "DiagMatMul": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "1",
@@ -613,12 +663,34 @@
       }
     },
     "Metrics": {
+      "operator_mul_float": {
+        "Latency": {
+          "LatencyBest": "5",
+          "LatencyAvg": "5",
+          "LatencyWorst": "5",
+          "PipelineII": "1",
+          "PipelineDepth": "6",
+          "PipelineType": "function"
+        },
+        "Timing": {
+          "Target": "10.00",
+          "Uncertainty": "1.25",
+          "Estimate": "8.419"
+        },
+        "Area": {
+          "DSP48E": "16",
+          "FF": "1287",
+          "LUT": "986",
+          "BRAM_18K": "0",
+          "URAM": "0"
+        }
+      },
       "DiagMatMul": {
         "Latency": {
-          "LatencyBest": "192",
-          "LatencyAvg": "192",
-          "LatencyWorst": "192",
-          "PipelineII": "192",
+          "LatencyBest": "105",
+          "LatencyAvg": "105",
+          "LatencyWorst": "105",
+          "PipelineII": "105",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
@@ -630,24 +702,24 @@
         "Loops": [{
             "Name": "loop_1",
             "TripCount": "16",
-            "Latency": "190",
-            "PipelineII": "8",
-            "PipelineDepth": "71"
+            "Latency": "103",
+            "PipelineII": "2",
+            "PipelineDepth": "74"
           }],
         "Area": {
           "BRAM_18K": "0",
-          "DSP48E": "10",
-          "FF": "3181",
-          "LUT": "3083",
+          "DSP48E": "160",
+          "FF": "21141",
+          "LUT": "14957",
           "URAM": "0"
         }
       },
       "matmul": {
         "Latency": {
-          "LatencyBest": "1302",
-          "LatencyAvg": "1302",
-          "LatencyWorst": "1302",
-          "PipelineII": "1303",
+          "LatencyBest": "703",
+          "LatencyAvg": "703",
+          "LatencyWorst": "703",
+          "PipelineII": "704",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
@@ -660,29 +732,29 @@
           {
             "Name": "loop_input_A1",
             "TripCount": "16",
-            "Latency": "544",
+            "Latency": "288",
             "PipelineII": "",
-            "PipelineDepth": "34",
+            "PipelineDepth": "18",
             "Loops": [{
                 "Name": "loop_input_A2",
                 "TripCount": "16",
-                "Latency": "32",
+                "Latency": "16",
                 "PipelineII": "",
-                "PipelineDepth": "2"
+                "PipelineDepth": "1"
               }]
           },
           {
             "Name": "loop_input_B1",
             "TripCount": "16",
-            "Latency": "544",
+            "Latency": "288",
             "PipelineII": "",
-            "PipelineDepth": "34",
+            "PipelineDepth": "18",
             "Loops": [{
                 "Name": "loop_input_B2",
                 "TripCount": "16",
-                "Latency": "32",
+                "Latency": "16",
                 "PipelineII": "",
-                "PipelineDepth": "2"
+                "PipelineDepth": "1"
               }]
           },
           {
@@ -694,10 +766,10 @@
           }
         ],
         "Area": {
-          "BRAM_18K": "0",
-          "DSP48E": "10",
-          "FF": "5399",
-          "LUT": "4816",
+          "BRAM_18K": "32",
+          "DSP48E": "160",
+          "FF": "23344",
+          "LUT": "16046",
           "URAM": "0"
         }
       }
@@ -713,8 +785,8 @@
   },
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2021-09-21 15:14:22 IST",
+    "Time": "2021-10-05 15:27:08 IST",
     "ToolName": "vivado_hls",
-    "ToolVersion": "2020.1"
+    "ToolVersion": "2019.2"
   }
 }

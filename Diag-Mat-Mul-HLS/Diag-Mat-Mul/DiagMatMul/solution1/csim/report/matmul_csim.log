@@ -1,7 +1,6 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch GCC as the compiler.
    Compiling ../../../../matmul-tb.cpp in debug mode
-   Compiling ../../../../matmul.cpp in debug mode
    Generating csim.exe
 Last signal: 1
 Success!

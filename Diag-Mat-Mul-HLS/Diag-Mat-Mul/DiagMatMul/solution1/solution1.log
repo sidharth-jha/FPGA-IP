@@ -82,3 +82,2059 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2020.1 (64-bit)
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'matmul.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 536 ; free virtual = 2599
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 536 ; free virtual = 2599
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 459 ; free virtual = 2523
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'DiagMatMul' into 'matmul' (matmul.cpp:49) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 971.074 ; gain = 538.293 ; free physical = 421 ; free virtual = 2485
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'loop_1' (matmul.cpp:5) in function 'DiagMatMul' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'loop_2' (matmul.cpp:8) in function 'DiagMatMul' completely with a factor of 1024.
+INFO: [XFORM 203-101] Partitioning array 'A' (matmul.cpp:20) in dimension 1 with a cyclic factor 256.
+INFO: [XFORM 203-101] Partitioning array 'B' (matmul.cpp:22) in dimension 1 with a cyclic factor 256.
+INFO: [XFORM 203-101] Partitioning array 'mulOut'  in dimension 1 with a cyclic factor 256.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.4' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.5' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.6' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.7' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.8' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.9' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.10' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.11' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.12' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.13' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.14' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.15' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.16' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.17' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.18' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.19' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.20' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.21' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.22' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.23' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.24' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.25' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.26' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.27' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.28' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.29' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.30' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.31' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.32' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.33' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.34' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.35' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.36' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.37' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.38' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.39' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.40' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.41' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.42' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.43' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.44' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.45' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.46' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.47' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.48' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.49' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.50' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.51' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.52' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.53' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.54' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.55' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.56' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.57' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.58' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.59' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.60' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.61' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.62' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.63' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.64' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.65' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.66' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.67' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.68' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.69' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.70' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.71' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.72' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.73' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.74' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.75' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.76' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.77' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.78' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.79' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.80' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.81' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.82' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.83' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.84' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.85' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.86' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.87' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.88' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.89' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.90' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.91' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.92' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.93' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.94' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.95' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.96' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.97' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.98' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.99' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.100' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.101' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.102' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.103' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.104' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.105' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.106' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.107' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.108' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.109' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.110' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.111' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.112' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.113' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.114' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.115' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.116' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.117' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.118' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.119' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.120' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.121' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.122' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.123' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.124' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.125' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.126' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.127' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.128' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.129' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.130' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.131' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.132' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.133' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.134' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.135' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.136' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.137' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.138' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.139' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.140' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.141' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.142' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.143' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.144' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.145' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.146' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.147' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.148' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.149' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.150' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.151' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.152' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.153' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.154' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.155' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.156' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.157' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.158' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.159' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.160' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.161' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.162' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.163' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.164' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.165' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.166' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.167' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.168' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.169' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.170' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.171' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.172' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.173' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.174' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.175' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.176' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.177' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.178' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.179' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.180' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.181' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.182' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.183' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.184' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.185' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.186' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.187' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.188' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.189' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.190' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.191' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.192' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.193' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.194' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.195' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.196' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.197' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.198' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.199' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.200' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.201' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.202' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.203' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.204' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.205' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.206' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.207' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.208' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.209' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.210' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.211' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.212' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.213' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.214' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.215' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.216' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.217' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.218' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.219' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.220' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.221' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.222' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.223' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.224' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.225' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.226' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.227' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.228' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.229' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.230' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.231' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.232' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.233' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.234' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.235' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.236' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.237' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.238' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.239' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.240' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.241' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.242' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.243' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.244' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.245' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.246' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.247' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.248' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.249' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.250' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.251' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.252' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.253' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.254' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.255' completely based on array size.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.4' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.5' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.6' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.7' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.8' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.9' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.10' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.11' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.12' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.13' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.14' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.15' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.16' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.17' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.18' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.19' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.20' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.21' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.22' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.23' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.24' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.25' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.26' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.27' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.28' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.29' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.30' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.31' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.32' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.33' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.34' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.35' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.36' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.37' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.38' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.39' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.40' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.41' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.42' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.43' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.44' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.45' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.46' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.47' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.48' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.49' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.50' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.51' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.52' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.53' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.54' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.55' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.56' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.57' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.58' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.59' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.60' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.61' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.62' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.63' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.64' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.65' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.66' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.67' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.68' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.69' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.70' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.71' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.72' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.73' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.74' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.75' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.76' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.77' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.78' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.79' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.80' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.81' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.82' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.83' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.84' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.85' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.86' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.87' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.88' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.89' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.90' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.91' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.92' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.93' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.94' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.95' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.96' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.97' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.98' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.99' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.100' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.101' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.102' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.103' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.104' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.105' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.106' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.107' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.108' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.109' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.110' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.111' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.112' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.113' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.114' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.115' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.116' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.117' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.118' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.119' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.120' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.121' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.122' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.123' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.124' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.125' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.126' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.127' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.128' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.129' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.130' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.131' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.132' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.133' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.134' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.135' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.136' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.137' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.138' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.139' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.140' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.141' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.142' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.143' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.144' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.145' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.146' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.147' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.148' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.149' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.150' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.151' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.152' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.153' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.154' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.155' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.156' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.157' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.158' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.159' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.160' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.161' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.162' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.163' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.164' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.165' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.166' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.167' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.168' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.169' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.170' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.171' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.172' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.173' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.174' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.175' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.176' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.177' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.178' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.179' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.180' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.181' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.182' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.183' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.184' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.185' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.186' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.187' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.188' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.189' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.190' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.191' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.192' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.193' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.194' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.195' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.196' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.197' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.198' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.199' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.200' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.201' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.202' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.203' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.204' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.205' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.206' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.207' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.208' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.209' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.210' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.211' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.212' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.213' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.214' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.215' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.216' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.217' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.218' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.219' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.220' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.221' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.222' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.223' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.224' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.225' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.226' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.227' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.228' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.229' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.230' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.231' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.232' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.233' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.234' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.235' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.236' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.237' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.238' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.239' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.240' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.241' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.242' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.243' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.244' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.245' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.246' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.247' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.248' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.249' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.250' in dimension 1 completely.
+INFO: [XFORM 203-101]==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'matmul.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 734 ; free virtual = 2585
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 734 ; free virtual = 2585
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 659 ; free virtual = 2511
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'DiagMatMul' into 'matmul' (matmul.cpp:49) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 971.074 ; gain = 538.293 ; free physical = 595 ; free virtual = 2448
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'loop_1' (matmul.cpp:5) in function 'DiagMatMul' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'loop_2' (matmul.cpp:8) in function 'DiagMatMul' completely with a factor of 512.
+INFO: [XFORM 203-101] Partitioning array 'A' (matmul.cpp:20) in dimension 1 with a cyclic factor 256.
+INFO: [XFORM 203-101] Partitioning array 'B' (matmul.cpp:22) in dimension 1 with a cyclic factor 256.
+INFO: [XFORM 203-101] Partitioning array 'mulOut'  in dimension 1 with a cyclic factor 256.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.4' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.5' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.6' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.7' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.8' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.9' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.10' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.11' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.12' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.13' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.14' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.15' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.16' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.17' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.18' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.19' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.20' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.21' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.22' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.23' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.24' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.25' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.26' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.27' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.28' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.29' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.30' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.31' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.32' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.33' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.34' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.35' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.36' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.37' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.38' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.39' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.40' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.41' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.42' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.43' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.44' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.45' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.46' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.47' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.48' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.49' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.50' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.51' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.52' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.53' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.54' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.55' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.56' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.57' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.58' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.59' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.60' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.61' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.62' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.63' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.64' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.65' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.66' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.67' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.68' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.69' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.70' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.71' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.72' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.73' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.74' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.75' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.76' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.77' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.78' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.79' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.80' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.81' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.82' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.83' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.84' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.85' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.86' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.87' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.88' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.89' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.90' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.91' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.92' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.93' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.94' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.95' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.96' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.97' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.98' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.99' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.100' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.101' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.102' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.103' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.104' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.105' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.106' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.107' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.108' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.109' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.110' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.111' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.112' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.113' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.114' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.115' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.116' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.117' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.118' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.119' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.120' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.121' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.122' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.123' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.124' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.125' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.126' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.127' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.128' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.129' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.130' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.131' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.132' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.133' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.134' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.135' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.136' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.137' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.138' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.139' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.140' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.141' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.142' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.143' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.144' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.145' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.146' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.147' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.148' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.149' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.150' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.151' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.152' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.153' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.154' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.155' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.156' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.157' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.158' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.159' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.160' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.161' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.162' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.163' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.164' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.165' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.166' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.167' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.168' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.169' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.170' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.171' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.172' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.173' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.174' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.175' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.176' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.177' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.178' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.179' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.180' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.181' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.182' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.183' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.184' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.185' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.186' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.187' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.188' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.189' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.190' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.191' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.192' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.193' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.194' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.195' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.196' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.197' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.198' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.199' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.200' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.201' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.202' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.203' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.204' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.205' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.206' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.207' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.208' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.209' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.210' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.211' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.212' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.213' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.214' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.215' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.216' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.217' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.218' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.219' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.220' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.221' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.222' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.223' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.224' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.225' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.226' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.227' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.228' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.229' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.230' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.231' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.232' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.233' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.234' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.235' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.236' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.237' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.238' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.239' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.240' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.241' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.242' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.243' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.244' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.245' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.246' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.247' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.248' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.249' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.250' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.251' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.252' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.253' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.254' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.255' completely based on array size.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.4' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.5' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.6' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.7' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.8' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.9' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.10' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.11' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.12' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.13' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.14' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.15' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.16' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.17' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.18' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.19' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.20' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.21' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.22' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.23' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.24' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.25' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.26' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.27' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.28' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.29' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.30' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.31' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.32' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.33' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.34' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.35' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.36' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.37' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.38' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.39' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.40' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.41' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.42' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.43' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.44' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.45' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.46' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.47' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.48' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.49' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.50' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.51' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.52' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.53' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.54' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.55' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.56' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.57' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.58' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.59' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.60' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.61' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.62' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.63' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.64' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.65' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.66' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.67' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.68' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.69' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.70' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.71' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.72' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.73' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.74' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.75' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.76' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.77' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.78' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.79' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.80' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.81' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.82' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.83' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.84' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.85' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.86' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.87' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.88' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.89' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.90' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.91' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.92' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.93' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.94' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.95' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.96' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.97' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.98' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.99' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.100' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.101' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.102' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.103' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.104' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.105' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.106' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.107' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.108' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.109' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.110' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.111' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.112' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.113' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.114' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.115' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.116' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.117' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.118' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.119' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.120' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.121' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.122' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.123' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.124' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.125' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.126' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.127' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.128' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.129' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.130' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.131' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.132' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.133' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.134' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.135' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.136' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.137' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.138' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.139' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.140' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.141' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.142' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.143' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.144' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.145' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.146' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.147' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.148' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.149' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.150' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.151' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.152' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.153' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.154' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.155' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.156' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.157' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.158' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.159' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.160' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.161' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.162' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.163' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.164' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.165' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.166' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.167' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.168' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.169' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.170' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.171' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.172' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.173' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.174' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.175' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.176' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.177' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.178' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.179' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.180' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.181' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.182' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.183' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.184' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.185' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.186' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.187' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.188' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.189' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.190' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.191' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.192' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.193' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.194' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.195' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.196' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.197' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.198' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.199' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.200' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.201' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.202' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.203' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.204' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.205' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.206' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.207' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.208' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.209' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.210' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.211' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.212' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.213' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.214' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.215' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.216' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.217' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.218' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.219' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.220' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.221' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.222' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.223' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.224' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.225' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.226' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.227' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.228' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.229' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.230' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.231' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.232' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.233' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.234' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.235' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.236' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.237' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.238' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.239' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.240' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.241' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.242' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.243' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.244' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.245' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.246' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.247' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.248' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.249' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.250' in dimension 1 completely.
+INFO: [XFORM 203-101]==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'matmul.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 439 ; free virtual = 2347
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 439 ; free virtual = 2347
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 387 ; free virtual = 2296
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'DiagMatMul' into 'matmul' (matmul.cpp:49) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 357 ; free virtual = 2267
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'loop_1' (matmul.cpp:5) in function 'DiagMatMul' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'loop_2' (matmul.cpp:8) in function 'DiagMatMul' completely with a factor of 256.
+INFO: [XFORM 203-101] Partitioning array 'A' (matmul.cpp:20) in dimension 1 with a cyclic factor 64.
+INFO: [XFORM 203-101] Partitioning array 'B' (matmul.cpp:22) in dimension 1 with a cyclic factor 64.
+INFO: [XFORM 203-101] Partitioning array 'mulOut'  in dimension 1 with a cyclic factor 64.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.4' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.5' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.6' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.7' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.8' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.9' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.10' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.11' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.12' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.13' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.14' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.15' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.16' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.17' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.18' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.19' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.20' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.21' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.22' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.23' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.24' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.25' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.26' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.27' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.28' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.29' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.30' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.31' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.32' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.33' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.34' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.35' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.36' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.37' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.38' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.39' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.40' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.41' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.42' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.43' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.44' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.45' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.46' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.47' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.48' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.49' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.50' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.51' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.52' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.53' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.54' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.55' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.56' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.57' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.58' completely based on array size.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'matmul.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 610 ; free virtual = 2080
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 610 ; free virtual = 2080
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 605 ; free virtual = 2076
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'DiagMatMul' into 'matmul' (matmul.cpp:49) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 602 ; free virtual = 2073
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'loop_1' (matmul.cpp:5) in function 'DiagMatMul' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'loop_2' (matmul.cpp:8) in function 'DiagMatMul' completely with a factor of 16.
+INFO: [XFORM 203-101] Partitioning array 'A' (matmul.cpp:20) in dimension 1 with a block factor 4.
+INFO: [XFORM 203-101] Partitioning array 'B' (matmul.cpp:22) in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-101] Partitioning array 'mulOut'  in dimension 1 with a block factor 4.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.3' completely based on array size.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.3' in dimension 1 completely.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 578 ; free virtual = 2049
+INFO: [HLS 200-472] Inferring partial write operation for 'A[0]' (matmul.cpp:37:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'B[0]' (matmul.cpp:45:4)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 574 ; free virtual = 2046
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matmul' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_1'.
+WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('A_0_load_2', matmul.cpp:9) on array 'A_0' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'A_0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 8, Depth = 71.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 14.12 seconds; current allocated memory: 132.082 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.26 seconds; current allocated memory: 133.684 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_out1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.27 seconds; current allocated memory: 134.094 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.08 seconds; current allocated memory: 134.675 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'matmul_fadd_32ns_32ns_32_4_full_dsp_1' to 'matmul_fadd_32ns_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_fmul_32ns_32ns_32_2_max_dsp_1' to 'matmul_fmul_32ns_cud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_mux_432_32_1_1' to 'matmul_mux_432_32dEe' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'matmul_fadd_32ns_bkb': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fmul_32ns_cud': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_mux_432_32dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DiagMatMul'.
+INFO: [HLS 200-111]  Elapsed time: 0.15 seconds; current allocated memory: 137.078 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'matmul' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port control.
+INFO: [SYN 201-210] Renamed object name 'matmul_mux_165_32_1_1' to 'matmul_mux_165_32eOg' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'matmul_mux_165_32eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'matmul'.
+INFO: [HLS 200-111]  Elapsed time: 0.46 seconds; current allocated memory: 143.885 MB.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 118.78 MHz
+INFO: [RTMG 210-278]==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'matmul.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 345 ; free virtual = 2989
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 345 ; free virtual = 2989
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 330 ; free virtual = 2975
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'DiagMatMul' into 'matmul' (matmul.cpp:49) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 327 ; free virtual = 2972
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'loop_1' (matmul.cpp:5) in function 'DiagMatMul' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'loop_2' (matmul.cpp:8) in function 'DiagMatMul' completely with a factor of 128.
+INFO: [XFORM 203-101] Partitioning array 'A' (matmul.cpp:20) in dimension 1 with a block factor 4.
+INFO: [XFORM 203-101] Partitioning array 'B' (matmul.cpp:22) in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-101] Partitioning array 'mulOut'  in dimension 1 with a block factor 4.
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C[0]' in function 'DiagMatMul' (matmul.cpp:11:3).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C[1]' in function 'DiagMatMul' (matmul.cpp:11:3).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C[2]' in function 'DiagMatMul' (matmul.cpp:11:3).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C[3]' in function 'DiagMatMul' (matmul.cpp:11:3).
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 307 ; free virtual = 2953
+INFO: [HLS 200-472] Inferring partial write operation for 'A[0]' (matmul.cpp:37:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'B[0]' (matmul.cpp:45:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'C[0]' (matmul.cpp:11:3)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 298 ; free virtual = 2944
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matmul' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_1'.
+WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('A_0_load_2', matmul.cpp:9) on array 'A_0' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'A_0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 64, Depth = 519.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 26.44 seconds; current allocated memory: 149.142 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 2.94 seconds; current allocated memory: 160.189 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_out1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 1.75 seconds; current allocated memory: 160.843 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.13 seconds; current allocated memory: 161.374 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'matmul_fadd_32ns_32ns_32_4_full_dsp_1' to 'matmul_fadd_32ns_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_fmul_32ns_32ns_32_2_max_dsp_1' to 'matmul_fmul_32ns_cud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_mux_432_32_1_1' to 'matmul_mux_432_32dEe' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'matmul_fadd_32ns_bkb': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fmul_32ns_cud': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_mux_432_32dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DiagMatMul'.
+INFO: [HLS 200-111]  Elapsed time: 0.64 seconds; current allocated memory: 171.411 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'matmul' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Generating core module 'matmul_mux_432_32dEe': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'matmul'.
+INFO: [HLS 200-111]  Elapsed time: 2.78 seconds; current allocated memory: 200.785 MB.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 112.30 MHz
+INFO: [RTMG 210-278] Implementing memory 'matmul_A_0_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'matmul_mulOut_0_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 188 ; free virtual = 2870
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'matmul.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 353 ; free virtual = 3103
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 353 ; free virtual = 3103
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 348 ; free virtual = 3099
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'DiagMatMul' into 'matmul' (matmul.cpp:49) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 346 ; free virtual = 3097
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'loop_1' (matmul.cpp:5) in function 'DiagMatMul' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'loop_2' (matmul.cpp:8) in function 'DiagMatMul' completely with a factor of 16.
+INFO: [XFORM 203-101] Partitioning array 'A' (matmul.cpp:20) in dimension 2 with a block factor 4.
+INFO: [XFORM 203-101] Partitioning array 'B' (matmul.cpp:22) in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-101] Partitioning array 'mulOut'  in dimension 1 with a block factor 4.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.3' completely based on array size.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.3' in dimension 1 completely.
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[0]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[1]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[2]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[3]' in function 'matmul' (matmul.cpp:37:4).
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 322 ; free virtual = 3073
+INFO: [HLS 200-472] Inferring partial write operation for 'A[0]' (matmul.cpp:37:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'B[0]' (matmul.cpp:45:4)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 319 ; free virtual = 3071
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matmul' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_1'.
+WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('A_0_load_2', matmul.cpp:9) on array 'A_0' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'A_0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 2, Depth = 69.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 13.78 seconds; current allocated memory: 130.820 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.16 seconds; current allocated memory: 131.930 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_out1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.21 seconds; current allocated memory: 132.388 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.09 seconds; current allocated memory: 132.925 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'matmul_fadd_32ns_32ns_32_4_full_dsp_1' to 'matmul_fadd_32ns_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_fmul_32ns_32ns_32_2_max_dsp_1' to 'matmul_fmul_32ns_cud' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'matmul_fadd_32ns_bkb': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fmul_32ns_cud': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DiagMatMul'.
+INFO: [HLS 200-111]  Elapsed time: 0.17 seconds; current allocated memory: 135.601 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'matmul' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port control.
+INFO: [SYN 201-210] Renamed object name 'matmul_mux_165_32_1_1' to 'matmul_mux_165_32dEe' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'matmul_mux_165_32dEe': 1 instance(s).
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'matmul.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 344 ; free virtual = 3097
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 344 ; free virtual = 3097
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 339 ; free virtual = 3093
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'DiagMatMul' into 'matmul' (matmul.cpp:49) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 336 ; free virtual = 3090
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'loop_1' (matmul.cpp:5) in function 'DiagMatMul' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'loop_2' (matmul.cpp:8) in function 'DiagMatMul' completely with a factor of 16.
+INFO: [XFORM 203-101] Partitioning array 'A' (matmul.cpp:20) in dimension 1 with a block factor 4.
+INFO: [XFORM 203-101] Partitioning array 'B' (matmul.cpp:22) in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-101] Partitioning array 'mulOut'  in dimension 1 with a block factor 4.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.3' completely based on array size.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.3' in dimension 1 completely.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 312 ; free virtual = 3066
+INFO: [HLS 200-472] Inferring partial write operation for 'A[0]' (matmul.cpp:37:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'B[0]' (matmul.cpp:45:4)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 308 ; free virtual = 3063
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matmul' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_1'.
+WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('A_0_load_2', matmul.cpp:9) on array 'A_0' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'A_0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 8, Depth = 71.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 13.71 seconds; current allocated memory: 132.084 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.25 seconds; current allocated memory: 133.685 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_out1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.27 seconds; current allocated memory: 134.097 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.08 seconds; current allocated memory: 134.679 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'matmul_fadd_32ns_32ns_32_4_full_dsp_1' to 'matmul_fadd_32ns_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_fmul_32ns_32ns_32_2_max_dsp_1' to 'matmul_fmul_32ns_cud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_mux_432_32_1_1' to 'matmul_mux_432_32dEe' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'matmul_fadd_32ns_bkb': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fmul_32ns_cud': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_mux_432_32dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DiagMatMul'.
+INFO: [HLS 200-111]  Elapsed time: 0.14 seconds; current allocated memory: 137.081 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'matmul' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port control.
+INFO: [SYN 201-210] Renamed object name 'matmul_mux_165_32_1_1' to 'matmul_mux_165_32eOg' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'matmul_mux_165_32eOg': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'matmul'.
+INFO: [HLS 200-111]  Elapsed time: 0.46 seconds; current allocated memory: 143.887 MB.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 118.78 MHz
+INFO: [RTMG 210-278]==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'matmul.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 344 ; free virtual = 3077
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 344 ; free virtual = 3077
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 337 ; free virtual = 3071
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'DiagMatMul' into 'matmul' (matmul.cpp:49) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 335 ; free virtual = 3069
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'loop_1' (matmul.cpp:5) in function 'DiagMatMul' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'loop_2' (matmul.cpp:8) in function 'DiagMatMul' completely with a factor of 16.
+INFO: [XFORM 203-101] Partitioning array 'A' (matmul.cpp:20) in dimension 2 with a block factor 8.
+INFO: [XFORM 203-101] Partitioning array 'B' (matmul.cpp:22) in dimension 1 with a cyclic factor 8.
+INFO: [XFORM 203-101] Partitioning array 'mulOut'  in dimension 1 with a block factor 8.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.4' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.5' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.6' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.7' completely based on array size.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.4' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.5' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.6' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.7' in dimension 1 completely.
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[0]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[1]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[2]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[3]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[4]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[5]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[6]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[7]' in function 'matmul' (matmul.cpp:37:4).
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 310 ; free virtual = 3045
+INFO: [HLS 200-472] Inferring partial write operation for 'A[0]' (matmul.cpp:37:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'B[0]' (matmul.cpp:45:4)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 307 ; free virtual = 3042
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matmul' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 68.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 13.58 seconds; current allocated memory: 131.377 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.18 seconds; current allocated memory: 132.579 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_out1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.25 seconds; current allocated memory: 133.170 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.13 seconds; current allocated memory: 133.898 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'matmul_fadd_32ns_32ns_32_4_full_dsp_1' to 'matmul_fadd_32ns_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_fmul_32ns_32ns_32_2_max_dsp_1' to 'matmul_fmul_32ns_cud' due to the length limit 20
+INFO: [RTGEN 206-104] Estimated max fanout for 'DiagMatMul' is 11975 from HDL expression: (1'b0 == ap_block_pp0_stage0_11001)
+INFO: [RTGEN 206-100] Generating core module 'matmul_fadd_32ns_bkb': 16 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fmul_32ns_cud': 16 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DiagMatMul'.
+INFO: [HLS 200-111]  Elapsed time: 0.24 seconds; current allocated memory: 137.581 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_data_V' to 'axis' (register, both mode).
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'matmul.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 346 ; free virtual = 3059
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 346 ; free virtual = 3059
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 340 ; free virtual = 3054
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'DiagMatMul' into 'matmul' (matmul.cpp:49) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 337 ; free virtual = 3051
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'loop_1' (matmul.cpp:5) in function 'DiagMatMul' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'loop_2' (matmul.cpp:8) in function 'DiagMatMul' completely with a factor of 16.
+INFO: [XFORM 203-101] Partitioning array 'A' (matmul.cpp:20) in dimension 2 with a block factor 4.
+INFO: [XFORM 203-101] Partitioning array 'B' (matmul.cpp:22) in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-101] Partitioning array 'mulOut'  in dimension 1 with a block factor 4.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut.3' completely based on array size.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut.3' in dimension 1 completely.
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[0]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[1]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[2]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[3]' in function 'matmul' (matmul.cpp:37:4).
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 312 ; free virtual = 3027
+INFO: [HLS 200-472] Inferring partial write operation for 'A[0]' (matmul.cpp:37:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'B[0]' (matmul.cpp:45:4)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 310 ; free virtual = 3025
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matmul' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_1'.
+WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('A_0_load_2', matmul.cpp:9) on array 'A_0' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'A_0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 2, Depth = 69.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 13.48 seconds; current allocated memory: 130.825 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.16 seconds; current allocated memory: 131.934 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_out1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.21 seconds; current allocated memory: 132.393 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.09 seconds; current allocated memory: 132.928 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'matmul_fadd_32ns_32ns_32_4_full_dsp_1' to 'matmul_fadd_32ns_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_fmul_32ns_32ns_32_2_max_dsp_1' to 'matmul_fmul_32ns_cud' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'matmul_fadd_32ns_bkb': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fmul_32ns_cud': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DiagMatMul'.
+INFO: [HLS 200-111]  Elapsed time: 0.17 seconds; current allocated memory: 135.603 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'matmul' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port control.
+INFO: [SYN 201-210] Renamed object name 'matmul_mux_165_32_1_1' to 'matmul_mux_165_32dEe' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'matmul_mux_165_32dEe': 1 instance(s).
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'matmul.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 378 ; free virtual = 3091
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 378 ; free virtual = 3091
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 312 ; free virtual = 3026
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'DiagMatMul' into 'matmul' (matmul.cpp:49) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 971.074 ; gain = 538.293 ; free physical = 274 ; free virtual = 2988
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'loop_1' (matmul.cpp:5) in function 'DiagMatMul' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'loop_2' (matmul.cpp:8) in function 'DiagMatMul' completely with a factor of 2048.
+INFO: [XFORM 203-101] Partitioning array 'A' (matmul.cpp:20) in dimension 2 with a block factor 4.
+INFO: [XFORM 203-101] Partitioning array 'B' (matmul.cpp:22) in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-101] Partitioning array 'mulOut'  in dimension 1 with a block factor 4.
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[0]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[1]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[2]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A[3]' in function 'matmul' (matmul.cpp:37:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C[0]' in function 'DiagMatMul' (matmul.cpp:11:3).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C[1]' in function 'DiagMatMul' (matmul.cpp:11:3).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C[2]' in function 'DiagMatMul' (matmul.cpp:11:3).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C[3]' in function 'DiagMatMul' (matmul.cpp:11:3).
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 971.328 ; gain = 538.547 ; free physical = 270 ; free virtual = 2985
+INFO: [HLS 200-472] Inferring partial write operation for 'A[0]' (matmul.cpp:37:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'B[0]' (matmul.cpp:45:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'C[0]' (matmul.cpp:11:3)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 1098.863 ; gain = 666.082 ; free physical = 230 ; free virtual = 2946
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matmul' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_1'.
+WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('A_0_load_2', matmul.cpp:9) on array 'A_0' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'A_0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 256, Depth = 8201.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 310.42 seconds; current allocated memory: 325.120 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 768.63 seconds; current allocated memory: 611.079 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_out1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 45.98 seconds; current allocated memory: 615.378 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.5 seconds; current allocated memory: 615.969 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'matmul_fadd_32ns_32ns_32_4_full_dsp_1' to 'matmul_fadd_32ns_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_fmul_32ns_32ns_32_2_max_dsp_1' to 'matmul_fmul_32ns_cud' due to the length limit 20
+INFO: [RTGEN 206-104] Estimated max fanout for 'DiagMatMul' is 5536 from HDL expression: ((1'b1 == ap_CS_fsm_pp0_stage60) & (1'b0 == ap_block_pp0_stage60_11001))
+INFO: [RTGEN 206-100] Generating core module 'matmul_fadd_32ns_bkb': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fmul_32ns_cud': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DiagMatMul'.
+INFO: [HLS 200-111]  Elapsed time: 32.64 seconds; current allocated memory: 746.310 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'matmul' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port control.
+INFO: [SYN 201-210] Renamed object name 'matmul_mux_432_32_1_1' to 'matmul_mux_432_32dEe' due to the length limit 20
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'matmul.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 392 ; free virtual = 1434
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 392 ; free virtual = 1434
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 376 ; free virtual = 1427
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::operator*=<float>' into 'std::operator*<float>' () automatically.
+INFO: [XFORM 203-602] Inlining function 'std::operator*<float>' into 'DiagMatMul' (matmul.cpp:9) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::operator+=<float>' into 'DiagMatMul' (matmul.cpp:9) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::real' into 'matmul' (matmul.cpp:38) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::imag' into 'matmul' (matmul.cpp:41) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 371 ; free virtual = 1423
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'loop_1' (matmul.cpp:5) in function 'DiagMatMul' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'loop_2' (matmul.cpp:8) in function 'DiagMatMul' completely with a factor of 16.
+INFO: [XFORM 203-101] Partitioning array 'A._M_real'  in dimension 2 with a block factor 4.
+INFO: [XFORM 203-101] Partitioning array 'A._M_imag'  in dimension 2 with a block factor 4.
+INFO: [XFORM 203-101] Partitioning array 'B._M_real'  in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-101] Partitioning array 'B._M_imag'  in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_real'  in dimension 1 with a block factor 4.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_imag'  in dimension 1 with a block factor 4.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_real.0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_real.1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_real.2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_real.3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_imag.0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_imag.1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_imag.2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_imag.3' completely based on array size.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_real.0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_real.1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_real.2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_real.3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_imag.0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_imag.1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_imag.2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_imag.3' in dimension 1 completely.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::operator*=<float>' into 'std::operator*<float>' () automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::operator+=<float>' into 'DiagMatMul' (matmul.cpp:9) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::real' into 'matmul' (matmul.cpp:38) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::imag' into 'matmul' (matmul.cpp:41) automatically.
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A._M_real.0' in function 'matmul' (matmul.cpp:38:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A._M_real.1' in function 'matmul' (matmul.cpp:38:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A._M_real.2' in function 'matmul' (matmul.cpp:38:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A._M_real.3' in function 'matmul' (matmul.cpp:38:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A._M_imag.0' in function 'matmul' (matmul.cpp:38:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A._M_imag.1' in function 'matmul' (matmul.cpp:38:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A._M_imag.2' in function 'matmul' (matmul.cpp:38:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'A._M_imag.3' in function 'matmul' (matmul.cpp:38:4).
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 334 ; free virtual = 1398
+WARNING: [XFORM 203-631] Renaming function 'std::operator*<float>' to 'operator*<float>' 
+INFO: [HLS 200-472] Inferring partial write operation for 'A._M_real.0' (matmul.cpp:38:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'A._M_imag.0' (matmul.cpp:41:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'B._M_real.0' (matmul.cpp:50:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'B._M_imag.0' (matmul.cpp:53:4)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 970.863 ; gain = 538.082 ; free physical = 315 ; free virtual = 1383
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matmul' ...
+WARNING: [SYN 201-103] Legalizing function name 'operator*<float>' to 'operator_mul_float'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'operator_mul_float' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'operator*<float>'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 6.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 14.78 seconds; current allocated memory: 147.718 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.03 seconds; current allocated memory: 147.871 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_1'.
+WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('A_M_real_load_2', matmul.cpp:9) on array 'A_M_real' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'A_M_real'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 2, Depth = 74.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.3 seconds; current allocated memory: 149.939 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.42 seconds; current allocated memory: 153.009 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_out1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.54 seconds; current allocated memory: 153.771 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.19 seconds; current allocated memory: 154.786 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'operator_mul_float' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'matmul_fsub_32ns_32ns_32_4_full_dsp_0' to 'matmul_fsub_32ns_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_fadd_32ns_32ns_32_4_full_dsp_0' to 'matmul_fadd_32ns_cud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_fmul_32ns_32ns_32_2_max_dsp_0' to 'matmul_fmul_32ns_dEe' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'matmul_fadd_32ns_cud': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fmul_32ns_dEe': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fsub_32ns_bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'operator_mul_float'.
+INFO: [HLS 200-111]  Elapsed time: 0.34 seconds; current allocated memory: 155.247 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-104] Estimated max fanout for 'DiagMatMul' is 7937 from HDL expression: ((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_CS_fsm_pp0_stage0))
+INFO: [RTGEN 206-100] Generating core module 'matmul_fadd_32ns_cud': 16 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DiagMatMul'.
+INFO: [HLS 200-111]  Elapsed time: 0.24 seconds; current allocated memory: 163.479 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'matmul' to 's_axilite & ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_0_0' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_0_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_0_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_0_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_1_0' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_1_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_1_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_1_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_2_0' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_2_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_2_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_2_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_3_0' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_3_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_3_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_real_3_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_0_0' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_0_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_0_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_0_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_1_0' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_1_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_1_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_1_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_2_0' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_2_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_2_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_2_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_3_0' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_3_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_3_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mulOut_M_imag_3_3' is power-on initialization.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port control.
+INFO: [SYN 201-210] Renamed object name 'matmul_mux_165_32_1_1' to 'matmul_mux_165_32eOg' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'matmul_mux_165_32eOg': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'matmul'.
+INFO: [HLS 200-111]  Elapsed time: 1.07 seconds; current allocated memory: 176.480 MB.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 118.78 MHz
+INFO: [RTMG 210-278] Implementing memory 'matmul_A_M_real_0_ram (RAM)' using block RAMs with power-on initialization.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1034.863 ; gain = 602.082 ; free physical = 240 ; free virtual = 1350
+INFO: [VHDL 208-304] Generating VHDL RTL for matmul.
+INFO: [VLOG 209-307] Generating Verilog RTL for matmul.

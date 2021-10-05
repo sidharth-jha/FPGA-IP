@@ -42,7 +42,7 @@ set SCTraceOption all
 set TargetInfo xczu28dr:-ffvg1517:-2-e
 set SourceFiles {sc {} c ../../matmul.cpp}
 set SourceFlags {sc {} c {{}}}
-set DirectiveFile /ext_disk/ext_hdd/Sidharth_207/FPGA-IP-main/Diag-Mat-Mul/DiagMatMul/solution1/solution1.directive
+set DirectiveFile /home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/solution1.directive
 set TBFiles {verilog ../../matmul-tb.cpp bc ../../matmul-tb.cpp vhdl ../../matmul-tb.cpp sc ../../matmul-tb.cpp cas ../../matmul-tb.cpp c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
