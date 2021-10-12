@@ -1,0 +1,5 @@
+   Build using "/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/tps/lnx64/gcc-6.2.0/bin/g++"
+   Compiling matmul-tb.cpp_pre.cpp.tb.cpp
+   Compiling apatb_matmul.cpp
+   Compiling matmul.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

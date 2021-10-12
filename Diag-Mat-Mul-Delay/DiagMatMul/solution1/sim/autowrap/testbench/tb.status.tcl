@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/./sim/autowrap/testbench/matmul.cpp_pre.cpp.tb.cpp

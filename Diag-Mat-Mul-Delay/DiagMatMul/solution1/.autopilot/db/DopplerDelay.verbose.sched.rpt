@@ -1,0 +1,411 @@
+
+
+================================================================
+== Vivado HLS Report for 'DopplerDelay'
+================================================================
+* Date:           Sat Oct  9 16:22:03 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        DiagMatMul
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu28dr-ffvg1517-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 8.419 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       24|       24| 0.240 us | 0.240 us |   24|   24|   none  |
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |- Loop 1  |       22|       22|         8|          1|          1|    16|    yes   |
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 8
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 10
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 8, States = { 2 3 4 5 6 7 8 9 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 10 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 2 
+10 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.65>
+ST_1 : Operation 11 [1/1] (0.65ns)   --->   "br label %1" [matmul.cpp:16]   --->   Operation 11 'br' <Predicate = true> <Delay = 0.65>
+
+State 2 <SV = 1> <Delay = 1.23>
+ST_2 : Operation 12 [1/1] (0.00ns)   --->   "%i_0 = phi i5 [ 0, %0 ], [ %i, %hls_label_0 ]"   --->   Operation 12 'phi' 'i_0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 13 [1/1] (0.75ns)   --->   "%icmp_ln16 = icmp eq i5 %i_0, -16" [matmul.cpp:16]   --->   Operation 13 'icmp' 'icmp_ln16' <Predicate = true> <Delay = 0.75> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.75> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 16, i64 16, i64 16)"   --->   Operation 14 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.78ns)   --->   "%i = add i5 %i_0, 1" [matmul.cpp:16]   --->   Operation 15 'add' 'i' <Predicate = true> <Delay = 0.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "br i1 %icmp_ln16, label %2, label %hls_label_0" [matmul.cpp:16]   --->   Operation 16 'br' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 17 [1/1] (0.00ns)   --->   "%tmp_8 = call i6 @_ssdm_op_BitConcatenate.i6.i5.i1(i5 %i_0, i1 false)" [matmul.cpp:19]   --->   Operation 17 'bitconcatenate' 'tmp_8' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%zext_ln19_1 = zext i6 %tmp_8 to i64" [matmul.cpp:19]   --->   Operation 18 'zext' 'zext_ln19_1' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "%rxmat_M_real_2_addr = getelementptr [32 x float]* %rxmat_M_real_2, i64 0, i64 %zext_ln19_1" [matmul.cpp:19]   --->   Operation 19 'getelementptr' 'rxmat_M_real_2_addr' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%or_ln19 = or i6 %tmp_8, 1" [matmul.cpp:19]   --->   Operation 20 'or' 'or_ln19' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 21 [1/1] (0.00ns)   --->   "%tmp_9 = call i64 @_ssdm_op_BitConcatenate.i64.i58.i6(i58 0, i6 %or_ln19)" [matmul.cpp:19]   --->   Operation 21 'bitconcatenate' 'tmp_9' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%rxmat_M_real_2_addr_1 = getelementptr [32 x float]* %rxmat_M_real_2, i64 0, i64 %tmp_9" [matmul.cpp:19]   --->   Operation 22 'getelementptr' 'rxmat_M_real_2_addr_1' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%rxmat_M_real_21_add = getelementptr [32 x float]* %rxmat_M_real_21, i64 0, i64 %zext_ln19_1" [matmul.cpp:19]   --->   Operation 23 'getelementptr' 'rxmat_M_real_21_add' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%rxmat_M_real_21_add_1 = getelementptr [32 x float]* %rxmat_M_real_21, i64 0, i64 %tmp_9" [matmul.cpp:19]   --->   Operation 24 'getelementptr' 'rxmat_M_real_21_add_1' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 25 [1/1] (0.00ns)   --->   "%rxmat_M_real_22_add = getelementptr [32 x float]* %rxmat_M_real_22, i64 0, i64 %zext_ln19_1" [matmul.cpp:19]   --->   Operation 25 'getelementptr' 'rxmat_M_real_22_add' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%rxmat_M_real_22_add_1 = getelementptr [32 x float]* %rxmat_M_real_22, i64 0, i64 %tmp_9" [matmul.cpp:19]   --->   Operation 26 'getelementptr' 'rxmat_M_real_22_add_1' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 27 [1/1] (0.00ns)   --->   "%rxmat_M_real_23_add = getelementptr [32 x float]* %rxmat_M_real_23, i64 0, i64 %zext_ln19_1" [matmul.cpp:19]   --->   Operation 27 'getelementptr' 'rxmat_M_real_23_add' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 28 [1/1] (0.00ns)   --->   "%rxmat_M_real_23_add_1 = getelementptr [32 x float]* %rxmat_M_real_23, i64 0, i64 %tmp_9" [matmul.cpp:19]   --->   Operation 28 'getelementptr' 'rxmat_M_real_23_add_1' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "%rxmat_M_imag_2_addr = getelementptr [32 x float]* %rxmat_M_imag_2, i64 0, i64 %zext_ln19_1" [matmul.cpp:19]   --->   Operation 29 'getelementptr' 'rxmat_M_imag_2_addr' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 30 [1/1] (0.00ns)   --->   "%rxmat_M_imag_2_addr_1 = getelementptr [32 x float]* %rxmat_M_imag_2, i64 0, i64 %tmp_9" [matmul.cpp:19]   --->   Operation 30 'getelementptr' 'rxmat_M_imag_2_addr_1' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 31 [1/1] (0.00ns)   --->   "%rxmat_M_imag_24_add = getelementptr [32 x float]* %rxmat_M_imag_24, i64 0, i64 %zext_ln19_1" [matmul.cpp:19]   --->   Operation 31 'getelementptr' 'rxmat_M_imag_24_add' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 32 [1/1] (0.00ns)   --->   "%rxmat_M_imag_24_add_1 = getelementptr [32 x float]* %rxmat_M_imag_24, i64 0, i64 %tmp_9" [matmul.cpp:19]   --->   Operation 32 'getelementptr' 'rxmat_M_imag_24_add_1' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 33 [1/1] (0.00ns)   --->   "%rxmat_M_imag_25_add = getelementptr [32 x float]* %rxmat_M_imag_25, i64 0, i64 %zext_ln19_1" [matmul.cpp:19]   --->   Operation 33 'getelementptr' 'rxmat_M_imag_25_add' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 34 [1/1] (0.00ns)   --->   "%rxmat_M_imag_25_add_1 = getelementptr [32 x float]* %rxmat_M_imag_25, i64 0, i64 %tmp_9" [matmul.cpp:19]   --->   Operation 34 'getelementptr' 'rxmat_M_imag_25_add_1' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 35 [1/1] (0.00ns)   --->   "%rxmat_M_imag_26_add = getelementptr [32 x float]* %rxmat_M_imag_26, i64 0, i64 %zext_ln19_1" [matmul.cpp:19]   --->   Operation 35 'getelementptr' 'rxmat_M_imag_26_add' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 36 [1/1] (0.00ns)   --->   "%rxmat_M_imag_26_add_1 = getelementptr [32 x float]* %rxmat_M_imag_26, i64 0, i64 %tmp_9" [matmul.cpp:19]   --->   Operation 36 'getelementptr' 'rxmat_M_imag_26_add_1' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 37 [2/2] (1.23ns)   --->   "%p_r_M_real = load float* %rxmat_M_real_2_addr, align 4" [matmul.cpp:19]   --->   Operation 37 'load' 'p_r_M_real' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 38 [2/2] (1.23ns)   --->   "%p_r_M_imag = load float* %rxmat_M_imag_2_addr, align 4" [matmul.cpp:19]   --->   Operation 38 'load' 'p_r_M_imag' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 39 [2/2] (1.23ns)   --->   "%p_r_M_real_1 = load float* %rxmat_M_real_2_addr_1, align 4" [matmul.cpp:19]   --->   Operation 39 'load' 'p_r_M_real_1' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 40 [2/2] (1.23ns)   --->   "%p_r_M_imag_1 = load float* %rxmat_M_imag_2_addr_1, align 4" [matmul.cpp:19]   --->   Operation 40 'load' 'p_r_M_imag_1' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 41 [2/2] (1.23ns)   --->   "%p_r_M_real_2 = load float* %rxmat_M_real_21_add, align 4" [matmul.cpp:19]   --->   Operation 41 'load' 'p_r_M_real_2' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 42 [2/2] (1.23ns)   --->   "%p_r_M_imag_2 = load float* %rxmat_M_imag_24_add, align 4" [matmul.cpp:19]   --->   Operation 42 'load' 'p_r_M_imag_2' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 43 [2/2] (1.23ns)   --->   "%p_r_M_real_3 = load float* %rxmat_M_real_21_add_1, align 4" [matmul.cpp:19]   --->   Operation 43 'load' 'p_r_M_real_3' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 44 [2/2] (1.23ns)   --->   "%p_r_M_imag_3 = load float* %rxmat_M_imag_24_add_1, align 4" [matmul.cpp:19]   --->   Operation 44 'load' 'p_r_M_imag_3' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 45 [2/2] (1.23ns)   --->   "%p_r_M_real_4 = load float* %rxmat_M_real_22_add, align 4" [matmul.cpp:19]   --->   Operation 45 'load' 'p_r_M_real_4' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 46 [2/2] (1.23ns)   --->   "%p_r_M_imag_4 = load float* %rxmat_M_imag_25_add, align 4" [matmul.cpp:19]   --->   Operation 46 'load' 'p_r_M_imag_4' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 47 [2/2] (1.23ns)   --->   "%p_r_M_real_5 = load float* %rxmat_M_real_22_add_1, align 4" [matmul.cpp:19]   --->   Operation 47 'load' 'p_r_M_real_5' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 48 [2/2] (1.23ns)   --->   "%p_r_M_imag_5 = load float* %rxmat_M_imag_25_add_1, align 4" [matmul.cpp:19]   --->   Operation 48 'load' 'p_r_M_imag_5' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 49 [2/2] (1.23ns)   --->   "%p_r_M_real_6 = load float* %rxmat_M_real_23_add, align 4" [matmul.cpp:19]   --->   Operation 49 'load' 'p_r_M_real_6' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 50 [2/2] (1.23ns)   --->   "%p_r_M_imag_6 = load float* %rxmat_M_imag_26_add, align 4" [matmul.cpp:19]   --->   Operation 50 'load' 'p_r_M_imag_6' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 51 [2/2] (1.23ns)   --->   "%p_r_M_real_7 = load float* %rxmat_M_real_23_add_1, align 4" [matmul.cpp:19]   --->   Operation 51 'load' 'p_r_M_real_7' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 52 [2/2] (1.23ns)   --->   "%p_r_M_imag_7 = load float* %rxmat_M_imag_26_add_1, align 4" [matmul.cpp:19]   --->   Operation 52 'load' 'p_r_M_imag_7' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 3 <SV = 2> <Delay = 1.23>
+ST_3 : Operation 53 [1/2] (1.23ns)   --->   "%p_r_M_real = load float* %rxmat_M_real_2_addr, align 4" [matmul.cpp:19]   --->   Operation 53 'load' 'p_r_M_real' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 54 [1/2] (1.23ns)   --->   "%p_r_M_imag = load float* %rxmat_M_imag_2_addr, align 4" [matmul.cpp:19]   --->   Operation 54 'load' 'p_r_M_imag' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 55 [1/2] (1.23ns)   --->   "%p_r_M_real_1 = load float* %rxmat_M_real_2_addr_1, align 4" [matmul.cpp:19]   --->   Operation 55 'load' 'p_r_M_real_1' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 56 [1/2] (1.23ns)   --->   "%p_r_M_imag_1 = load float* %rxmat_M_imag_2_addr_1, align 4" [matmul.cpp:19]   --->   Operation 56 'load' 'p_r_M_imag_1' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 57 [1/2] (1.23ns)   --->   "%p_r_M_real_2 = load float* %rxmat_M_real_21_add, align 4" [matmul.cpp:19]   --->   Operation 57 'load' 'p_r_M_real_2' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 58 [1/2] (1.23ns)   --->   "%p_r_M_imag_2 = load float* %rxmat_M_imag_24_add, align 4" [matmul.cpp:19]   --->   Operation 58 'load' 'p_r_M_imag_2' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 59 [1/2] (1.23ns)   --->   "%p_r_M_real_3 = load float* %rxmat_M_real_21_add_1, align 4" [matmul.cpp:19]   --->   Operation 59 'load' 'p_r_M_real_3' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 60 [1/2] (1.23ns)   --->   "%p_r_M_imag_3 = load float* %rxmat_M_imag_24_add_1, align 4" [matmul.cpp:19]   --->   Operation 60 'load' 'p_r_M_imag_3' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 61 [1/2] (1.23ns)   --->   "%p_r_M_real_4 = load float* %rxmat_M_real_22_add, align 4" [matmul.cpp:19]   --->   Operation 61 'load' 'p_r_M_real_4' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 62 [1/2] (1.23ns)   --->   "%p_r_M_imag_4 = load float* %rxmat_M_imag_25_add, align 4" [matmul.cpp:19]   --->   Operation 62 'load' 'p_r_M_imag_4' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 63 [1/2] (1.23ns)   --->   "%p_r_M_real_5 = load float* %rxmat_M_real_22_add_1, align 4" [matmul.cpp:19]   --->   Operation 63 'load' 'p_r_M_real_5' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 64 [1/2] (1.23ns)   --->   "%p_r_M_imag_5 = load float* %rxmat_M_imag_25_add_1, align 4" [matmul.cpp:19]   --->   Operation 64 'load' 'p_r_M_imag_5' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 65 [1/2] (1.23ns)   --->   "%p_r_M_real_6 = load float* %rxmat_M_real_23_add, align 4" [matmul.cpp:19]   --->   Operation 65 'load' 'p_r_M_real_6' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 66 [1/2] (1.23ns)   --->   "%p_r_M_imag_6 = load float* %rxmat_M_imag_26_add, align 4" [matmul.cpp:19]   --->   Operation 66 'load' 'p_r_M_imag_6' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 67 [1/2] (1.23ns)   --->   "%p_r_M_real_7 = load float* %rxmat_M_real_23_add_1, align 4" [matmul.cpp:19]   --->   Operation 67 'load' 'p_r_M_real_7' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_3 : Operation 68 [1/2] (1.23ns)   --->   "%p_r_M_imag_7 = load float* %rxmat_M_imag_26_add_1, align 4" [matmul.cpp:19]   --->   Operation 68 'load' 'p_r_M_imag_7' <Predicate = (!icmp_ln16)> <Delay = 1.23> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 4 <SV = 3> <Delay = 8.41>
+ST_4 : Operation 69 [2/2] (8.41ns)   --->   "%tmp_i_i = fmul float %p_r_M_real, 0x4008CCCCC0000000" [matmul.cpp:19]   --->   Operation 69 'fmul' 'tmp_i_i' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 70 [2/2] (8.41ns)   --->   "%tmp_7_i_i = fmul float %p_r_M_imag, 0.000000e+00" [matmul.cpp:19]   --->   Operation 70 'fmul' 'tmp_7_i_i' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 71 [2/2] (8.41ns)   --->   "%tmp_9_i_i = fmul float %p_r_M_imag, 0x4008CCCCC0000000" [matmul.cpp:19]   --->   Operation 71 'fmul' 'tmp_9_i_i' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 72 [2/2] (8.41ns)   --->   "%tmp_i_i_38 = fmul float %p_r_M_real, 0.000000e+00" [matmul.cpp:19]   --->   Operation 72 'fmul' 'tmp_i_i_38' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 73 [2/2] (8.41ns)   --->   "%tmp_i_i1 = fmul float %p_r_M_real_1, 0x4014EB8520000000" [matmul.cpp:19]   --->   Operation 73 'fmul' 'tmp_i_i1' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 74 [2/2] (8.41ns)   --->   "%tmp_7_i_i2 = fmul float %p_r_M_imag_1, 0.000000e+00" [matmul.cpp:19]   --->   Operation 74 'fmul' 'tmp_7_i_i2' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 75 [2/2] (8.41ns)   --->   "%tmp_9_i_i4 = fmul float %p_r_M_imag_1, 0x4014EB8520000000" [matmul.cpp:19]   --->   Operation 75 'fmul' 'tmp_9_i_i4' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 76 [2/2] (8.41ns)   --->   "%tmp_i_i5 = fmul float %p_r_M_real_1, 0.000000e+00" [matmul.cpp:19]   --->   Operation 76 'fmul' 'tmp_i_i5' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 77 [2/2] (8.41ns)   --->   "%tmp_i_i9 = fmul float %p_r_M_real_2, 0x401870A3E0000000" [matmul.cpp:19]   --->   Operation 77 'fmul' 'tmp_i_i9' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 78 [2/2] (8.41ns)   --->   "%tmp_7_i_i1 = fmul float %p_r_M_imag_2, 0.000000e+00" [matmul.cpp:19]   --->   Operation 78 'fmul' 'tmp_7_i_i1' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 79 [2/2] (8.41ns)   --->   "%tmp_9_i_i1 = fmul float %p_r_M_imag_2, 0x401870A3E0000000" [matmul.cpp:19]   --->   Operation 79 'fmul' 'tmp_9_i_i1' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 80 [2/2] (8.41ns)   --->   "%tmp_i_i1_39 = fmul float %p_r_M_real_2, 0.000000e+00" [matmul.cpp:19]   --->   Operation 80 'fmul' 'tmp_i_i1_39' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 81 [2/2] (8.41ns)   --->   "%tmp_i_i2 = fmul float %p_r_M_real_3, 0x4023F5C280000000" [matmul.cpp:19]   --->   Operation 81 'fmul' 'tmp_i_i2' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 82 [2/2] (8.41ns)   --->   "%tmp_7_i_i3 = fmul float %p_r_M_imag_3, 0.000000e+00" [matmul.cpp:19]   --->   Operation 82 'fmul' 'tmp_7_i_i3' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 83 [2/2] (8.41ns)   --->   "%tmp_9_i_i2 = fmul float %p_r_M_imag_3, 0x4023F5C280000000" [matmul.cpp:19]   --->   Operation 83 'fmul' 'tmp_9_i_i2' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 84 [2/2] (8.41ns)   --->   "%tmp_i_i2_40 = fmul float %p_r_M_real_3, 0.000000e+00" [matmul.cpp:19]   --->   Operation 84 'fmul' 'tmp_i_i2_40' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 85 [2/2] (8.41ns)   --->   "%tmp_i_i3 = fmul float %p_r_M_real_4, 0x40206B8520000000" [matmul.cpp:19]   --->   Operation 85 'fmul' 'tmp_i_i3' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 86 [2/2] (8.41ns)   --->   "%tmp_7_i_i4 = fmul float %p_r_M_imag_4, 0.000000e+00" [matmul.cpp:19]   --->   Operation 86 'fmul' 'tmp_7_i_i4' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 87 [2/2] (8.41ns)   --->   "%tmp_9_i_i3 = fmul float %p_r_M_imag_4, 0x40206B8520000000" [matmul.cpp:19]   --->   Operation 87 'fmul' 'tmp_9_i_i3' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 88 [2/2] (8.41ns)   --->   "%tmp_i_i3_41 = fmul float %p_r_M_real_4, 0.000000e+00" [matmul.cpp:19]   --->   Operation 88 'fmul' 'tmp_i_i3_41' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 89 [2/2] (8.41ns)   --->   "%tmp_i_i4 = fmul float %p_r_M_real_5, 0x3FC0A3D700000000" [matmul.cpp:19]   --->   Operation 89 'fmul' 'tmp_i_i4' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 90 [2/2] (8.41ns)   --->   "%tmp_7_i_i5 = fmul float %p_r_M_imag_5, 0.000000e+00" [matmul.cpp:19]   --->   Operation 90 'fmul' 'tmp_7_i_i5' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 91 [2/2] (8.41ns)   --->   "%tmp_9_i_i5 = fmul float %p_r_M_imag_5, 0x3FC0A3D700000000" [matmul.cpp:19]   --->   Operation 91 'fmul' 'tmp_9_i_i5' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 92 [2/2] (8.41ns)   --->   "%tmp_i_i4_42 = fmul float %p_r_M_real_5, 0.000000e+00" [matmul.cpp:19]   --->   Operation 92 'fmul' 'tmp_i_i4_42' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 93 [2/2] (8.41ns)   --->   "%tmp_i_i5_43 = fmul float %p_r_M_real_6, 0x401C70A3E0000000" [matmul.cpp:19]   --->   Operation 93 'fmul' 'tmp_i_i5_43' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 94 [2/2] (8.41ns)   --->   "%tmp_7_i_i6 = fmul float %p_r_M_imag_6, 0.000000e+00" [matmul.cpp:19]   --->   Operation 94 'fmul' 'tmp_7_i_i6' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 95 [2/2] (8.41ns)   --->   "%tmp_9_i_i6 = fmul float %p_r_M_imag_6, 0x401C70A3E0000000" [matmul.cpp:19]   --->   Operation 95 'fmul' 'tmp_9_i_i6' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 96 [2/2] (8.41ns)   --->   "%tmp_i_i6 = fmul float %p_r_M_real_6, 0.000000e+00" [matmul.cpp:19]   --->   Operation 96 'fmul' 'tmp_i_i6' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 97 [2/2] (8.41ns)   --->   "%tmp_i_i6_44 = fmul float %p_r_M_real_7, 0x400FD70A40000000" [matmul.cpp:19]   --->   Operation 97 'fmul' 'tmp_i_i6_44' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 98 [2/2] (8.41ns)   --->   "%tmp_7_i_i7 = fmul float %p_r_M_imag_7, 0.000000e+00" [matmul.cpp:19]   --->   Operation 98 'fmul' 'tmp_7_i_i7' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 99 [2/2] (8.41ns)   --->   "%tmp_9_i_i7 = fmul float %p_r_M_imag_7, 0x400FD70A40000000" [matmul.cpp:19]   --->   Operation 99 'fmul' 'tmp_9_i_i7' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 100 [2/2] (8.41ns)   --->   "%tmp_i_i7 = fmul float %p_r_M_real_7, 0.000000e+00" [matmul.cpp:19]   --->   Operation 100 'fmul' 'tmp_i_i7' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 5 <SV = 4> <Delay = 8.41>
+ST_5 : Operation 101 [1/2] (8.41ns)   --->   "%tmp_i_i = fmul float %p_r_M_real, 0x4008CCCCC0000000" [matmul.cpp:19]   --->   Operation 101 'fmul' 'tmp_i_i' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 102 [1/2] (8.41ns)   --->   "%tmp_7_i_i = fmul float %p_r_M_imag, 0.000000e+00" [matmul.cpp:19]   --->   Operation 102 'fmul' 'tmp_7_i_i' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 103 [1/2] (8.41ns)   --->   "%tmp_9_i_i = fmul float %p_r_M_imag, 0x4008CCCCC0000000" [matmul.cpp:19]   --->   Operation 103 'fmul' 'tmp_9_i_i' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 104 [1/2] (8.41ns)   --->   "%tmp_i_i_38 = fmul float %p_r_M_real, 0.000000e+00" [matmul.cpp:19]   --->   Operation 104 'fmul' 'tmp_i_i_38' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 105 [1/2] (8.41ns)   --->   "%tmp_i_i1 = fmul float %p_r_M_real_1, 0x4014EB8520000000" [matmul.cpp:19]   --->   Operation 105 'fmul' 'tmp_i_i1' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 106 [1/2] (8.41ns)   --->   "%tmp_7_i_i2 = fmul float %p_r_M_imag_1, 0.000000e+00" [matmul.cpp:19]   --->   Operation 106 'fmul' 'tmp_7_i_i2' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 107 [1/2] (8.41ns)   --->   "%tmp_9_i_i4 = fmul float %p_r_M_imag_1, 0x4014EB8520000000" [matmul.cpp:19]   --->   Operation 107 'fmul' 'tmp_9_i_i4' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 108 [1/2] (8.41ns)   --->   "%tmp_i_i5 = fmul float %p_r_M_real_1, 0.000000e+00" [matmul.cpp:19]   --->   Operation 108 'fmul' 'tmp_i_i5' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 109 [1/2] (8.41ns)   --->   "%tmp_i_i9 = fmul float %p_r_M_real_2, 0x401870A3E0000000" [matmul.cpp:19]   --->   Operation 109 'fmul' 'tmp_i_i9' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 110 [1/2] (8.41ns)   --->   "%tmp_7_i_i1 = fmul float %p_r_M_imag_2, 0.000000e+00" [matmul.cpp:19]   --->   Operation 110 'fmul' 'tmp_7_i_i1' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 111 [1/2] (8.41ns)   --->   "%tmp_9_i_i1 = fmul float %p_r_M_imag_2, 0x401870A3E0000000" [matmul.cpp:19]   --->   Operation 111 'fmul' 'tmp_9_i_i1' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 112 [1/2] (8.41ns)   --->   "%tmp_i_i1_39 = fmul float %p_r_M_real_2, 0.000000e+00" [matmul.cpp:19]   --->   Operation 112 'fmul' 'tmp_i_i1_39' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 113 [1/2] (8.41ns)   --->   "%tmp_i_i2 = fmul float %p_r_M_real_3, 0x4023F5C280000000" [matmul.cpp:19]   --->   Operation 113 'fmul' 'tmp_i_i2' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 114 [1/2] (8.41ns)   --->   "%tmp_7_i_i3 = fmul float %p_r_M_imag_3, 0.000000e+00" [matmul.cpp:19]   --->   Operation 114 'fmul' 'tmp_7_i_i3' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 115 [1/2] (8.41ns)   --->   "%tmp_9_i_i2 = fmul float %p_r_M_imag_3, 0x4023F5C280000000" [matmul.cpp:19]   --->   Operation 115 'fmul' 'tmp_9_i_i2' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 116 [1/2] (8.41ns)   --->   "%tmp_i_i2_40 = fmul float %p_r_M_real_3, 0.000000e+00" [matmul.cpp:19]   --->   Operation 116 'fmul' 'tmp_i_i2_40' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 117 [1/2] (8.41ns)   --->   "%tmp_i_i3 = fmul float %p_r_M_real_4, 0x40206B8520000000" [matmul.cpp:19]   --->   Operation 117 'fmul' 'tmp_i_i3' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 118 [1/2] (8.41ns)   --->   "%tmp_7_i_i4 = fmul float %p_r_M_imag_4, 0.000000e+00" [matmul.cpp:19]   --->   Operation 118 'fmul' 'tmp_7_i_i4' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 119 [1/2] (8.41ns)   --->   "%tmp_9_i_i3 = fmul float %p_r_M_imag_4, 0x40206B8520000000" [matmul.cpp:19]   --->   Operation 119 'fmul' 'tmp_9_i_i3' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 120 [1/2] (8.41ns)   --->   "%tmp_i_i3_41 = fmul float %p_r_M_real_4, 0.000000e+00" [matmul.cpp:19]   --->   Operation 120 'fmul' 'tmp_i_i3_41' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 121 [1/2] (8.41ns)   --->   "%tmp_i_i4 = fmul float %p_r_M_real_5, 0x3FC0A3D700000000" [matmul.cpp:19]   --->   Operation 121 'fmul' 'tmp_i_i4' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 122 [1/2] (8.41ns)   --->   "%tmp_7_i_i5 = fmul float %p_r_M_imag_5, 0.000000e+00" [matmul.cpp:19]   --->   Operation 122 'fmul' 'tmp_7_i_i5' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 123 [1/2] (8.41ns)   --->   "%tmp_9_i_i5 = fmul float %p_r_M_imag_5, 0x3FC0A3D700000000" [matmul.cpp:19]   --->   Operation 123 'fmul' 'tmp_9_i_i5' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 124 [1/2] (8.41ns)   --->   "%tmp_i_i4_42 = fmul float %p_r_M_real_5, 0.000000e+00" [matmul.cpp:19]   --->   Operation 124 'fmul' 'tmp_i_i4_42' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 125 [1/2] (8.41ns)   --->   "%tmp_i_i5_43 = fmul float %p_r_M_real_6, 0x401C70A3E0000000" [matmul.cpp:19]   --->   Operation 125 'fmul' 'tmp_i_i5_43' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 126 [1/2] (8.41ns)   --->   "%tmp_7_i_i6 = fmul float %p_r_M_imag_6, 0.000000e+00" [matmul.cpp:19]   --->   Operation 126 'fmul' 'tmp_7_i_i6' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 127 [1/2] (8.41ns)   --->   "%tmp_9_i_i6 = fmul float %p_r_M_imag_6, 0x401C70A3E0000000" [matmul.cpp:19]   --->   Operation 127 'fmul' 'tmp_9_i_i6' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 128 [1/2] (8.41ns)   --->   "%tmp_i_i6 = fmul float %p_r_M_real_6, 0.000000e+00" [matmul.cpp:19]   --->   Operation 128 'fmul' 'tmp_i_i6' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 129 [1/2] (8.41ns)   --->   "%tmp_i_i6_44 = fmul float %p_r_M_real_7, 0x400FD70A40000000" [matmul.cpp:19]   --->   Operation 129 'fmul' 'tmp_i_i6_44' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 130 [1/2] (8.41ns)   --->   "%tmp_7_i_i7 = fmul float %p_r_M_imag_7, 0.000000e+00" [matmul.cpp:19]   --->   Operation 130 'fmul' 'tmp_7_i_i7' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 131 [1/2] (8.41ns)   --->   "%tmp_9_i_i7 = fmul float %p_r_M_imag_7, 0x400FD70A40000000" [matmul.cpp:19]   --->   Operation 131 'fmul' 'tmp_9_i_i7' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 132 [1/2] (8.41ns)   --->   "%tmp_i_i7 = fmul float %p_r_M_real_7, 0.000000e+00" [matmul.cpp:19]   --->   Operation 132 'fmul' 'tmp_i_i7' <Predicate = (!icmp_ln16)> <Delay = 8.41> <Core = "FMul">   --->   Core 106 'FMul' <Latency = 1> <II = 1> <Delay = 8.41> <FuncUnit> <Opcode : 'fmul'> <InPorts = 2> <OutPorts = 1>
+
+State 6 <SV = 5> <Delay = 6.43>
+ST_6 : Operation 133 [4/4] (6.43ns)   --->   "%complex_M_real_writ = fsub float %tmp_i_i, %tmp_7_i_i" [matmul.cpp:19]   --->   Operation 133 'fsub' 'complex_M_real_writ' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 134 [4/4] (6.43ns)   --->   "%complex_M_imag_writ = fadd float %tmp_9_i_i, %tmp_i_i_38" [matmul.cpp:19]   --->   Operation 134 'fadd' 'complex_M_imag_writ' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 135 [4/4] (6.43ns)   --->   "%complex_M_real_writ_1 = fsub float %tmp_i_i1, %tmp_7_i_i2" [matmul.cpp:19]   --->   Operation 135 'fsub' 'complex_M_real_writ_1' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 136 [4/4] (6.43ns)   --->   "%complex_M_imag_writ_1 = fadd float %tmp_9_i_i4, %tmp_i_i5" [matmul.cpp:19]   --->   Operation 136 'fadd' 'complex_M_imag_writ_1' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 137 [4/4] (6.43ns)   --->   "%complex_M_real_writ_2 = fsub float %tmp_i_i9, %tmp_7_i_i1" [matmul.cpp:19]   --->   Operation 137 'fsub' 'complex_M_real_writ_2' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 138 [4/4] (6.43ns)   --->   "%complex_M_imag_writ_2 = fadd float %tmp_9_i_i1, %tmp_i_i1_39" [matmul.cpp:19]   --->   Operation 138 'fadd' 'complex_M_imag_writ_2' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 139 [4/4] (6.43ns)   --->   "%complex_M_real_writ_3 = fsub float %tmp_i_i2, %tmp_7_i_i3" [matmul.cpp:19]   --->   Operation 139 'fsub' 'complex_M_real_writ_3' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 140 [4/4] (6.43ns)   --->   "%complex_M_imag_writ_3 = fadd float %tmp_9_i_i2, %tmp_i_i2_40" [matmul.cpp:19]   --->   Operation 140 'fadd' 'complex_M_imag_writ_3' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 141 [4/4] (6.43ns)   --->   "%complex_M_real_writ_4 = fsub float %tmp_i_i3, %tmp_7_i_i4" [matmul.cpp:19]   --->   Operation 141 'fsub' 'complex_M_real_writ_4' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 142 [4/4] (6.43ns)   --->   "%complex_M_imag_writ_4 = fadd float %tmp_9_i_i3, %tmp_i_i3_41" [matmul.cpp:19]   --->   Operation 142 'fadd' 'complex_M_imag_writ_4' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 143 [4/4] (6.43ns)   --->   "%complex_M_real_writ_5 = fsub float %tmp_i_i4, %tmp_7_i_i5" [matmul.cpp:19]   --->   Operation 143 'fsub' 'complex_M_real_writ_5' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 144 [4/4] (6.43ns)   --->   "%complex_M_imag_writ_5 = fadd float %tmp_9_i_i5, %tmp_i_i4_42" [matmul.cpp:19]   --->   Operation 144 'fadd' 'complex_M_imag_writ_5' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 145 [4/4] (6.43ns)   --->   "%complex_M_real_writ_6 = fsub float %tmp_i_i5_43, %tmp_7_i_i6" [matmul.cpp:19]   --->   Operation 145 'fsub' 'complex_M_real_writ_6' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 146 [4/4] (6.43ns)   --->   "%complex_M_imag_writ_6 = fadd float %tmp_9_i_i6, %tmp_i_i6" [matmul.cpp:19]   --->   Operation 146 'fadd' 'complex_M_imag_writ_6' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 147 [4/4] (6.43ns)   --->   "%complex_M_real_writ_7 = fsub float %tmp_i_i6_44, %tmp_7_i_i7" [matmul.cpp:19]   --->   Operation 147 'fsub' 'complex_M_real_writ_7' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 148 [4/4] (6.43ns)   --->   "%complex_M_imag_writ_7 = fadd float %tmp_9_i_i7, %tmp_i_i7" [matmul.cpp:19]   --->   Operation 148 'fadd' 'complex_M_imag_writ_7' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 7 <SV = 6> <Delay = 6.43>
+ST_7 : Operation 149 [3/4] (6.43ns)   --->   "%complex_M_real_writ = fsub float %tmp_i_i, %tmp_7_i_i" [matmul.cpp:19]   --->   Operation 149 'fsub' 'complex_M_real_writ' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 150 [3/4] (6.43ns)   --->   "%complex_M_imag_writ = fadd float %tmp_9_i_i, %tmp_i_i_38" [matmul.cpp:19]   --->   Operation 150 'fadd' 'complex_M_imag_writ' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 151 [3/4] (6.43ns)   --->   "%complex_M_real_writ_1 = fsub float %tmp_i_i1, %tmp_7_i_i2" [matmul.cpp:19]   --->   Operation 151 'fsub' 'complex_M_real_writ_1' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 152 [3/4] (6.43ns)   --->   "%complex_M_imag_writ_1 = fadd float %tmp_9_i_i4, %tmp_i_i5" [matmul.cpp:19]   --->   Operation 152 'fadd' 'complex_M_imag_writ_1' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 153 [3/4] (6.43ns)   --->   "%complex_M_real_writ_2 = fsub float %tmp_i_i9, %tmp_7_i_i1" [matmul.cpp:19]   --->   Operation 153 'fsub' 'complex_M_real_writ_2' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 154 [3/4] (6.43ns)   --->   "%complex_M_imag_writ_2 = fadd float %tmp_9_i_i1, %tmp_i_i1_39" [matmul.cpp:19]   --->   Operation 154 'fadd' 'complex_M_imag_writ_2' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 155 [3/4] (6.43ns)   --->   "%complex_M_real_writ_3 = fsub float %tmp_i_i2, %tmp_7_i_i3" [matmul.cpp:19]   --->   Operation 155 'fsub' 'complex_M_real_writ_3' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 156 [3/4] (6.43ns)   --->   "%complex_M_imag_writ_3 = fadd float %tmp_9_i_i2, %tmp_i_i2_40" [matmul.cpp:19]   --->   Operation 156 'fadd' 'complex_M_imag_writ_3' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 157 [3/4] (6.43ns)   --->   "%complex_M_real_writ_4 = fsub float %tmp_i_i3, %tmp_7_i_i4" [matmul.cpp:19]   --->   Operation 157 'fsub' 'complex_M_real_writ_4' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 158 [3/4] (6.43ns)   --->   "%complex_M_imag_writ_4 = fadd float %tmp_9_i_i3, %tmp_i_i3_41" [matmul.cpp:19]   --->   Operation 158 'fadd' 'complex_M_imag_writ_4' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 159 [3/4] (6.43ns)   --->   "%complex_M_real_writ_5 = fsub float %tmp_i_i4, %tmp_7_i_i5" [matmul.cpp:19]   --->   Operation 159 'fsub' 'complex_M_real_writ_5' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 160 [3/4] (6.43ns)   --->   "%complex_M_imag_writ_5 = fadd float %tmp_9_i_i5, %tmp_i_i4_42" [matmul.cpp:19]   --->   Operation 160 'fadd' 'complex_M_imag_writ_5' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 161 [3/4] (6.43ns)   --->   "%complex_M_real_writ_6 = fsub float %tmp_i_i5_43, %tmp_7_i_i6" [matmul.cpp:19]   --->   Operation 161 'fsub' 'complex_M_real_writ_6' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 162 [3/4] (6.43ns)   --->   "%complex_M_imag_writ_6 = fadd float %tmp_9_i_i6, %tmp_i_i6" [matmul.cpp:19]   --->   Operation 162 'fadd' 'complex_M_imag_writ_6' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 163 [3/4] (6.43ns)   --->   "%complex_M_real_writ_7 = fsub float %tmp_i_i6_44, %tmp_7_i_i7" [matmul.cpp:19]   --->   Operation 163 'fsub' 'complex_M_real_writ_7' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 164 [3/4] (6.43ns)   --->   "%complex_M_imag_writ_7 = fadd float %tmp_9_i_i7, %tmp_i_i7" [matmul.cpp:19]   --->   Operation 164 'fadd' 'complex_M_imag_writ_7' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 8 <SV = 7> <Delay = 6.43>
+ST_8 : Operation 165 [2/4] (6.43ns)   --->   "%complex_M_real_writ = fsub float %tmp_i_i, %tmp_7_i_i" [matmul.cpp:19]   --->   Operation 165 'fsub' 'complex_M_real_writ' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 166 [2/4] (6.43ns)   --->   "%complex_M_imag_writ = fadd float %tmp_9_i_i, %tmp_i_i_38" [matmul.cpp:19]   --->   Operation 166 'fadd' 'complex_M_imag_writ' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 167 [2/4] (6.43ns)   --->   "%complex_M_real_writ_1 = fsub float %tmp_i_i1, %tmp_7_i_i2" [matmul.cpp:19]   --->   Operation 167 'fsub' 'complex_M_real_writ_1' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 168 [2/4] (6.43ns)   --->   "%complex_M_imag_writ_1 = fadd float %tmp_9_i_i4, %tmp_i_i5" [matmul.cpp:19]   --->   Operation 168 'fadd' 'complex_M_imag_writ_1' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 169 [2/4] (6.43ns)   --->   "%complex_M_real_writ_2 = fsub float %tmp_i_i9, %tmp_7_i_i1" [matmul.cpp:19]   --->   Operation 169 'fsub' 'complex_M_real_writ_2' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 170 [2/4] (6.43ns)   --->   "%complex_M_imag_writ_2 = fadd float %tmp_9_i_i1, %tmp_i_i1_39" [matmul.cpp:19]   --->   Operation 170 'fadd' 'complex_M_imag_writ_2' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 171 [2/4] (6.43ns)   --->   "%complex_M_real_writ_3 = fsub float %tmp_i_i2, %tmp_7_i_i3" [matmul.cpp:19]   --->   Operation 171 'fsub' 'complex_M_real_writ_3' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 172 [2/4] (6.43ns)   --->   "%complex_M_imag_writ_3 = fadd float %tmp_9_i_i2, %tmp_i_i2_40" [matmul.cpp:19]   --->   Operation 172 'fadd' 'complex_M_imag_writ_3' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 173 [2/4] (6.43ns)   --->   "%complex_M_real_writ_4 = fsub float %tmp_i_i3, %tmp_7_i_i4" [matmul.cpp:19]   --->   Operation 173 'fsub' 'complex_M_real_writ_4' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 174 [2/4] (6.43ns)   --->   "%complex_M_imag_writ_4 = fadd float %tmp_9_i_i3, %tmp_i_i3_41" [matmul.cpp:19]   --->   Operation 174 'fadd' 'complex_M_imag_writ_4' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 175 [2/4] (6.43ns)   --->   "%complex_M_real_writ_5 = fsub float %tmp_i_i4, %tmp_7_i_i5" [matmul.cpp:19]   --->   Operation 175 'fsub' 'complex_M_real_writ_5' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 176 [2/4] (6.43ns)   --->   "%complex_M_imag_writ_5 = fadd float %tmp_9_i_i5, %tmp_i_i4_42" [matmul.cpp:19]   --->   Operation 176 'fadd' 'complex_M_imag_writ_5' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 177 [2/4] (6.43ns)   --->   "%complex_M_real_writ_6 = fsub float %tmp_i_i5_43, %tmp_7_i_i6" [matmul.cpp:19]   --->   Operation 177 'fsub' 'complex_M_real_writ_6' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 178 [2/4] (6.43ns)   --->   "%complex_M_imag_writ_6 = fadd float %tmp_9_i_i6, %tmp_i_i6" [matmul.cpp:19]   --->   Operation 178 'fadd' 'complex_M_imag_writ_6' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 179 [2/4] (6.43ns)   --->   "%complex_M_real_writ_7 = fsub float %tmp_i_i6_44, %tmp_7_i_i7" [matmul.cpp:19]   --->   Operation 179 'fsub' 'complex_M_real_writ_7' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 180 [2/4] (6.43ns)   --->   "%complex_M_imag_writ_7 = fadd float %tmp_9_i_i7, %tmp_i_i7" [matmul.cpp:19]   --->   Operation 180 'fadd' 'complex_M_imag_writ_7' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 9 <SV = 8> <Delay = 7.11>
+ST_9 : Operation 181 [1/1] (0.00ns)   --->   "%tmp = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str3)" [matmul.cpp:16]   --->   Operation 181 'specregionbegin' 'tmp' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 182 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, i32 0, [1 x i8]* @p_str1) nounwind" [matmul.cpp:17]   --->   Operation 182 'specpipeline' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 183 [1/1] (0.00ns)   --->   "%zext_ln19 = zext i5 %i_0 to i64" [matmul.cpp:19]   --->   Operation 183 'zext' 'zext_ln19' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 184 [1/4] (6.43ns)   --->   "%complex_M_real_writ = fsub float %tmp_i_i, %tmp_7_i_i" [matmul.cpp:19]   --->   Operation 184 'fsub' 'complex_M_real_writ' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 185 [1/4] (6.43ns)   --->   "%complex_M_imag_writ = fadd float %tmp_9_i_i, %tmp_i_i_38" [matmul.cpp:19]   --->   Operation 185 'fadd' 'complex_M_imag_writ' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 186 [1/1] (0.00ns)   --->   "%rxmat_delay_M_real_1 = getelementptr [16 x float]* @rxmat_delay_M_real_s, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 186 'getelementptr' 'rxmat_delay_M_real_1' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 187 [1/1] (0.67ns)   --->   "store float %complex_M_real_writ, float* %rxmat_delay_M_real_1, align 4" [matmul.cpp:19]   --->   Operation 187 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 188 [1/1] (0.00ns)   --->   "%rxmat_delay_M_imag_1 = getelementptr [16 x float]* @rxmat_delay_M_imag_s, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 188 'getelementptr' 'rxmat_delay_M_imag_1' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 189 [1/1] (0.67ns)   --->   "store float %complex_M_imag_writ, float* %rxmat_delay_M_imag_1, align 4" [matmul.cpp:19]   --->   Operation 189 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 190 [1/4] (6.43ns)   --->   "%complex_M_real_writ_1 = fsub float %tmp_i_i1, %tmp_7_i_i2" [matmul.cpp:19]   --->   Operation 190 'fsub' 'complex_M_real_writ_1' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 191 [1/4] (6.43ns)   --->   "%complex_M_imag_writ_1 = fadd float %tmp_9_i_i4, %tmp_i_i5" [matmul.cpp:19]   --->   Operation 191 'fadd' 'complex_M_imag_writ_1' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 192 [1/1] (0.00ns)   --->   "%rxmat_delay_M_real_2 = getelementptr [16 x float]* @rxmat_delay_M_real_1, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 192 'getelementptr' 'rxmat_delay_M_real_2' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 193 [1/1] (0.67ns)   --->   "store float %complex_M_real_writ_1, float* %rxmat_delay_M_real_2, align 4" [matmul.cpp:19]   --->   Operation 193 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 194 [1/1] (0.00ns)   --->   "%rxmat_delay_M_imag_2 = getelementptr [16 x float]* @rxmat_delay_M_imag_1, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 194 'getelementptr' 'rxmat_delay_M_imag_2' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 195 [1/1] (0.67ns)   --->   "store float %complex_M_imag_writ_1, float* %rxmat_delay_M_imag_2, align 4" [matmul.cpp:19]   --->   Operation 195 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 196 [1/4] (6.43ns)   --->   "%complex_M_real_writ_2 = fsub float %tmp_i_i9, %tmp_7_i_i1" [matmul.cpp:19]   --->   Operation 196 'fsub' 'complex_M_real_writ_2' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 197 [1/4] (6.43ns)   --->   "%complex_M_imag_writ_2 = fadd float %tmp_9_i_i1, %tmp_i_i1_39" [matmul.cpp:19]   --->   Operation 197 'fadd' 'complex_M_imag_writ_2' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 198 [1/1] (0.00ns)   --->   "%rxmat_delay_M_real_3 = getelementptr [16 x float]* @rxmat_delay_M_real_2, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 198 'getelementptr' 'rxmat_delay_M_real_3' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 199 [1/1] (0.67ns)   --->   "store float %complex_M_real_writ_2, float* %rxmat_delay_M_real_3, align 4" [matmul.cpp:19]   --->   Operation 199 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 200 [1/1] (0.00ns)   --->   "%rxmat_delay_M_imag_3 = getelementptr [16 x float]* @rxmat_delay_M_imag_2, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 200 'getelementptr' 'rxmat_delay_M_imag_3' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 201 [1/1] (0.67ns)   --->   "store float %complex_M_imag_writ_2, float* %rxmat_delay_M_imag_3, align 4" [matmul.cpp:19]   --->   Operation 201 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 202 [1/4] (6.43ns)   --->   "%complex_M_real_writ_3 = fsub float %tmp_i_i2, %tmp_7_i_i3" [matmul.cpp:19]   --->   Operation 202 'fsub' 'complex_M_real_writ_3' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 203 [1/4] (6.43ns)   --->   "%complex_M_imag_writ_3 = fadd float %tmp_9_i_i2, %tmp_i_i2_40" [matmul.cpp:19]   --->   Operation 203 'fadd' 'complex_M_imag_writ_3' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 204 [1/1] (0.00ns)   --->   "%rxmat_delay_M_real_4 = getelementptr [16 x float]* @rxmat_delay_M_real_3, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 204 'getelementptr' 'rxmat_delay_M_real_4' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 205 [1/1] (0.67ns)   --->   "store float %complex_M_real_writ_3, float* %rxmat_delay_M_real_4, align 4" [matmul.cpp:19]   --->   Operation 205 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 206 [1/1] (0.00ns)   --->   "%rxmat_delay_M_imag_4 = getelementptr [16 x float]* @rxmat_delay_M_imag_3, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 206 'getelementptr' 'rxmat_delay_M_imag_4' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 207 [1/1] (0.67ns)   --->   "store float %complex_M_imag_writ_3, float* %rxmat_delay_M_imag_4, align 4" [matmul.cpp:19]   --->   Operation 207 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 208 [1/4] (6.43ns)   --->   "%complex_M_real_writ_4 = fsub float %tmp_i_i3, %tmp_7_i_i4" [matmul.cpp:19]   --->   Operation 208 'fsub' 'complex_M_real_writ_4' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 209 [1/4] (6.43ns)   --->   "%complex_M_imag_writ_4 = fadd float %tmp_9_i_i3, %tmp_i_i3_41" [matmul.cpp:19]   --->   Operation 209 'fadd' 'complex_M_imag_writ_4' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 210 [1/1] (0.00ns)   --->   "%rxmat_delay_M_real_5 = getelementptr [16 x float]* @rxmat_delay_M_real_4, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 210 'getelementptr' 'rxmat_delay_M_real_5' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 211 [1/1] (0.67ns)   --->   "store float %complex_M_real_writ_4, float* %rxmat_delay_M_real_5, align 4" [matmul.cpp:19]   --->   Operation 211 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 212 [1/1] (0.00ns)   --->   "%rxmat_delay_M_imag_5 = getelementptr [16 x float]* @rxmat_delay_M_imag_4, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 212 'getelementptr' 'rxmat_delay_M_imag_5' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 213 [1/1] (0.67ns)   --->   "store float %complex_M_imag_writ_4, float* %rxmat_delay_M_imag_5, align 4" [matmul.cpp:19]   --->   Operation 213 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 214 [1/4] (6.43ns)   --->   "%complex_M_real_writ_5 = fsub float %tmp_i_i4, %tmp_7_i_i5" [matmul.cpp:19]   --->   Operation 214 'fsub' 'complex_M_real_writ_5' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 215 [1/4] (6.43ns)   --->   "%complex_M_imag_writ_5 = fadd float %tmp_9_i_i5, %tmp_i_i4_42" [matmul.cpp:19]   --->   Operation 215 'fadd' 'complex_M_imag_writ_5' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 216 [1/1] (0.00ns)   --->   "%rxmat_delay_M_real_6 = getelementptr [16 x float]* @rxmat_delay_M_real_5, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 216 'getelementptr' 'rxmat_delay_M_real_6' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 217 [1/1] (0.67ns)   --->   "store float %complex_M_real_writ_5, float* %rxmat_delay_M_real_6, align 4" [matmul.cpp:19]   --->   Operation 217 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 218 [1/1] (0.00ns)   --->   "%rxmat_delay_M_imag_6 = getelementptr [16 x float]* @rxmat_delay_M_imag_5, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 218 'getelementptr' 'rxmat_delay_M_imag_6' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 219 [1/1] (0.67ns)   --->   "store float %complex_M_imag_writ_5, float* %rxmat_delay_M_imag_6, align 4" [matmul.cpp:19]   --->   Operation 219 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 220 [1/4] (6.43ns)   --->   "%complex_M_real_writ_6 = fsub float %tmp_i_i5_43, %tmp_7_i_i6" [matmul.cpp:19]   --->   Operation 220 'fsub' 'complex_M_real_writ_6' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 221 [1/4] (6.43ns)   --->   "%complex_M_imag_writ_6 = fadd float %tmp_9_i_i6, %tmp_i_i6" [matmul.cpp:19]   --->   Operation 221 'fadd' 'complex_M_imag_writ_6' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 222 [1/1] (0.00ns)   --->   "%rxmat_delay_M_real_7 = getelementptr [16 x float]* @rxmat_delay_M_real_6, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 222 'getelementptr' 'rxmat_delay_M_real_7' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 223 [1/1] (0.67ns)   --->   "store float %complex_M_real_writ_6, float* %rxmat_delay_M_real_7, align 4" [matmul.cpp:19]   --->   Operation 223 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 224 [1/1] (0.00ns)   --->   "%rxmat_delay_M_imag_7 = getelementptr [16 x float]* @rxmat_delay_M_imag_6, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 224 'getelementptr' 'rxmat_delay_M_imag_7' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 225 [1/1] (0.67ns)   --->   "store float %complex_M_imag_writ_6, float* %rxmat_delay_M_imag_7, align 4" [matmul.cpp:19]   --->   Operation 225 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 226 [1/4] (6.43ns)   --->   "%complex_M_real_writ_7 = fsub float %tmp_i_i6_44, %tmp_7_i_i7" [matmul.cpp:19]   --->   Operation 226 'fsub' 'complex_M_real_writ_7' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 227 [1/4] (6.43ns)   --->   "%complex_M_imag_writ_7 = fadd float %tmp_9_i_i7, %tmp_i_i7" [matmul.cpp:19]   --->   Operation 227 'fadd' 'complex_M_imag_writ_7' <Predicate = (!icmp_ln16)> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_9 : Operation 228 [1/1] (0.00ns)   --->   "%rxmat_delay_M_real_8 = getelementptr [16 x float]* @rxmat_delay_M_real_7, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 228 'getelementptr' 'rxmat_delay_M_real_8' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 229 [1/1] (0.67ns)   --->   "store float %complex_M_real_writ_7, float* %rxmat_delay_M_real_8, align 4" [matmul.cpp:19]   --->   Operation 229 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 230 [1/1] (0.00ns)   --->   "%rxmat_delay_M_imag_8 = getelementptr [16 x float]* @rxmat_delay_M_imag_7, i64 0, i64 %zext_ln19" [matmul.cpp:19]   --->   Operation 230 'getelementptr' 'rxmat_delay_M_imag_8' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 231 [1/1] (0.67ns)   --->   "store float %complex_M_imag_writ_7, float* %rxmat_delay_M_imag_8, align 4" [matmul.cpp:19]   --->   Operation 231 'store' <Predicate = (!icmp_ln16)> <Delay = 0.67> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_9 : Operation 232 [1/1] (0.00ns)   --->   "%empty_45 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str3, i32 %tmp)" [matmul.cpp:21]   --->   Operation 232 'specregionend' 'empty_45' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_9 : Operation 233 [1/1] (0.00ns)   --->   "br label %1" [matmul.cpp:16]   --->   Operation 233 'br' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+
+State 10 <SV = 2> <Delay = 0.00>
+ST_10 : Operation 234 [1/1] (0.00ns)   --->   "ret void" [matmul.cpp:22]   --->   Operation 234 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 0.656ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('i') with incoming values : ('i', matmul.cpp:16) [28]  (0.656 ns)
+
+ <State 2>: 1.24ns
+The critical path consists of the following:
+	'phi' operation ('i') with incoming values : ('i', matmul.cpp:16) [28]  (0 ns)
+	'getelementptr' operation ('rxmat_M_real_2_addr', matmul.cpp:19) [39]  (0 ns)
+	'load' operation ('__x._M_real', matmul.cpp:19) on array 'rxmat_M_real_2' [57]  (1.24 ns)
+
+ <State 3>: 1.24ns
+The critical path consists of the following:
+	'load' operation ('__x._M_real', matmul.cpp:19) on array 'rxmat_M_real_2' [57]  (1.24 ns)
+
+ <State 4>: 8.42ns
+The critical path consists of the following:
+	'fmul' operation ('tmp_i_i', matmul.cpp:19) [59]  (8.42 ns)
+
+ <State 5>: 8.42ns
+The critical path consists of the following:
+	'fmul' operation ('tmp_i_i', matmul.cpp:19) [59]  (8.42 ns)
+
+ <State 6>: 6.44ns
+The critical path consists of the following:
+	'fsub' operation ('complex<float>._M_real', matmul.cpp:19) [61]  (6.44 ns)
+
+ <State 7>: 6.44ns
+The critical path consists of the following:
+	'fsub' operation ('complex<float>._M_real', matmul.cpp:19) [61]  (6.44 ns)
+
+ <State 8>: 6.44ns
+The critical path consists of the following:
+	'fsub' operation ('complex<float>._M_real', matmul.cpp:19) [61]  (6.44 ns)
+
+ <State 9>: 7.11ns
+The critical path consists of the following:
+	'fsub' operation ('complex<float>._M_real', matmul.cpp:19) [61]  (6.44 ns)
+	'store' operation ('store_ln19', matmul.cpp:19) of variable 'complex<float>._M_real', matmul.cpp:19 on array 'rxmat_delay_M_real_s' [66]  (0.677 ns)
+
+ <State 10>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
