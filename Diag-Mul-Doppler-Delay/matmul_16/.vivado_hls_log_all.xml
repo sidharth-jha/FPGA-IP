@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:16:09.229+0530"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:16:09.223+0530"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.341+0530"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '255'." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.336+0530"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:10:36.088+0530"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:10:36.083+0530"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:08:47.480+0530"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:08:47.476+0530"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:04:46.008+0530"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '255'." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:04:46.005+0530"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <csimLog>
+        <logs message="WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:16:07.545+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:16:06.394+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.1' contains leftover data, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.329+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging.&#xA;Last signal: 0&#xA;Error at position [0]: Hardware Output = 0.000000 , Actual output = 1240.000000&#xA;Error at position [0]: Hardware Output = 0.000000 , Actual output = 1240.000000" projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.323+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.317+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.312+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.305+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.299+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.291+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.285+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.278+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.270+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.263+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.254+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.245+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.237+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.230+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.222+0530" type="Warning"/>
+        <logs message="WARNING: Hls::stream 'hls::stream&lt;ap_axiu&lt;64, 0, 0, 0> >.2' is read while empty, which may result in RTL simulation hanging." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:45.215+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:42.311+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:15:41.102+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:10:32.879+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:10:31.242+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:08:45.617+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:08:44.004+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:04:42.702+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'." projectName="matmul_16" solutionName="solution1" date="2021-10-09T14:04:41.033+0530" type="Warning"/>
+      </csimLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

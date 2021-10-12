@@ -1,0 +1,29 @@
+INFO: [HLS 200-10] Running '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'sidharth' on host 'legion' (Linux_x86_64 version 5.4.0-87-generic) on Sat Oct 09 14:16:06 IST 2021
+INFO: [HLS 200-10] On os Ubuntu 18.04.6 LTS
+INFO: [HLS 200-10] In directory '/home/sidharth/Documents/BTP/JRC-HLS/DiagMatMulwDD'
+Sourcing Tcl script '/home/sidharth/Documents/BTP/JRC-HLS/DiagMatMulwDD/matmul_16/solution1/csim.tcl'
+INFO: [HLS 200-10] Opening project '/home/sidharth/Documents/BTP/JRC-HLS/DiagMatMulwDD/matmul_16'.
+INFO: [HLS 200-10] Opening solution '/home/sidharth/Documents/BTP/JRC-HLS/DiagMatMulwDD/matmul_16/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../matmul_tb.cpp in debug mode
+   Generating csim.exe
+@E Simulation failed: SIGSEGV.
+ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+4
+    while executing
+"source /home/sidharth/Documents/BTP/JRC-HLS/DiagMatMulwDD/matmul_16/solution1/csim.tcl"
+    invoked from within
+"hls::main /home/sidharth/Documents/BTP/JRC-HLS/DiagMatMulwDD/matmul_16/solution1/csim.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"
