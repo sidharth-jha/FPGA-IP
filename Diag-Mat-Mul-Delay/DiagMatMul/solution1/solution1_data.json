@@ -141,9 +141,9 @@
       "impl\/misc\/matmul_ap_fmul_0_max_dsp_32_ip.tcl",
       "impl\/misc\/matmul_ap_fsub_2_full_dsp_32_ip.tcl"
     ],
-    "DesignXml": "\/home\/sidharth\/Documents\/BTP\/Diag-Mat-Mul\/DiagMatMul\/solution1\/.autopilot\/db\/matmul.design.xml",
-    "DebugDir": "\/home\/sidharth\/Documents\/BTP\/Diag-Mat-Mul\/DiagMatMul\/solution1\/.debug",
-    "ProtoInst": ["\/home\/sidharth\/Documents\/BTP\/Diag-Mat-Mul\/DiagMatMul\/solution1\/.debug\/matmul.protoinst"]
+    "DesignXml": "\/home\/sidharth\/Documents\/BTP\/FPGA-IP\/Diag-Mat-Mul-Delay\/DiagMatMul\/solution1\/.autopilot\/db\/matmul.design.xml",
+    "DebugDir": "\/home\/sidharth\/Documents\/BTP\/FPGA-IP\/Diag-Mat-Mul-Delay\/DiagMatMul\/solution1\/.debug",
+    "ProtoInst": ["\/home\/sidharth\/Documents\/BTP\/FPGA-IP\/Diag-Mat-Mul-Delay\/DiagMatMul\/solution1\/.debug\/matmul.protoinst"]
   },
   "SubcoreInfo": {
     "HasXpmMemory": false,
@@ -774,7 +774,7 @@
   },
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2021-10-09 16:22:10 IST",
+    "Time": "2021-10-20 23:15:06 IST",
     "ToolName": "vivado_hls",
     "ToolVersion": "2019.2"
   }

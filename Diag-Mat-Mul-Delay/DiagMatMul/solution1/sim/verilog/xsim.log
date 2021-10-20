@@ -2,12 +2,12 @@
 # xsim v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Sat Oct  9 16:27:43 2021
-# Process ID: 7335
-# Current directory: /home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog
+# Start of session at: Wed Oct 20 23:16:17 2021
+# Process ID: 2568
+# Current directory: /home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog
 # Command line: xsim -mode tcl -source {xsim.dir/matmul/xsim_script.tcl}
-# Log file: /home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/xsim.log
-# Journal file: /home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/xsim.jou
+# Log file: /home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/xsim.log
+# Journal file: /home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/xsim.jou
 #-----------------------------------------------------------
 source xsim.dir/matmul/xsim_script.tcl
 # xsim {matmul} -autoloadwcfg -tclbatch {matmul.tcl}
@@ -186,6 +186,6 @@ Time: 100010 ps  Iteration: 0  Process: /apatb_matmul_top/AESL_inst_matmul/grp_D
 // RTL Simulation : 0 / 1 [0.00%] @ "125000"
 // RTL Simulation : 1 / 1 [100.00%] @ "4565000"
 ////////////////////////////////////////////////////////////////////////////////////
-$finish called at time : 4605 ns : File "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/matmul.autotb.v" Line 406
+$finish called at time : 4605 ns : File "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/matmul.autotb.v" Line 406
 ## quit
-INFO: [Common 17-206] Exiting xsim at Sat Oct  9 16:27:51 2021...
+INFO: [Common 17-206] Exiting xsim at Wed Oct 20 23:16:31 2021...

@@ -5,9 +5,9 @@ Running: /media/sidharth/media/Programs/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64
 Multi-threading is on. Using 10 slave threads.
 Determining compilation order of HDL files.
 WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/glbl.v" into library work
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/regslice_core.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/regslice_core.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module regslice_both
 INFO: [VRFC 10-311] analyzing module regslice_forward
 INFO: [VRFC 10-311] analyzing module regslice_reverse
@@ -16,43 +16,43 @@ INFO: [VRFC 10-311] analyzing module regslice_forward_w1
 INFO: [VRFC 10-311] analyzing module regslice_reverse_w1
 INFO: [VRFC 10-311] analyzing module ibuf
 INFO: [VRFC 10-311] analyzing module obuf
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/matmul_fsub_32ns_bkb.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/matmul_fsub_32ns_bkb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module matmul_fsub_32ns_bkb
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/DopplerDelay.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/DopplerDelay.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module DopplerDelay
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/AESL_axi_s_in_stream.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/AESL_axi_s_in_stream.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module AESL_axi_s_in_stream
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/matmul_fadd_32ns_cud.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/matmul_fadd_32ns_cud.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module matmul_fadd_32ns_cud
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/matmul_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/matmul_control_s_axi.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module matmul_control_s_axi
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/matmul_mux_165_32KfY.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/matmul_mux_165_32KfY.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module matmul_mux_165_32KfY
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/DiagMatMul.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/DiagMatMul.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module DiagMatMul
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/AESL_axi_s_out_stream.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/AESL_axi_s_out_stream.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module AESL_axi_s_out_stream
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/matmul.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/matmul.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module matmul
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/AESL_axi_slave_control.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/AESL_axi_slave_control.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module AESL_axi_slave_control
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/matmul_rxmat_M_reudo.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/matmul_rxmat_M_reudo.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module matmul_rxmat_M_reudo_ram
 INFO: [VRFC 10-311] analyzing module matmul_rxmat_M_reudo
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/matmul_rxmat_delaeOg.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/matmul_rxmat_delaeOg.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module matmul_rxmat_delaeOg_ram
 INFO: [VRFC 10-311] analyzing module matmul_rxmat_delaeOg
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/AESL_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/AESL_fifo.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fifo
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/matmul_fmul_32ns_dEe.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/matmul_fmul_32ns_dEe.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module matmul_fmul_32ns_dEe
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/matmul.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/matmul.autotb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module apatb_matmul_top
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/ip/xil_defaultlib/matmul_ap_fsub_2_full_dsp_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/ip/xil_defaultlib/matmul_ap_fsub_2_full_dsp_32.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'matmul_ap_fsub_2_full_dsp_32'
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/ip/xil_defaultlib/matmul_ap_fadd_2_full_dsp_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/ip/xil_defaultlib/matmul_ap_fadd_2_full_dsp_32.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'matmul_ap_fadd_2_full_dsp_32'
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/sim/verilog/ip/xil_defaultlib/matmul_ap_fmul_0_max_dsp_32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/ip/xil_defaultlib/matmul_ap_fmul_0_max_dsp_32.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'matmul_ap_fmul_0_max_dsp_32'
 Starting static elaboration
 Pass Through NonSizing Optimizer

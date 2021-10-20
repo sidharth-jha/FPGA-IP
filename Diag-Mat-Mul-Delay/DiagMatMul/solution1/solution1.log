@@ -3377,3 +3377,199 @@ Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
+INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'matmul.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 380 ; free virtual = 4153
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 380 ; free virtual = 4153
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 368 ; free virtual = 4149
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::operator*=' into 'std::operator*<float>.1' () automatically.
+INFO: [XFORM 203-602] Inlining function 'std::operator*<float>.1' into 'DopplerDelay' (matmul.cpp:19) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::operator*=<float>' into 'std::operator*<float>' () automatically.
+INFO: [XFORM 203-602] Inlining function 'std::operator*<float>' into 'DiagMatMul' (matmul.cpp:9) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::operator+=<float>' into 'DiagMatMul' (matmul.cpp:9) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::imag.1' into 'matmul' (matmul.cpp:49) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::real.1' into 'matmul' (matmul.cpp:52) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::imag' into 'matmul' (matmul.cpp:60) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::real' into 'matmul' (matmul.cpp:63) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 364 ; free virtual = 4145
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'matmul_loop_1' (matmul.cpp:5) in function 'DiagMatMul' for pipelining.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'Loop-1' (matmul.cpp:16) in function 'DopplerDelay' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'matmul_loop_2' (matmul.cpp:8) in function 'DiagMatMul' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1.1' (matmul.cpp:18) in function 'DopplerDelay' completely with a factor of 8.
+INFO: [XFORM 203-102] Partitioning array 'rxmat_delay._M_real' in dimension 2 automatically.
+INFO: [XFORM 203-102] Partitioning array 'rxmat_delay._M_imag' in dimension 2 automatically.
+INFO: [XFORM 203-101] Partitioning array 'rxmat._M_real'  in dimension 2 with a block factor 4.
+INFO: [XFORM 203-101] Partitioning array 'rxmat._M_imag'  in dimension 2 with a block factor 4.
+INFO: [XFORM 203-101] Partitioning array 'xmat._M_real'  in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-101] Partitioning array 'xmat._M_imag'  in dimension 1 with a cyclic factor 4.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_real' (matmul.cpp:36) in dimension 1 with a block factor 4.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_imag' (matmul.cpp:36) in dimension 1 with a block factor 4.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_real.0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_real.1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_real.2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_real.3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_imag.0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_imag.1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_imag.2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array 'mulOut._M_imag.3' completely based on array size.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_real.0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_real.1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_real.2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_real.3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_imag.0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_imag.1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_imag.2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'mulOut._M_imag.3' in dimension 1 completely.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::operator*=' into 'std::operator*<float>.1' () automatically.
+INFO: [XFORM 203-602] Inlining function 'std::operator*<float>.1' into 'DopplerDelay' (matmul.cpp:19) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::operator*=<float>' into 'std::operator*<float>' () automatically.
+INFO: [XFORM 203-602] Inlining function 'std::operator*<float>' into 'DiagMatMul' (matmul.cpp:9) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::operator+=<float>' into 'DiagMatMul' (matmul.cpp:9) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::imag' into 'matmul' (matmul.cpp:49) automatically.
+INFO: [XFORM 203-602] Inlining function 'std::complex<float>::real' into 'matmul' (matmul.cpp:52) automatically.
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_real.0' in function 'matmul' (matmul.cpp:49:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_real.1' in function 'matmul' (matmul.cpp:49:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_real.2' in function 'matmul' (matmul.cpp:49:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_real.3' in function 'matmul' (matmul.cpp:49:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_imag.0' in function 'matmul' (matmul.cpp:49:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_imag.1' in function 'matmul' (matmul.cpp:49:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_imag.2' in function 'matmul' (matmul.cpp:49:4).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_imag.3' in function 'matmul' (matmul.cpp:49:4).
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (matmul.cpp:36:16) to (matmul.cpp:36:16) in function 'matmul'... converting 11 basic blocks.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 337 ; free virtual = 4120
+INFO: [HLS 200-472] Inferring partial write operation for 'rxmat._M_imag.0' (matmul.cpp:49:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'rxmat._M_real.0' (matmul.cpp:52:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'xmat._M_imag.0' (matmul.cpp:60:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'xmat._M_real.0' (matmul.cpp:63:4)
+INFO: [HLS 200-472] Inferring partial write operation for 'rxmat_delay._M_real.' (matmul.cpp:19:24)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 964.926 ; gain = 532.145 ; free physical = 320 ; free virtual = 4104
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matmul' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DopplerDelay' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 8.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 15.02 seconds; current allocated memory: 149.753 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.15 seconds; current allocated memory: 150.610 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'matmul_loop_1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 40.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.62 seconds; current allocated memory: 152.468 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.32 seconds; current allocated memory: 154.841 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_out1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.5 seconds; current allocated memory: 156.067 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.42 seconds; current allocated memory: 158.017 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DopplerDelay' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'matmul_fsub_32ns_32ns_32_4_full_dsp_1' to 'matmul_fsub_32ns_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_fadd_32ns_32ns_32_4_full_dsp_1' to 'matmul_fadd_32ns_cud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_fmul_32ns_32ns_32_2_max_dsp_1' to 'matmul_fmul_32ns_dEe' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'matmul_fadd_32ns_cud': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fmul_32ns_dEe': 32 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fsub_32ns_bkb': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DopplerDelay'.
+INFO: [HLS 200-111]  Elapsed time: 0.55 seconds; current allocated memory: 160.256 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'DiagMatMul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-104] Estimated max fanout for 'DiagMatMul' is 5119 from HDL expression: (1'b0 == ap_block_pp0_stage0_11001)
+INFO: [RTGEN 206-100] Generating core module 'matmul_fadd_32ns_cud': 24 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fmul_32ns_dEe': 32 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'matmul_fsub_32ns_bkb': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'DiagMatMul'.
+INFO: [HLS 200-111]  Elapsed time: 0.56 seconds; current allocated memory: 169.241 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matmul' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'matmul/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'matmul' to 's_axilite & ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_real_s' to 'matmul_rxmat_delaeOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_imag_s' to 'matmul_rxmat_delafYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_real_1' to 'matmul_rxmat_delag8j' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_imag_1' to 'matmul_rxmat_delahbi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_real_2' to 'matmul_rxmat_delaibs' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_imag_2' to 'matmul_rxmat_delajbC' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_real_3' to 'matmul_rxmat_delakbM' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_imag_3' to 'matmul_rxmat_delalbW' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_real_4' to 'matmul_rxmat_delamb6' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_imag_4' to 'matmul_rxmat_delancg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_real_5' to 'matmul_rxmat_delaocq' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_imag_5' to 'matmul_rxmat_delapcA' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_real_6' to 'matmul_rxmat_delaqcK' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_imag_6' to 'matmul_rxmat_delarcU' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_real_7' to 'matmul_rxmat_delasc4' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_delay_M_imag_7' to 'matmul_rxmat_delatde' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_M_real_0' to 'matmul_rxmat_M_reudo' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_M_real_1' to 'matmul_rxmat_M_revdy' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_M_real_2' to 'matmul_rxmat_M_rewdI' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'matmul_rxmat_M_real_3' to 'matmul_rxmat_M_rexdS' due to the length limit 20
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================

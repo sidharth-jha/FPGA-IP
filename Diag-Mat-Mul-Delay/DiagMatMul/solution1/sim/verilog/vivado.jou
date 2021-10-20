@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Oct 20 23:17:05 2021
+# Process ID: 2827
+# Current directory: /home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog
+# Command line: vivado -source open_wave.tcl
+# Log file: /home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/vivado.log
+# Journal file: /home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source open_wave.tcl
+open_wave_config /home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/matmul.wcfg
+current_wave_config {matmul.wcfg}
+add_wave {{/apatb_matmul_top/in_stream_TDATA}} {{/apatb_matmul_top/in_stream_TVALID}} {{/apatb_matmul_top/in_stream_TREADY}} {{/apatb_matmul_top/in_stream_TKEEP}} {{/apatb_matmul_top/in_stream_TSTRB}} {{/apatb_matmul_top/in_stream_TLAST}} {{/apatb_matmul_top/out_stream_TDATA}} {{/apatb_matmul_top/out_stream_TVALID}} {{/apatb_matmul_top/out_stream_TREADY}} {{/apatb_matmul_top/out_stream_TKEEP}} {{/apatb_matmul_top/out_stream_TSTRB}} {{/apatb_matmul_top/out_stream_TLAST}} 

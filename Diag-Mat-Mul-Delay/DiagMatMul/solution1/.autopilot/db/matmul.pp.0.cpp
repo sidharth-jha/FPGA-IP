@@ -32149,6 +32149,8 @@ void matmul(hls::stream<intSdCh> &in_stream, hls::stream<outSdCh> &out_stream){
    xmat[i][j].real(data.f);
   }
  }
+
+
  DopplerDelay(rxmat, rxmat_delay);
  DiagMatMul(rxmat_delay, xmat, mulOut);
 

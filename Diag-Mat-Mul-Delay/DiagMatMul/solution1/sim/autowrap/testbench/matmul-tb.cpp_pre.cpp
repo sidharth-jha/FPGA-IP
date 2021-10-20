@@ -1,10 +1,10 @@
-# 1 "/home/sidharth/Documents/BTP/Diag-Mat-Mul/matmul-tb.cpp"
+# 1 "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul-tb.cpp"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 1 "<command-line>" 2
-# 1 "/home/sidharth/Documents/BTP/Diag-Mat-Mul/matmul-tb.cpp"
-# 1 "/home/sidharth/Documents/BTP/Diag-Mat-Mul/matmul.h" 1
+# 1 "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul-tb.cpp"
+# 1 "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul.h" 1
 
 
 
@@ -27329,7 +27329,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 5 "/home/sidharth/Documents/BTP/Diag-Mat-Mul/matmul.h" 2
+# 5 "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul.h" 2
 
 # 1 "/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/tps/lnx64/gcc-6.2.0/include/c++/6.2.0/stdlib.h" 1 3
 # 36 "/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/tps/lnx64/gcc-6.2.0/include/c++/6.2.0/stdlib.h" 3
@@ -27383,7 +27383,7 @@ using std::system;
 
 using std::wcstombs;
 using std::wctomb;
-# 7 "/home/sidharth/Documents/BTP/Diag-Mat-Mul/matmul.h" 2
+# 7 "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul.h" 2
 
 
 # 1 "/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/include/hls_stream.h" 1
@@ -36188,7 +36188,7 @@ class stream
 };
 
 }
-# 10 "/home/sidharth/Documents/BTP/Diag-Mat-Mul/matmul.h" 2
+# 10 "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul.h" 2
 # 1 "/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/include/ap_axi_sdata.h" 1
 # 86 "/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/include/ap_axi_sdata.h"
 # 1 "/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/include/ap_int.h" 1
@@ -75483,7 +75483,7 @@ template<int D>
     qdma_axis(ap_uint<D> d = ap_uint<D>(), ap_uint<(D+7)/8> k = ap_uint<(D+7)/8>(), ap_uint<1> l = ap_uint<1>()) : data(d), keep(k), last(l) {}
     qdma_axis(const qdma_axis<D, 0, 0, 0> &d) : data(d.data), keep(d.keep), last(d.last) {}
   };
-# 11 "/home/sidharth/Documents/BTP/Diag-Mat-Mul/matmul.h" 2
+# 11 "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul.h" 2
 # 1 "/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/tps/lnx64/gcc-6.2.0/include/c++/6.2.0/complex" 1 3
 # 39 "/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/tps/lnx64/gcc-6.2.0/include/c++/6.2.0/complex" 3
        
@@ -77206,16 +77206,16 @@ inline namespace complex_literals {
 
 
 }
-# 12 "/home/sidharth/Documents/BTP/Diag-Mat-Mul/matmul.h" 2
+# 12 "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul.h" 2
 # 1 "/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/include/ap_int.h" 1
-# 13 "/home/sidharth/Documents/BTP/Diag-Mat-Mul/matmul.h" 2
+# 13 "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul.h" 2
 
 
 
 
 
 
-# 18 "/home/sidharth/Documents/BTP/Diag-Mat-Mul/matmul.h"
+# 18 "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul.h"
 typedef float T;
 
 typedef ap_axiu<64,0,0,0> intSdCh;
@@ -77233,7 +77233,7 @@ typedef union{
 const float dd[8] = {3.1 , 5.23, 6.11, 9.98, 8.21 , 0.13, 7.11, 3.98};
 
 void matmul(hls::stream<intSdCh> &In, hls::stream<outSdCh> &Out);
-# 2 "/home/sidharth/Documents/BTP/Diag-Mat-Mul/matmul-tb.cpp" 2
+# 2 "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul-tb.cpp" 2
 
 
 void matMulsw(cdt A[16][8], cdt B[8][16], cdt mulOut[16]){
@@ -77318,7 +77318,7 @@ int main(){
    inputStream.write(valIn);
   }
  }
-# 96 "/home/sidharth/Documents/BTP/Diag-Mat-Mul/matmul-tb.cpp"
+# 96 "/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul-tb.cpp"
  matmul(inputStream,outputStream);
  DopplerDelay_sw(A_cmpx, A_cmpx_dd);
  matMulsw(A_cmpx_dd,B_cmpx,swOut);
@@ -77338,6 +77338,13 @@ int main(){
   if(i==16 -1){
    std::cout<<"Last signal: "<<valOut.last<<std::endl;
   }
+ }
+
+ for(i=0; i<16; i++){
+   std::cout<<hwOut[i].real()<<" "<<hwOut[i].imag()<<std::endl;
+ }
+ for(i=0; i<16; i++){
+   std::cout<<swOut[i].real()<<" "<<swOut[i].imag()<<std::endl;
  }
 
 

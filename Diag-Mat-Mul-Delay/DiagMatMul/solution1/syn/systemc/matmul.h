@@ -291,9 +291,9 @@ struct matmul : public sc_module {
     sc_signal< sc_logic > ap_CS_fsm_pp0_stage0;
     sc_signal< sc_logic > ap_enable_reg_pp0_iter1;
     sc_signal< bool > ap_block_pp0_stage0;
-    sc_signal< sc_lv<1> > icmp_ln69_reg_3191;
+    sc_signal< sc_lv<1> > icmp_ln71_reg_3191;
     sc_signal< sc_logic > ap_enable_reg_pp0_iter2;
-    sc_signal< sc_lv<1> > icmp_ln69_reg_3191_pp0_iter1_reg;
+    sc_signal< sc_lv<1> > icmp_ln71_reg_3191_pp0_iter1_reg;
     sc_signal< sc_lv<5> > i_2_reg_614;
     sc_signal< sc_lv<4> > add_ln36_fu_871_p2;
     sc_signal< sc_logic > ap_CS_fsm_state2;
@@ -411,7 +411,7 @@ struct matmul : public sc_module {
     sc_signal< sc_lv<32> > mulOut_M_imag_3_1_reg_3176;
     sc_signal< sc_lv<32> > mulOut_M_imag_3_2_reg_3181;
     sc_signal< sc_lv<32> > mulOut_M_imag_3_3_reg_3186;
-    sc_signal< sc_lv<1> > icmp_ln69_fu_2542_p2;
+    sc_signal< sc_lv<1> > icmp_ln71_fu_2542_p2;
     sc_signal< bool > ap_block_state10_pp0_stage0_iter0;
     sc_signal< bool > ap_block_state11_pp0_stage0_iter1;
     sc_signal< bool > ap_block_state11_io;
@@ -806,10 +806,10 @@ struct matmul : public sc_module {
     sc_signal< sc_lv<7> > zext_ln60_fu_2373_p1;
     sc_signal< sc_lv<7> > add_ln60_fu_2377_p2;
     sc_signal< sc_lv<32> > trunc_ln681_1_fu_2402_p1;
-    sc_signal< sc_lv<4> > trunc_ln72_fu_2554_p1;
-    sc_signal< sc_lv<5> > zext_ln72_fu_2558_p1;
-    sc_signal< sc_lv<32> > bitcast_ln72_fu_2612_p1;
-    sc_signal< sc_lv<32> > bitcast_ln75_fu_2615_p1;
+    sc_signal< sc_lv<4> > trunc_ln74_fu_2554_p1;
+    sc_signal< sc_lv<5> > zext_ln74_fu_2558_p1;
+    sc_signal< sc_lv<32> > bitcast_ln74_fu_2612_p1;
+    sc_signal< sc_lv<32> > bitcast_ln77_fu_2615_p1;
     sc_signal< sc_logic > ap_CS_fsm_state13;
     sc_signal< sc_logic > regslice_both_out_stream_V_data_V_U_apdone_blk;
     sc_signal< sc_lv<11> > ap_NS_fsm;
@@ -931,8 +931,8 @@ struct matmul : public sc_module {
     void thread_bitcast_ln52_fu_2315_p1();
     void thread_bitcast_ln60_fu_2394_p1();
     void thread_bitcast_ln63_fu_2406_p1();
-    void thread_bitcast_ln72_fu_2612_p1();
-    void thread_bitcast_ln75_fu_2615_p1();
+    void thread_bitcast_ln74_fu_2612_p1();
+    void thread_bitcast_ln77_fu_2615_p1();
     void thread_grp_DiagMatMul_fu_625_ap_start();
     void thread_grp_DopplerDelay_fu_709_ap_start();
     void thread_grp_fu_765_p4();
@@ -950,7 +950,7 @@ struct matmul : public sc_module {
     void thread_icmp_ln46_fu_2257_p2();
     void thread_icmp_ln56_fu_2323_p2();
     void thread_icmp_ln57_fu_2361_p2();
-    void thread_icmp_ln69_fu_2542_p2();
+    void thread_icmp_ln71_fu_2542_p2();
     void thread_in_stream_TDATA_blk_n();
     void thread_in_stream_TREADY();
     void thread_in_stream_TREADY_int();
@@ -1194,7 +1194,7 @@ struct matmul : public sc_module {
     void thread_trunc_ln60_fu_2335_p1();
     void thread_trunc_ln681_1_fu_2402_p1();
     void thread_trunc_ln681_fu_2311_p1();
-    void thread_trunc_ln72_fu_2554_p1();
+    void thread_trunc_ln74_fu_2554_p1();
     void thread_valOut_last_V_fu_2606_p2();
     void thread_xmat_M_imag_0_address0();
     void thread_xmat_M_imag_0_ce0();
@@ -1232,7 +1232,7 @@ struct matmul : public sc_module {
     void thread_zext_ln57_fu_2357_p1();
     void thread_zext_ln60_1_fu_2382_p1();
     void thread_zext_ln60_fu_2373_p1();
-    void thread_zext_ln72_fu_2558_p1();
+    void thread_zext_ln74_fu_2558_p1();
     void thread_ap_NS_fsm();
     void thread_hdltv_gen();
 };

@@ -40,13 +40,29 @@ int main(){
 	intSdCh valIn;
 
 	// Initialize arrays
+//	for(i=0;i<dim_r;i++){
+//		for(j=0;j<dim_c;j++){
+//			A_re[i][j] = (float)(i+j);
+//			B_re[j][i] = (float)(i*j);
+//
+//			A_im[i][j] = (float)(i-j);
+//			B_im[j][i] = (float)(i-j);
+//
+//			A_cmpx[i][j].real(A_re[i][j]);
+//			A_cmpx[i][j].imag(A_im[i][j]);
+//
+//			B_cmpx[j][i].real(B_re[j][i]);
+//			B_cmpx[j][i].imag(B_im[j][i]);
+//
+//		}
+//	}
 	for(i=0;i<dim_r;i++){
 		for(j=0;j<dim_c;j++){
-			A_re[i][j] = (float)(i+j);
-			B_re[j][i] = (float)(i*j);
+			A_re[i][j] = (float)(i-j);
+			B_re[j][i] = (float)(i-j);
 
-			A_im[i][j] = (float)(i-j);
-			B_im[j][i] = (float)(i-j);
+			A_im[i][j] = (float)(i+j);
+			B_im[j][i] = (float)(i*j);
 
 			A_cmpx[i][j].real(A_re[i][j]);
 			A_cmpx[i][j].imag(A_im[i][j]);
@@ -112,6 +128,13 @@ int main(){
 		if(i==dim_r-1){
 			std::cout<<"Last signal: "<<valOut.last<<std::endl;
 		}
+	}
+
+	for(i=0; i<dim_r; i++){
+			std::cout<<hwOut[i].real()<<" "<<hwOut[i].imag()<<std::endl;
+	}
+	for(i=0; i<dim_r; i++){
+			std::cout<<swOut[i].real()<<" "<<swOut[i].imag()<<std::endl;
 	}
 
 	// Result check

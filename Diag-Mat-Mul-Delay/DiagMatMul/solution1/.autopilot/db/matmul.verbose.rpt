@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'matmul'
 ================================================================
-* Date:           Sat Oct  9 16:22:08 2021
+* Date:           Wed Oct 20 23:15:04 2021
 
 * Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
 * Project:        DiagMatMul
@@ -165,7 +165,7 @@
     |icmp_ln46_fu_2257_p2                |   icmp   |      0|  0|  11|           4|           5|
     |icmp_ln56_fu_2323_p2                |   icmp   |      0|  0|  11|           4|           5|
     |icmp_ln57_fu_2361_p2                |   icmp   |      0|  0|  11|           5|           6|
-    |icmp_ln69_fu_2542_p2                |   icmp   |      0|  0|  11|           5|           6|
+    |icmp_ln71_fu_2542_p2                |   icmp   |      0|  0|  11|           5|           6|
     |valOut_last_V_fu_2606_p2            |   icmp   |      0|  0|  11|           5|           4|
     |ap_block_pp0_stage0_11001           |    or    |      0|  0|   2|           1|           1|
     |mulOut_M_imag_0_0143210_fu_1591_p3  |  select  |      0|  0|  32|           1|          32|
@@ -448,8 +448,8 @@
     |i_2_reg_614                           |   5|   0|    5|          0|
     |i_4_reg_3009                          |   4|   0|    4|          0|
     |i_reg_2990                            |   5|   0|    5|          0|
-    |icmp_ln69_reg_3191                    |   1|   0|    1|          0|
-    |icmp_ln69_reg_3191_pp0_iter1_reg      |   1|   0|    1|          0|
+    |icmp_ln71_reg_3191                    |   1|   0|    1|          0|
+    |icmp_ln71_reg_3191_pp0_iter1_reg      |   1|   0|    1|          0|
     |j_0_reg_581                           |   4|   0|    4|          0|
     |j_1_reg_603                           |   5|   0|    5|          0|
     |mulOut_M_imag_0_0143208_fu_256        |  32|   0|   32|          0|
@@ -993,7 +993,7 @@ ST_5 : Operation 338 [1/1] (0.00ns)   --->   "%lshr_ln = call i2 @_ssdm_op_PartS
 ST_5 : Operation 339 [1/1] (0.00ns)   --->   "%tmp_3 = call i6 @_ssdm_op_BitConcatenate.i6.i2.i4(i2 %lshr_ln, i4 0)" [matmul.cpp:60]   --->   Operation 339 'bitconcatenate' 'tmp_3' <Predicate = (!icmp_ln56)> <Delay = 0.00>
 ST_5 : Operation 340 [1/1] (0.00ns)   --->   "%zext_ln57 = zext i6 %tmp_3 to i7" [matmul.cpp:57]   --->   Operation 340 'zext' 'zext_ln57' <Predicate = (!icmp_ln56)> <Delay = 0.00>
 ST_5 : Operation 341 [1/1] (0.65ns)   --->   "br label %3" [matmul.cpp:57]   --->   Operation 341 'br' <Predicate = (!icmp_ln56)> <Delay = 0.65>
-ST_5 : Operation 342 [2/2] (0.00ns)   --->   "call fastcc void @DopplerDelay([32 x float]* @rxmat_M_real_0, [32 x float]* @rxmat_M_real_1, [32 x float]* @rxmat_M_real_2, [32 x float]* @rxmat_M_real_3, [32 x float]* @rxmat_M_imag_0, [32 x float]* @rxmat_M_imag_1, [32 x float]* @rxmat_M_imag_2, [32 x float]* @rxmat_M_imag_3)" [matmul.cpp:66]   --->   Operation 342 'call' <Predicate = (icmp_ln56)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_5 : Operation 342 [2/2] (0.00ns)   --->   "call fastcc void @DopplerDelay([32 x float]* @rxmat_M_real_0, [32 x float]* @rxmat_M_real_1, [32 x float]* @rxmat_M_real_2, [32 x float]* @rxmat_M_real_3, [32 x float]* @rxmat_M_imag_0, [32 x float]* @rxmat_M_imag_1, [32 x float]* @rxmat_M_imag_2, [32 x float]* @rxmat_M_imag_3)" [matmul.cpp:68]   --->   Operation 342 'call' <Predicate = (icmp_ln56)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 4> <Delay = 2.01>
 ST_6 : Operation 343 [1/1] (0.00ns)   --->   "%j_1 = phi i5 [ 0, %loop_input_B1_begin ], [ %j_2, %5 ]"   --->   Operation 343 'phi' 'j_1' <Predicate = true> <Delay = 0.00>
@@ -1041,75 +1041,75 @@ ST_6 : Operation 380 [1/1] (0.00ns)   --->   "%empty_16 = call i32 (...)* @_ssdm
 ST_6 : Operation 381 [1/1] (0.00ns)   --->   "br label %.preheader" [matmul.cpp:56]   --->   Operation 381 'br' <Predicate = (icmp_ln57)> <Delay = 0.00>
 
 State 7 <SV = 4> <Delay = 0.00>
-ST_7 : Operation 382 [1/2] (0.00ns)   --->   "call fastcc void @DopplerDelay([32 x float]* @rxmat_M_real_0, [32 x float]* @rxmat_M_real_1, [32 x float]* @rxmat_M_real_2, [32 x float]* @rxmat_M_real_3, [32 x float]* @rxmat_M_imag_0, [32 x float]* @rxmat_M_imag_1, [32 x float]* @rxmat_M_imag_2, [32 x float]* @rxmat_M_imag_3)" [matmul.cpp:66]   --->   Operation 382 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_7 : Operation 382 [1/2] (0.00ns)   --->   "call fastcc void @DopplerDelay([32 x float]* @rxmat_M_real_0, [32 x float]* @rxmat_M_real_1, [32 x float]* @rxmat_M_real_2, [32 x float]* @rxmat_M_real_3, [32 x float]* @rxmat_M_imag_0, [32 x float]* @rxmat_M_imag_1, [32 x float]* @rxmat_M_imag_2, [32 x float]* @rxmat_M_imag_3)" [matmul.cpp:68]   --->   Operation 382 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 8 <SV = 5> <Delay = 0.00>
-ST_8 : Operation 383 [2/2] (0.00ns)   --->   "%call_ret = call fastcc { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } @DiagMatMul([16 x float]* @rxmat_delay_M_real_s, [16 x float]* @rxmat_delay_M_real_1, [16 x float]* @rxmat_delay_M_real_2, [16 x float]* @rxmat_delay_M_real_3, [16 x float]* @rxmat_delay_M_real_4, [16 x float]* @rxmat_delay_M_real_5, [16 x float]* @rxmat_delay_M_real_6, [16 x float]* @rxmat_delay_M_real_7, [16 x float]* @rxmat_delay_M_imag_s, [16 x float]* @rxmat_delay_M_imag_1, [16 x float]* @rxmat_delay_M_imag_2, [16 x float]* @rxmat_delay_M_imag_3, [16 x float]* @rxmat_delay_M_imag_4, [16 x float]* @rxmat_delay_M_imag_5, [16 x float]* @rxmat_delay_M_imag_6, [16 x float]* @rxmat_delay_M_imag_7, [32 x float]* @xmat_M_real_0, [32 x float]* @xmat_M_real_1, [32 x float]* @xmat_M_real_2, [32 x float]* @xmat_M_real_3, [32 x float]* @xmat_M_imag_0, [32 x float]* @xmat_M_imag_1, [32 x float]* @xmat_M_imag_2, [32 x float]* @xmat_M_imag_3, float %select_ln1055_55, float %select_ln1055_54, float %select_ln1055_53, float %select_ln1055_52, float %select_ln1055_51, float %select_ln1055_49, float %select_ln1055_47, float %select_ln1055_45, float %select_ln1055_43, float %select_ln1055_40, float %select_ln1055_37, float %select_ln1055_34, float %select_ln1055_31, float %select_ln1055_28, float %select_ln1055_25, float %select_ln1055_22, float %select_ln1056_55, float %select_ln1056_54, float %select_ln1056_53, float %select_ln1056_52, float %select_ln1056_51, float %select_ln1056_49, float %select_ln1056_47, float %select_ln1056_45, float %select_ln1056_43, float %select_ln1056_40, float %select_ln1056_37, float %select_ln1056_34, float %select_ln1056_31, float %select_ln1056_28, float %select_ln1056_25, float %select_ln1056_22)" [matmul.cpp:67]   --->   Operation 383 'call' 'call_ret' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_8 : Operation 383 [2/2] (0.00ns)   --->   "%call_ret = call fastcc { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } @DiagMatMul([16 x float]* @rxmat_delay_M_real_s, [16 x float]* @rxmat_delay_M_real_1, [16 x float]* @rxmat_delay_M_real_2, [16 x float]* @rxmat_delay_M_real_3, [16 x float]* @rxmat_delay_M_real_4, [16 x float]* @rxmat_delay_M_real_5, [16 x float]* @rxmat_delay_M_real_6, [16 x float]* @rxmat_delay_M_real_7, [16 x float]* @rxmat_delay_M_imag_s, [16 x float]* @rxmat_delay_M_imag_1, [16 x float]* @rxmat_delay_M_imag_2, [16 x float]* @rxmat_delay_M_imag_3, [16 x float]* @rxmat_delay_M_imag_4, [16 x float]* @rxmat_delay_M_imag_5, [16 x float]* @rxmat_delay_M_imag_6, [16 x float]* @rxmat_delay_M_imag_7, [32 x float]* @xmat_M_real_0, [32 x float]* @xmat_M_real_1, [32 x float]* @xmat_M_real_2, [32 x float]* @xmat_M_real_3, [32 x float]* @xmat_M_imag_0, [32 x float]* @xmat_M_imag_1, [32 x float]* @xmat_M_imag_2, [32 x float]* @xmat_M_imag_3, float %select_ln1055_55, float %select_ln1055_54, float %select_ln1055_53, float %select_ln1055_52, float %select_ln1055_51, float %select_ln1055_49, float %select_ln1055_47, float %select_ln1055_45, float %select_ln1055_43, float %select_ln1055_40, float %select_ln1055_37, float %select_ln1055_34, float %select_ln1055_31, float %select_ln1055_28, float %select_ln1055_25, float %select_ln1055_22, float %select_ln1056_55, float %select_ln1056_54, float %select_ln1056_53, float %select_ln1056_52, float %select_ln1056_51, float %select_ln1056_49, float %select_ln1056_47, float %select_ln1056_45, float %select_ln1056_43, float %select_ln1056_40, float %select_ln1056_37, float %select_ln1056_34, float %select_ln1056_31, float %select_ln1056_28, float %select_ln1056_25, float %select_ln1056_22)" [matmul.cpp:69]   --->   Operation 383 'call' 'call_ret' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 9 <SV = 6> <Delay = 0.65>
-ST_9 : Operation 384 [1/2] (0.44ns)   --->   "%call_ret = call fastcc { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } @DiagMatMul([16 x float]* @rxmat_delay_M_real_s, [16 x float]* @rxmat_delay_M_real_1, [16 x float]* @rxmat_delay_M_real_2, [16 x float]* @rxmat_delay_M_real_3, [16 x float]* @rxmat_delay_M_real_4, [16 x float]* @rxmat_delay_M_real_5, [16 x float]* @rxmat_delay_M_real_6, [16 x float]* @rxmat_delay_M_real_7, [16 x float]* @rxmat_delay_M_imag_s, [16 x float]* @rxmat_delay_M_imag_1, [16 x float]* @rxmat_delay_M_imag_2, [16 x float]* @rxmat_delay_M_imag_3, [16 x float]* @rxmat_delay_M_imag_4, [16 x float]* @rxmat_delay_M_imag_5, [16 x float]* @rxmat_delay_M_imag_6, [16 x float]* @rxmat_delay_M_imag_7, [32 x float]* @xmat_M_real_0, [32 x float]* @xmat_M_real_1, [32 x float]* @xmat_M_real_2, [32 x float]* @xmat_M_real_3, [32 x float]* @xmat_M_imag_0, [32 x float]* @xmat_M_imag_1, [32 x float]* @xmat_M_imag_2, [32 x float]* @xmat_M_imag_3, float %select_ln1055_55, float %select_ln1055_54, float %select_ln1055_53, float %select_ln1055_52, float %select_ln1055_51, float %select_ln1055_49, float %select_ln1055_47, float %select_ln1055_45, float %select_ln1055_43, float %select_ln1055_40, float %select_ln1055_37, float %select_ln1055_34, float %select_ln1055_31, float %select_ln1055_28, float %select_ln1055_25, float %select_ln1055_22, float %select_ln1056_55, float %select_ln1056_54, float %select_ln1056_53, float %select_ln1056_52, float %select_ln1056_51, float %select_ln1056_49, float %select_ln1056_47, float %select_ln1056_45, float %select_ln1056_43, float %select_ln1056_40, float %select_ln1056_37, float %select_ln1056_34, float %select_ln1056_31, float %select_ln1056_28, float %select_ln1056_25, float %select_ln1056_22)" [matmul.cpp:67]   --->   Operation 384 'call' 'call_ret' <Predicate = true> <Delay = 0.44> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_9 : Operation 385 [1/1] (0.00ns)   --->   "%mulOut_M_real = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 0" [matmul.cpp:67]   --->   Operation 385 'extractvalue' 'mulOut_M_real' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 386 [1/1] (0.00ns)   --->   "%mulOut_M_real_0_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 1" [matmul.cpp:67]   --->   Operation 386 'extractvalue' 'mulOut_M_real_0_1' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 387 [1/1] (0.00ns)   --->   "%mulOut_M_real_0_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 2" [matmul.cpp:67]   --->   Operation 387 'extractvalue' 'mulOut_M_real_0_2' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 388 [1/1] (0.00ns)   --->   "%mulOut_M_real_0_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 3" [matmul.cpp:67]   --->   Operation 388 'extractvalue' 'mulOut_M_real_0_3' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 389 [1/1] (0.00ns)   --->   "%mulOut_M_real_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 4" [matmul.cpp:67]   --->   Operation 389 'extractvalue' 'mulOut_M_real_1' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 390 [1/1] (0.00ns)   --->   "%mulOut_M_real_1_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 5" [matmul.cpp:67]   --->   Operation 390 'extractvalue' 'mulOut_M_real_1_1' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 391 [1/1] (0.00ns)   --->   "%mulOut_M_real_1_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 6" [matmul.cpp:67]   --->   Operation 391 'extractvalue' 'mulOut_M_real_1_2' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 392 [1/1] (0.00ns)   --->   "%mulOut_M_real_1_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 7" [matmul.cpp:67]   --->   Operation 392 'extractvalue' 'mulOut_M_real_1_3' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 393 [1/1] (0.00ns)   --->   "%mulOut_M_real_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 8" [matmul.cpp:67]   --->   Operation 393 'extractvalue' 'mulOut_M_real_2' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 394 [1/1] (0.00ns)   --->   "%mulOut_M_real_2_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 9" [matmul.cpp:67]   --->   Operation 394 'extractvalue' 'mulOut_M_real_2_1' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 395 [1/1] (0.00ns)   --->   "%mulOut_M_real_2_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 10" [matmul.cpp:67]   --->   Operation 395 'extractvalue' 'mulOut_M_real_2_2' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 396 [1/1] (0.00ns)   --->   "%mulOut_M_real_2_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 11" [matmul.cpp:67]   --->   Operation 396 'extractvalue' 'mulOut_M_real_2_3' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 397 [1/1] (0.00ns)   --->   "%mulOut_M_real_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 12" [matmul.cpp:67]   --->   Operation 397 'extractvalue' 'mulOut_M_real_3' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 398 [1/1] (0.00ns)   --->   "%mulOut_M_real_3_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 13" [matmul.cpp:67]   --->   Operation 398 'extractvalue' 'mulOut_M_real_3_1' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 399 [1/1] (0.00ns)   --->   "%mulOut_M_real_3_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 14" [matmul.cpp:67]   --->   Operation 399 'extractvalue' 'mulOut_M_real_3_2' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 400 [1/1] (0.00ns)   --->   "%mulOut_M_real_3_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 15" [matmul.cpp:67]   --->   Operation 400 'extractvalue' 'mulOut_M_real_3_3' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 401 [1/1] (0.00ns)   --->   "%mulOut_M_imag = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 16" [matmul.cpp:67]   --->   Operation 401 'extractvalue' 'mulOut_M_imag' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 402 [1/1] (0.00ns)   --->   "%mulOut_M_imag_0_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 17" [matmul.cpp:67]   --->   Operation 402 'extractvalue' 'mulOut_M_imag_0_1' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 403 [1/1] (0.00ns)   --->   "%mulOut_M_imag_0_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 18" [matmul.cpp:67]   --->   Operation 403 'extractvalue' 'mulOut_M_imag_0_2' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 404 [1/1] (0.00ns)   --->   "%mulOut_M_imag_0_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 19" [matmul.cpp:67]   --->   Operation 404 'extractvalue' 'mulOut_M_imag_0_3' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 405 [1/1] (0.00ns)   --->   "%mulOut_M_imag_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 20" [matmul.cpp:67]   --->   Operation 405 'extractvalue' 'mulOut_M_imag_1' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 406 [1/1] (0.00ns)   --->   "%mulOut_M_imag_1_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 21" [matmul.cpp:67]   --->   Operation 406 'extractvalue' 'mulOut_M_imag_1_1' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 407 [1/1] (0.00ns)   --->   "%mulOut_M_imag_1_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 22" [matmul.cpp:67]   --->   Operation 407 'extractvalue' 'mulOut_M_imag_1_2' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 408 [1/1] (0.00ns)   --->   "%mulOut_M_imag_1_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 23" [matmul.cpp:67]   --->   Operation 408 'extractvalue' 'mulOut_M_imag_1_3' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 409 [1/1] (0.00ns)   --->   "%mulOut_M_imag_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 24" [matmul.cpp:67]   --->   Operation 409 'extractvalue' 'mulOut_M_imag_2' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 410 [1/1] (0.00ns)   --->   "%mulOut_M_imag_2_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 25" [matmul.cpp:67]   --->   Operation 410 'extractvalue' 'mulOut_M_imag_2_1' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 411 [1/1] (0.00ns)   --->   "%mulOut_M_imag_2_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 26" [matmul.cpp:67]   --->   Operation 411 'extractvalue' 'mulOut_M_imag_2_2' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 412 [1/1] (0.00ns)   --->   "%mulOut_M_imag_2_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 27" [matmul.cpp:67]   --->   Operation 412 'extractvalue' 'mulOut_M_imag_2_3' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 413 [1/1] (0.00ns)   --->   "%mulOut_M_imag_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 28" [matmul.cpp:67]   --->   Operation 413 'extractvalue' 'mulOut_M_imag_3' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 414 [1/1] (0.00ns)   --->   "%mulOut_M_imag_3_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 29" [matmul.cpp:67]   --->   Operation 414 'extractvalue' 'mulOut_M_imag_3_1' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 415 [1/1] (0.00ns)   --->   "%mulOut_M_imag_3_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 30" [matmul.cpp:67]   --->   Operation 415 'extractvalue' 'mulOut_M_imag_3_2' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 416 [1/1] (0.00ns)   --->   "%mulOut_M_imag_3_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 31" [matmul.cpp:67]   --->   Operation 416 'extractvalue' 'mulOut_M_imag_3_3' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 417 [1/1] (0.65ns)   --->   "br label %7" [matmul.cpp:69]   --->   Operation 417 'br' <Predicate = true> <Delay = 0.65>
+ST_9 : Operation 384 [1/2] (0.44ns)   --->   "%call_ret = call fastcc { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } @DiagMatMul([16 x float]* @rxmat_delay_M_real_s, [16 x float]* @rxmat_delay_M_real_1, [16 x float]* @rxmat_delay_M_real_2, [16 x float]* @rxmat_delay_M_real_3, [16 x float]* @rxmat_delay_M_real_4, [16 x float]* @rxmat_delay_M_real_5, [16 x float]* @rxmat_delay_M_real_6, [16 x float]* @rxmat_delay_M_real_7, [16 x float]* @rxmat_delay_M_imag_s, [16 x float]* @rxmat_delay_M_imag_1, [16 x float]* @rxmat_delay_M_imag_2, [16 x float]* @rxmat_delay_M_imag_3, [16 x float]* @rxmat_delay_M_imag_4, [16 x float]* @rxmat_delay_M_imag_5, [16 x float]* @rxmat_delay_M_imag_6, [16 x float]* @rxmat_delay_M_imag_7, [32 x float]* @xmat_M_real_0, [32 x float]* @xmat_M_real_1, [32 x float]* @xmat_M_real_2, [32 x float]* @xmat_M_real_3, [32 x float]* @xmat_M_imag_0, [32 x float]* @xmat_M_imag_1, [32 x float]* @xmat_M_imag_2, [32 x float]* @xmat_M_imag_3, float %select_ln1055_55, float %select_ln1055_54, float %select_ln1055_53, float %select_ln1055_52, float %select_ln1055_51, float %select_ln1055_49, float %select_ln1055_47, float %select_ln1055_45, float %select_ln1055_43, float %select_ln1055_40, float %select_ln1055_37, float %select_ln1055_34, float %select_ln1055_31, float %select_ln1055_28, float %select_ln1055_25, float %select_ln1055_22, float %select_ln1056_55, float %select_ln1056_54, float %select_ln1056_53, float %select_ln1056_52, float %select_ln1056_51, float %select_ln1056_49, float %select_ln1056_47, float %select_ln1056_45, float %select_ln1056_43, float %select_ln1056_40, float %select_ln1056_37, float %select_ln1056_34, float %select_ln1056_31, float %select_ln1056_28, float %select_ln1056_25, float %select_ln1056_22)" [matmul.cpp:69]   --->   Operation 384 'call' 'call_ret' <Predicate = true> <Delay = 0.44> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_9 : Operation 385 [1/1] (0.00ns)   --->   "%mulOut_M_real = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 0" [matmul.cpp:69]   --->   Operation 385 'extractvalue' 'mulOut_M_real' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 386 [1/1] (0.00ns)   --->   "%mulOut_M_real_0_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 1" [matmul.cpp:69]   --->   Operation 386 'extractvalue' 'mulOut_M_real_0_1' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 387 [1/1] (0.00ns)   --->   "%mulOut_M_real_0_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 2" [matmul.cpp:69]   --->   Operation 387 'extractvalue' 'mulOut_M_real_0_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 388 [1/1] (0.00ns)   --->   "%mulOut_M_real_0_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 3" [matmul.cpp:69]   --->   Operation 388 'extractvalue' 'mulOut_M_real_0_3' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 389 [1/1] (0.00ns)   --->   "%mulOut_M_real_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 4" [matmul.cpp:69]   --->   Operation 389 'extractvalue' 'mulOut_M_real_1' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 390 [1/1] (0.00ns)   --->   "%mulOut_M_real_1_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 5" [matmul.cpp:69]   --->   Operation 390 'extractvalue' 'mulOut_M_real_1_1' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 391 [1/1] (0.00ns)   --->   "%mulOut_M_real_1_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 6" [matmul.cpp:69]   --->   Operation 391 'extractvalue' 'mulOut_M_real_1_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 392 [1/1] (0.00ns)   --->   "%mulOut_M_real_1_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 7" [matmul.cpp:69]   --->   Operation 392 'extractvalue' 'mulOut_M_real_1_3' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 393 [1/1] (0.00ns)   --->   "%mulOut_M_real_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 8" [matmul.cpp:69]   --->   Operation 393 'extractvalue' 'mulOut_M_real_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 394 [1/1] (0.00ns)   --->   "%mulOut_M_real_2_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 9" [matmul.cpp:69]   --->   Operation 394 'extractvalue' 'mulOut_M_real_2_1' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 395 [1/1] (0.00ns)   --->   "%mulOut_M_real_2_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 10" [matmul.cpp:69]   --->   Operation 395 'extractvalue' 'mulOut_M_real_2_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 396 [1/1] (0.00ns)   --->   "%mulOut_M_real_2_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 11" [matmul.cpp:69]   --->   Operation 396 'extractvalue' 'mulOut_M_real_2_3' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 397 [1/1] (0.00ns)   --->   "%mulOut_M_real_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 12" [matmul.cpp:69]   --->   Operation 397 'extractvalue' 'mulOut_M_real_3' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 398 [1/1] (0.00ns)   --->   "%mulOut_M_real_3_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 13" [matmul.cpp:69]   --->   Operation 398 'extractvalue' 'mulOut_M_real_3_1' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 399 [1/1] (0.00ns)   --->   "%mulOut_M_real_3_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 14" [matmul.cpp:69]   --->   Operation 399 'extractvalue' 'mulOut_M_real_3_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 400 [1/1] (0.00ns)   --->   "%mulOut_M_real_3_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 15" [matmul.cpp:69]   --->   Operation 400 'extractvalue' 'mulOut_M_real_3_3' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 401 [1/1] (0.00ns)   --->   "%mulOut_M_imag = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 16" [matmul.cpp:69]   --->   Operation 401 'extractvalue' 'mulOut_M_imag' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 402 [1/1] (0.00ns)   --->   "%mulOut_M_imag_0_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 17" [matmul.cpp:69]   --->   Operation 402 'extractvalue' 'mulOut_M_imag_0_1' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 403 [1/1] (0.00ns)   --->   "%mulOut_M_imag_0_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 18" [matmul.cpp:69]   --->   Operation 403 'extractvalue' 'mulOut_M_imag_0_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 404 [1/1] (0.00ns)   --->   "%mulOut_M_imag_0_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 19" [matmul.cpp:69]   --->   Operation 404 'extractvalue' 'mulOut_M_imag_0_3' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 405 [1/1] (0.00ns)   --->   "%mulOut_M_imag_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 20" [matmul.cpp:69]   --->   Operation 405 'extractvalue' 'mulOut_M_imag_1' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 406 [1/1] (0.00ns)   --->   "%mulOut_M_imag_1_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 21" [matmul.cpp:69]   --->   Operation 406 'extractvalue' 'mulOut_M_imag_1_1' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 407 [1/1] (0.00ns)   --->   "%mulOut_M_imag_1_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 22" [matmul.cpp:69]   --->   Operation 407 'extractvalue' 'mulOut_M_imag_1_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 408 [1/1] (0.00ns)   --->   "%mulOut_M_imag_1_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 23" [matmul.cpp:69]   --->   Operation 408 'extractvalue' 'mulOut_M_imag_1_3' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 409 [1/1] (0.00ns)   --->   "%mulOut_M_imag_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 24" [matmul.cpp:69]   --->   Operation 409 'extractvalue' 'mulOut_M_imag_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 410 [1/1] (0.00ns)   --->   "%mulOut_M_imag_2_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 25" [matmul.cpp:69]   --->   Operation 410 'extractvalue' 'mulOut_M_imag_2_1' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 411 [1/1] (0.00ns)   --->   "%mulOut_M_imag_2_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 26" [matmul.cpp:69]   --->   Operation 411 'extractvalue' 'mulOut_M_imag_2_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 412 [1/1] (0.00ns)   --->   "%mulOut_M_imag_2_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 27" [matmul.cpp:69]   --->   Operation 412 'extractvalue' 'mulOut_M_imag_2_3' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 413 [1/1] (0.00ns)   --->   "%mulOut_M_imag_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 28" [matmul.cpp:69]   --->   Operation 413 'extractvalue' 'mulOut_M_imag_3' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 414 [1/1] (0.00ns)   --->   "%mulOut_M_imag_3_1 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 29" [matmul.cpp:69]   --->   Operation 414 'extractvalue' 'mulOut_M_imag_3_1' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 415 [1/1] (0.00ns)   --->   "%mulOut_M_imag_3_2 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 30" [matmul.cpp:69]   --->   Operation 415 'extractvalue' 'mulOut_M_imag_3_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 416 [1/1] (0.00ns)   --->   "%mulOut_M_imag_3_3 = extractvalue { float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float } %call_ret, 31" [matmul.cpp:69]   --->   Operation 416 'extractvalue' 'mulOut_M_imag_3_3' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 417 [1/1] (0.65ns)   --->   "br label %7" [matmul.cpp:71]   --->   Operation 417 'br' <Predicate = true> <Delay = 0.65>
 
 State 10 <SV = 7> <Delay = 1.04>
 ST_10 : Operation 418 [1/1] (0.00ns)   --->   "%i_2 = phi i5 [ 0, %6 ], [ %i_3, %loop_out1 ]"   --->   Operation 418 'phi' 'i_2' <Predicate = true> <Delay = 0.00>
-ST_10 : Operation 419 [1/1] (0.75ns)   --->   "%icmp_ln69 = icmp eq i5 %i_2, -16" [matmul.cpp:69]   --->   Operation 419 'icmp' 'icmp_ln69' <Predicate = true> <Delay = 0.75> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.75> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 419 [1/1] (0.75ns)   --->   "%icmp_ln71 = icmp eq i5 %i_2, -16" [matmul.cpp:71]   --->   Operation 419 'icmp' 'icmp_ln71' <Predicate = true> <Delay = 0.75> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.75> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_10 : Operation 420 [1/1] (0.00ns)   --->   "%empty_17 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 16, i64 16, i64 16)"   --->   Operation 420 'speclooptripcount' 'empty_17' <Predicate = true> <Delay = 0.00>
-ST_10 : Operation 421 [1/1] (0.78ns)   --->   "%i_3 = add i5 %i_2, 1" [matmul.cpp:69]   --->   Operation 421 'add' 'i_3' <Predicate = true> <Delay = 0.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.79> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 422 [1/1] (0.00ns)   --->   "br i1 %icmp_ln69, label %8, label %loop_out1" [matmul.cpp:69]   --->   Operation 422 'br' <Predicate = true> <Delay = 0.00>
-ST_10 : Operation 423 [1/1] (0.00ns)   --->   "%trunc_ln72 = trunc i5 %i_2 to i4" [matmul.cpp:72]   --->   Operation 423 'trunc' 'trunc_ln72' <Predicate = (!icmp_ln69)> <Delay = 0.00>
-ST_10 : Operation 424 [1/1] (0.00ns)   --->   "%zext_ln72 = zext i4 %trunc_ln72 to i5" [matmul.cpp:72]   --->   Operation 424 'zext' 'zext_ln72' <Predicate = (!icmp_ln69)> <Delay = 0.00>
-ST_10 : Operation 425 [1/1] (0.48ns)   --->   "%tmp_5 = call float @_ssdm_op_Mux.ap_auto.16float.i5(float %mulOut_M_imag, float %mulOut_M_imag_0_1, float %mulOut_M_imag_0_2, float %mulOut_M_imag_0_3, float %mulOut_M_imag_1, float %mulOut_M_imag_1_1, float %mulOut_M_imag_1_2, float %mulOut_M_imag_1_3, float %mulOut_M_imag_2, float %mulOut_M_imag_2_1, float %mulOut_M_imag_2_2, float %mulOut_M_imag_2_3, float %mulOut_M_imag_3, float %mulOut_M_imag_3_1, float %mulOut_M_imag_3_2, float %mulOut_M_imag_3_3, i5 %zext_ln72)" [matmul.cpp:72]   --->   Operation 425 'mux' 'tmp_5' <Predicate = (!icmp_ln69)> <Delay = 0.48> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 0.48> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 426 [1/1] (0.48ns)   --->   "%tmp_6 = call float @_ssdm_op_Mux.ap_auto.16float.i5(float %mulOut_M_real, float %mulOut_M_real_0_1, float %mulOut_M_real_0_2, float %mulOut_M_real_0_3, float %mulOut_M_real_1, float %mulOut_M_real_1_1, float %mulOut_M_real_1_2, float %mulOut_M_real_1_3, float %mulOut_M_real_2, float %mulOut_M_real_2_1, float %mulOut_M_real_2_2, float %mulOut_M_real_2_3, float %mulOut_M_real_3, float %mulOut_M_real_3_1, float %mulOut_M_real_3_2, float %mulOut_M_real_3_3, i5 %zext_ln72)" [matmul.cpp:75]   --->   Operation 426 'mux' 'tmp_6' <Predicate = (!icmp_ln69)> <Delay = 0.48> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 0.48> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 427 [1/1] (0.75ns)   --->   "%valOut_last_V = icmp eq i5 %i_2, 15" [matmul.cpp:79]   --->   Operation 427 'icmp' 'valOut_last_V' <Predicate = (!icmp_ln69)> <Delay = 0.75> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.75> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 421 [1/1] (0.78ns)   --->   "%i_3 = add i5 %i_2, 1" [matmul.cpp:71]   --->   Operation 421 'add' 'i_3' <Predicate = true> <Delay = 0.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.79> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 422 [1/1] (0.00ns)   --->   "br i1 %icmp_ln71, label %8, label %loop_out1" [matmul.cpp:71]   --->   Operation 422 'br' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 423 [1/1] (0.00ns)   --->   "%trunc_ln74 = trunc i5 %i_2 to i4" [matmul.cpp:74]   --->   Operation 423 'trunc' 'trunc_ln74' <Predicate = (!icmp_ln71)> <Delay = 0.00>
+ST_10 : Operation 424 [1/1] (0.00ns)   --->   "%zext_ln74 = zext i4 %trunc_ln74 to i5" [matmul.cpp:74]   --->   Operation 424 'zext' 'zext_ln74' <Predicate = (!icmp_ln71)> <Delay = 0.00>
+ST_10 : Operation 425 [1/1] (0.48ns)   --->   "%tmp_5 = call float @_ssdm_op_Mux.ap_auto.16float.i5(float %mulOut_M_imag, float %mulOut_M_imag_0_1, float %mulOut_M_imag_0_2, float %mulOut_M_imag_0_3, float %mulOut_M_imag_1, float %mulOut_M_imag_1_1, float %mulOut_M_imag_1_2, float %mulOut_M_imag_1_3, float %mulOut_M_imag_2, float %mulOut_M_imag_2_1, float %mulOut_M_imag_2_2, float %mulOut_M_imag_2_3, float %mulOut_M_imag_3, float %mulOut_M_imag_3_1, float %mulOut_M_imag_3_2, float %mulOut_M_imag_3_3, i5 %zext_ln74)" [matmul.cpp:74]   --->   Operation 425 'mux' 'tmp_5' <Predicate = (!icmp_ln71)> <Delay = 0.48> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 0.48> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 426 [1/1] (0.48ns)   --->   "%tmp_6 = call float @_ssdm_op_Mux.ap_auto.16float.i5(float %mulOut_M_real, float %mulOut_M_real_0_1, float %mulOut_M_real_0_2, float %mulOut_M_real_0_3, float %mulOut_M_real_1, float %mulOut_M_real_1_1, float %mulOut_M_real_1_2, float %mulOut_M_real_1_3, float %mulOut_M_real_2, float %mulOut_M_real_2_1, float %mulOut_M_real_2_2, float %mulOut_M_real_2_3, float %mulOut_M_real_3, float %mulOut_M_real_3_1, float %mulOut_M_real_3_2, float %mulOut_M_real_3_3, i5 %zext_ln74)" [matmul.cpp:77]   --->   Operation 426 'mux' 'tmp_6' <Predicate = (!icmp_ln71)> <Delay = 0.48> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 0.48> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 427 [1/1] (0.75ns)   --->   "%valOut_last_V = icmp eq i5 %i_2, 15" [matmul.cpp:81]   --->   Operation 427 'icmp' 'valOut_last_V' <Predicate = (!icmp_ln71)> <Delay = 0.75> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.75> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 
 State 11 <SV = 8> <Delay = 0.00>
-ST_11 : Operation 428 [1/1] (0.00ns)   --->   "%bitcast_ln72 = bitcast float %tmp_5 to i32" [matmul.cpp:72]   --->   Operation 428 'bitcast' 'bitcast_ln72' <Predicate = (!icmp_ln69)> <Delay = 0.00>
-ST_11 : Operation 429 [1/1] (0.00ns)   --->   "%bitcast_ln75 = bitcast float %tmp_6 to i32" [matmul.cpp:75]   --->   Operation 429 'bitcast' 'bitcast_ln75' <Predicate = (!icmp_ln69)> <Delay = 0.00>
-ST_11 : Operation 430 [1/1] (0.00ns)   --->   "%p_Result_2 = call i64 @_ssdm_op_BitConcatenate.i64.i32.i32(i32 %bitcast_ln72, i32 %bitcast_ln75)" [matmul.cpp:76]   --->   Operation 430 'bitconcatenate' 'p_Result_2' <Predicate = (!icmp_ln69)> <Delay = 0.00>
-ST_11 : Operation 431 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i64P.i8P.i8P.i1P(i64* %out_stream_V_data_V, i8* %out_stream_V_keep_V, i8* %out_stream_V_strb_V, i1* %out_stream_V_last_V, i64 %p_Result_2, i8 -1, i8 -1, i1 %valOut_last_V)" [matmul.cpp:82]   --->   Operation 431 'write' <Predicate = (!icmp_ln69)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_11 : Operation 428 [1/1] (0.00ns)   --->   "%bitcast_ln74 = bitcast float %tmp_5 to i32" [matmul.cpp:74]   --->   Operation 428 'bitcast' 'bitcast_ln74' <Predicate = (!icmp_ln71)> <Delay = 0.00>
+ST_11 : Operation 429 [1/1] (0.00ns)   --->   "%bitcast_ln77 = bitcast float %tmp_6 to i32" [matmul.cpp:77]   --->   Operation 429 'bitcast' 'bitcast_ln77' <Predicate = (!icmp_ln71)> <Delay = 0.00>
+ST_11 : Operation 430 [1/1] (0.00ns)   --->   "%p_Result_2 = call i64 @_ssdm_op_BitConcatenate.i64.i32.i32(i32 %bitcast_ln74, i32 %bitcast_ln77)" [matmul.cpp:78]   --->   Operation 430 'bitconcatenate' 'p_Result_2' <Predicate = (!icmp_ln71)> <Delay = 0.00>
+ST_11 : Operation 431 [2/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i64P.i8P.i8P.i1P(i64* %out_stream_V_data_V, i8* %out_stream_V_keep_V, i8* %out_stream_V_strb_V, i1* %out_stream_V_last_V, i64 %p_Result_2, i8 -1, i8 -1, i1 %valOut_last_V)" [matmul.cpp:84]   --->   Operation 431 'write' <Predicate = (!icmp_ln71)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
 
 State 12 <SV = 9> <Delay = 0.00>
-ST_12 : Operation 432 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([10 x i8]* @p_str14) nounwind" [matmul.cpp:69]   --->   Operation 432 'specloopname' <Predicate = (!icmp_ln69)> <Delay = 0.00>
-ST_12 : Operation 433 [1/1] (0.00ns)   --->   "%tmp_2 = call i32 (...)* @_ssdm_op_SpecRegionBegin([10 x i8]* @p_str14)" [matmul.cpp:69]   --->   Operation 433 'specregionbegin' 'tmp_2' <Predicate = (!icmp_ln69)> <Delay = 0.00>
-ST_12 : Operation 434 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str1) nounwind" [matmul.cpp:70]   --->   Operation 434 'specpipeline' <Predicate = (!icmp_ln69)> <Delay = 0.00>
-ST_12 : Operation 435 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i64P.i8P.i8P.i1P(i64* %out_stream_V_data_V, i8* %out_stream_V_keep_V, i8* %out_stream_V_strb_V, i1* %out_stream_V_last_V, i64 %p_Result_2, i8 -1, i8 -1, i1 %valOut_last_V)" [matmul.cpp:82]   --->   Operation 435 'write' <Predicate = (!icmp_ln69)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
-ST_12 : Operation 436 [1/1] (0.00ns)   --->   "%empty_18 = call i32 (...)* @_ssdm_op_SpecRegionEnd([10 x i8]* @p_str14, i32 %tmp_2)" [matmul.cpp:83]   --->   Operation 436 'specregionend' 'empty_18' <Predicate = (!icmp_ln69)> <Delay = 0.00>
-ST_12 : Operation 437 [1/1] (0.00ns)   --->   "br label %7" [matmul.cpp:69]   --->   Operation 437 'br' <Predicate = (!icmp_ln69)> <Delay = 0.00>
+ST_12 : Operation 432 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([10 x i8]* @p_str14) nounwind" [matmul.cpp:71]   --->   Operation 432 'specloopname' <Predicate = (!icmp_ln71)> <Delay = 0.00>
+ST_12 : Operation 433 [1/1] (0.00ns)   --->   "%tmp_2 = call i32 (...)* @_ssdm_op_SpecRegionBegin([10 x i8]* @p_str14)" [matmul.cpp:71]   --->   Operation 433 'specregionbegin' 'tmp_2' <Predicate = (!icmp_ln71)> <Delay = 0.00>
+ST_12 : Operation 434 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str1) nounwind" [matmul.cpp:72]   --->   Operation 434 'specpipeline' <Predicate = (!icmp_ln71)> <Delay = 0.00>
+ST_12 : Operation 435 [1/2] (0.00ns)   --->   "call void @_ssdm_op_Write.axis.volatile.i64P.i8P.i8P.i1P(i64* %out_stream_V_data_V, i8* %out_stream_V_keep_V, i8* %out_stream_V_strb_V, i1* %out_stream_V_last_V, i64 %p_Result_2, i8 -1, i8 -1, i1 %valOut_last_V)" [matmul.cpp:84]   --->   Operation 435 'write' <Predicate = (!icmp_ln71)> <Delay = 0.00> <Core = "AXI4Stream">   --->   Core 5 'AXI4Stream' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_12 : Operation 436 [1/1] (0.00ns)   --->   "%empty_18 = call i32 (...)* @_ssdm_op_SpecRegionEnd([10 x i8]* @p_str14, i32 %tmp_2)" [matmul.cpp:85]   --->   Operation 436 'specregionend' 'empty_18' <Predicate = (!icmp_ln71)> <Delay = 0.00>
+ST_12 : Operation 437 [1/1] (0.00ns)   --->   "br label %7" [matmul.cpp:71]   --->   Operation 437 'br' <Predicate = (!icmp_ln71)> <Delay = 0.00>
 
 State 13 <SV = 8> <Delay = 0.00>
-ST_13 : Operation 438 [1/1] (0.00ns)   --->   "ret void" [matmul.cpp:84]   --->   Operation 438 'ret' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 438 [1/1] (0.00ns)   --->   "ret void" [matmul.cpp:86]   --->   Operation 438 'ret' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -1536,7 +1536,7 @@ br_ln0                  (br               ) [ 00000000000000]
 br_ln57                 (br               ) [ 00000110000000]
 empty_16                (specregionend    ) [ 00000000000000]
 br_ln56                 (br               ) [ 00010110000000]
-call_ln66               (call             ) [ 00000000000000]
+call_ln68               (call             ) [ 00000000000000]
 call_ret                (call             ) [ 00000000000000]
 mulOut_M_real           (extractvalue     ) [ 00000000001110]
 mulOut_M_real_0_1       (extractvalue     ) [ 00000000001110]
@@ -1570,27 +1570,27 @@ mulOut_M_imag_3         (extractvalue     ) [ 00000000001110]
 mulOut_M_imag_3_1       (extractvalue     ) [ 00000000001110]
 mulOut_M_imag_3_2       (extractvalue     ) [ 00000000001110]
 mulOut_M_imag_3_3       (extractvalue     ) [ 00000000001110]
-br_ln69                 (br               ) [ 00000000011110]
+br_ln71                 (br               ) [ 00000000011110]
 i_2                     (phi              ) [ 00000000001000]
-icmp_ln69               (icmp             ) [ 00000000001110]
+icmp_ln71               (icmp             ) [ 00000000001110]
 empty_17                (speclooptripcount) [ 00000000000000]
 i_3                     (add              ) [ 00000000011110]
-br_ln69                 (br               ) [ 00000000000000]
-trunc_ln72              (trunc            ) [ 00000000000000]
-zext_ln72               (zext             ) [ 00000000000000]
+br_ln71                 (br               ) [ 00000000000000]
+trunc_ln74              (trunc            ) [ 00000000000000]
+zext_ln74               (zext             ) [ 00000000000000]
 tmp_5                   (mux              ) [ 00000000001100]
 tmp_6                   (mux              ) [ 00000000001100]
 valOut_last_V           (icmp             ) [ 00000000001110]
-bitcast_ln72            (bitcast          ) [ 00000000000000]
-bitcast_ln75            (bitcast          ) [ 00000000000000]
+bitcast_ln74            (bitcast          ) [ 00000000000000]
+bitcast_ln77            (bitcast          ) [ 00000000000000]
 p_Result_2              (bitconcatenate   ) [ 00000000001010]
-specloopname_ln69       (specloopname     ) [ 00000000000000]
+specloopname_ln71       (specloopname     ) [ 00000000000000]
 tmp_2                   (specregionbegin  ) [ 00000000000000]
-specpipeline_ln70       (specpipeline     ) [ 00000000000000]
-write_ln82              (write            ) [ 00000000000000]
+specpipeline_ln72       (specpipeline     ) [ 00000000000000]
+write_ln84              (write            ) [ 00000000000000]
 empty_18                (specregionend    ) [ 00000000000000]
-br_ln69                 (br               ) [ 00000000011110]
-ret_ln84                (ret              ) [ 00000000000000]
+br_ln71                 (br               ) [ 00000000011110]
+ret_ln86                (ret              ) [ 00000000000000]
 </LifeTime>
 
 <model>
@@ -2874,7 +2874,7 @@ ret_ln84                (ret              ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="write(1151) " fcode="write"/>
-<opset="write_ln82/11 "/>
+<opset="write_ln84/11 "/>
 </bind>
 </comp>
 
@@ -3536,7 +3536,7 @@ ret_ln84                (ret              ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
-<opset="call_ln66/5 "/>
+<opset="call_ln68/5 "/>
 </bind>
 </comp>
 
@@ -6940,7 +6940,7 @@ ret_ln84                (ret              ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="2542" class="1004" name="icmp_ln69_fu_2542">
+<comp id="2542" class="1004" name="icmp_ln71_fu_2542">
 <pin_list>
 <pin id="2543" dir="0" index="0" bw="5" slack="0"/>
 <pin id="2544" dir="0" index="1" bw="5" slack="0"/>
@@ -6948,7 +6948,7 @@ ret_ln84                (ret              ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="icmp(45) " fcode="icmp"/>
-<opset="icmp_ln69/10 "/>
+<opset="icmp_ln71/10 "/>
 </bind>
 </comp>
 
@@ -6964,25 +6964,25 @@ ret_ln84                (ret              ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="2554" class="1004" name="trunc_ln72_fu_2554">
+<comp id="2554" class="1004" name="trunc_ln74_fu_2554">
 <pin_list>
 <pin id="2555" dir="0" index="0" bw="5" slack="0"/>
 <pin id="2556" dir="1" index="1" bw="4" slack="0"/>
 </pin_list>
 <bind>
 <opcode="trunc(33) " fcode="trunc"/>
-<opset="trunc_ln72/10 "/>
+<opset="trunc_ln74/10 "/>
 </bind>
 </comp>
 
-<comp id="2558" class="1004" name="zext_ln72_fu_2558">
+<comp id="2558" class="1004" name="zext_ln74_fu_2558">
 <pin_list>
 <pin id="2559" dir="0" index="0" bw="4" slack="0"/>
 <pin id="2560" dir="1" index="1" bw="5" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="zext_ln72/10 "/>
+<opset="zext_ln74/10 "/>
 </bind>
 </comp>
 
@@ -7054,25 +7054,25 @@ ret_ln84                (ret              ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="2612" class="1004" name="bitcast_ln72_fu_2612">
+<comp id="2612" class="1004" name="bitcast_ln74_fu_2612">
 <pin_list>
 <pin id="2613" dir="0" index="0" bw="32" slack="1"/>
 <pin id="2614" dir="1" index="1" bw="32" slack="0"/>
 </pin_list>
 <bind>
 <opcode="bitcast(44) " fcode="bitcast"/>
-<opset="bitcast_ln72/11 "/>
+<opset="bitcast_ln74/11 "/>
 </bind>
 </comp>
 
-<comp id="2615" class="1004" name="bitcast_ln75_fu_2615">
+<comp id="2615" class="1004" name="bitcast_ln77_fu_2615">
 <pin_list>
 <pin id="2616" dir="0" index="0" bw="32" slack="1"/>
 <pin id="2617" dir="1" index="1" bw="32" slack="0"/>
 </pin_list>
 <bind>
 <opcode="bitcast(44) " fcode="bitcast"/>
-<opset="bitcast_ln75/11 "/>
+<opset="bitcast_ln77/11 "/>
 </bind>
 </comp>
 
@@ -8119,13 +8119,13 @@ ret_ln84                (ret              ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="3191" class="1005" name="icmp_ln69_reg_3191">
+<comp id="3191" class="1005" name="icmp_ln71_reg_3191">
 <pin_list>
 <pin id="3192" dir="0" index="0" bw="1" slack="1"/>
 <pin id="3193" dir="1" index="1" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<opset="icmp_ln69 "/>
+<opset="icmp_ln71 "/>
 </bind>
 </comp>
 
@@ -10588,17 +10588,17 @@ ret_ln84                (ret              ) [ 00000000000000]
 		mulOut_M_imag_3_2 : 1
 		mulOut_M_imag_3_3 : 1
 	State 10
-		icmp_ln69 : 1
+		icmp_ln71 : 1
 		i_3 : 1
-		br_ln69 : 2
-		trunc_ln72 : 1
-		zext_ln72 : 2
+		br_ln71 : 2
+		trunc_ln74 : 1
+		zext_ln74 : 2
 		tmp_5 : 3
 		tmp_6 : 3
 		valOut_last_V : 1
 	State 11
 		p_Result_2 : 1
-		write_ln82 : 2
+		write_ln84 : 2
 	State 12
 		empty_18 : 1
 	State 13
@@ -10774,7 +10774,7 @@ ret_ln84                (ret              ) [ 00000000000000]
 |          |        icmp_ln46_fu_2257        |    0    |    0    |    0    |    9    |
 |          |        icmp_ln56_fu_2323        |    0    |    0    |    0    |    9    |
 |          |        icmp_ln57_fu_2361        |    0    |    0    |    0    |    11   |
-|          |        icmp_ln69_fu_2542        |    0    |    0    |    0    |    11   |
+|          |        icmp_ln71_fu_2542        |    0    |    0    |    0    |    11   |
 |          |      valOut_last_V_fu_2606      |    0    |    0    |    0    |    11   |
 |----------|---------------------------------|---------|---------|---------|---------|
 |          |         add_ln36_fu_871         |    0    |    0    |    0    |    12   |
@@ -10833,7 +10833,7 @@ ret_ln84                (ret              ) [ 00000000000000]
 |   trunc  |       trunc_ln681_fu_2311       |    0    |    0    |    0    |    0    |
 |          |        trunc_ln60_fu_2335       |    0    |    0    |    0    |    0    |
 |          |      trunc_ln681_1_fu_2402      |    0    |    0    |    0    |    0    |
-|          |        trunc_ln72_fu_2554       |    0    |    0    |    0    |    0    |
+|          |        trunc_ln74_fu_2554       |    0    |    0    |    0    |    0    |
 |----------|---------------------------------|---------|---------|---------|---------|
 |          |          tmp_7_fu_2283          |    0    |    0    |    0    |    0    |
 |bitconcatenate|          tmp_3_fu_2349          |    0    |    0    |    0    |    0    |
@@ -10843,7 +10843,7 @@ ret_ln84                (ret              ) [ 00000000000000]
 |          |        zext_ln57_fu_2357        |    0    |    0    |    0    |    0    |
 |   zext   |        zext_ln60_fu_2373        |    0    |    0    |    0    |    0    |
 |          |       zext_ln60_1_fu_2382       |    0    |    0    |    0    |    0    |
-|          |        zext_ln72_fu_2558        |    0    |    0    |    0    |    0    |
+|          |        zext_ln74_fu_2558        |    0    |    0    |    0    |    0    |
 |----------|---------------------------------|---------|---------|---------|---------|
 |   Total  |                                 |   288   |  32.144 |  26096  |  25387  |
 |----------|---------------------------------|---------|---------|---------|---------|
@@ -10899,7 +10899,7 @@ Memories:
 |          i_3_reg_3195          |    5   |
 |          i_4_reg_3009          |    4   |
 |           i_reg_2990           |    5   |
-|       icmp_ln69_reg_3191       |    1   |
+|       icmp_ln71_reg_3191       |    1   |
 |           j_0_reg_581          |    4   |
 |           j_1_reg_603          |    5   |
 |          j_2_reg_3026          |    5   |

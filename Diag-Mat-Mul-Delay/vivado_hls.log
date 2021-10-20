@@ -1,35 +1,51 @@
 INFO: [HLS 200-10] Running '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/vivado_hls'
-INFO: [HLS 200-10] For user 'sidharth' on host 'legion' (Linux_x86_64 version 5.4.0-87-generic) on Sat Oct 09 16:37:53 IST 2021
+INFO: [HLS 200-10] For user 'sidharth' on host 'legion' (Linux_x86_64 version 5.4.0-87-generic) on Wed Oct 20 23:28:27 IST 2021
 INFO: [HLS 200-10] On os Ubuntu 18.04.6 LTS
-INFO: [HLS 200-10] In directory '/home/sidharth/Documents/BTP/Diag-Mat-Mul'
-Sourcing Tcl script '/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1/export.tcl'
-INFO: [HLS 200-10] Opening project '/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul'.
-INFO: [HLS 200-10] Opening solution '/home/sidharth/Documents/BTP/Diag-Mat-Mul/DiagMatMul/solution1'.
+INFO: [HLS 200-10] In directory '/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay'
+Sourcing Tcl script '/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/csim.tcl'
+INFO: [HLS 200-10] Opening project '/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul'.
+INFO: [HLS 200-10] Opening solution '/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 WARNING: [HLS 200-40] Cannot find library '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'.
 WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'.
 INFO: [HLS 200-10] Setting target device to 'xczu28dr-ffvg1517-2-e'
-INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
-
-****** Vivado v2019.2 (64-bit)
-  **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
-  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
-
-source run_ippack.tcl -notrace
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/data/ip'.
-WARNING: [IP_Flow 19-4832] The IP name 'matmul_ap_fadd_2_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'matmul_ap_fadd_2_full_dsp_32'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'matmul_ap_fadd_2_full_dsp_32'...
-WARNING: [IP_Flow 19-4832] The IP name 'matmul_ap_fmul_0_max_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'matmul_ap_fmul_0_max_dsp_32'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'matmul_ap_fmul_0_max_dsp_32'...
-WARNING: [IP_Flow 19-4832] The IP name 'matmul_ap_fsub_2_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'matmul_ap_fsub_2_full_dsp_32'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'matmul_ap_fsub_2_full_dsp_32'...
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/sidharth/media/Programs/Xilinx/Vivado/2019.2/data/ip'.
-INFO: [Common 17-206] Exiting Vivado at Sat Oct  9 16:38:08 2021...
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../matmul-tb.cpp in debug mode
+   Generating csim.exe
+Last signal: 1
+705.08 -705.08
+-410.35 -1214.91
+-1740.88 -1334.24
+-3286.51 -1063.07
+-5047.24 -401.4
+-7023.07 650.77
+-9214 2093.44
+-11620 3926.61
+-14241.2 6150.28
+-17077.4 8764.45
+-20128.7 11769.1
+-23395.2 15164.3
+-26876.7 18950
+-30573.3 23126.1
+-34485 27692.8
+-38611.9 32650
+705.08 -705.08
+-410.35 -1214.91
+-1740.88 -1334.24
+-3286.51 -1063.07
+-5047.24 -401.4
+-7023.07 650.77
+-9214 2093.44
+-11620 3926.61
+-14241.2 6150.28
+-17077.4 8764.45
+-20128.7 11769.1
+-23395.2 15164.3
+-26876.7 18950
+-30573.3 23126.1
+-34485 27692.8
+-38611.9 32650
+Success!
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************

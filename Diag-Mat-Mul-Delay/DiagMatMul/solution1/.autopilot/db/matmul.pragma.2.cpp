@@ -32149,6 +32149,8 @@ _ssdm_SpecArrayPartition( mulOut, 1, "BLOCK", 4, "");
    xmat[i][j].real(data.f);
   }
  }
+
+
  DopplerDelay(rxmat, rxmat_delay);
  DiagMatMul(rxmat_delay, xmat, mulOut);
 
