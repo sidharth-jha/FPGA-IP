@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'DiagMatMul'" level="0">
-<item name = "Date">Wed Oct 20 23:15:01 2021
+<item name = "Date">Sat Oct 30 19:27:40 2021
 </item>
 <item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
 <item name = "Project">DiagMatMul</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">56, 56, 0.560 us, 0.560 us, 56, 56, none</column>
+<column name="">2370, 2370, 23.700 us, 23.700 us, 2370, 2370, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- matmul_loop_1">54, 54, 40, 1, 1, 16, yes</column>
+<column name="- matmul_loop_1">2368, 2368, 329, 8, 1, 256, yes</column>
 </table>
 </item>
 </section>

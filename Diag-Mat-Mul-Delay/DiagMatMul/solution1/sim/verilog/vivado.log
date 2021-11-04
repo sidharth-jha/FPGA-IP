@@ -20,3 +20,7 @@ open_wave_config /home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMat
 current_wave_config {matmul.wcfg}
 matmul.wcfg
 add_wave {{/apatb_matmul_top/in_stream_TDATA}} {{/apatb_matmul_top/in_stream_TVALID}} {{/apatb_matmul_top/in_stream_TREADY}} {{/apatb_matmul_top/in_stream_TKEEP}} {{/apatb_matmul_top/in_stream_TSTRB}} {{/apatb_matmul_top/in_stream_TLAST}} {{/apatb_matmul_top/out_stream_TDATA}} {{/apatb_matmul_top/out_stream_TVALID}} {{/apatb_matmul_top/out_stream_TREADY}} {{/apatb_matmul_top/out_stream_TKEEP}} {{/apatb_matmul_top/out_stream_TSTRB}} {{/apatb_matmul_top/out_stream_TLAST}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 20 23:58:03 2021...

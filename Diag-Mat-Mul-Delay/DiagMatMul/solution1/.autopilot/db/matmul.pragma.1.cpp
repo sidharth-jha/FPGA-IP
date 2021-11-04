@@ -32086,22 +32086,22 @@ const float dd[8] = {3.1 , 5.23, 6.11, 9.98, 8.21 , 0.13, 7.11, 3.98};
 void matmul(hls::stream<intSdCh> &In, hls::stream<outSdCh> &Out);
 # 2 "matmul.cpp" 2
 
-void DiagMatMul(cdt A[16][8], cdt B[8][16], cdt C[16]){_ssdm_SpecArrayDimSize(A, 16);_ssdm_SpecArrayDimSize(B, 8);_ssdm_SpecArrayDimSize(C, 16);
+void DiagMatMul(cdt A[256][64], cdt B[64][256], cdt C[256]){_ssdm_SpecArrayDimSize(A, 256);_ssdm_SpecArrayDimSize(B, 64);_ssdm_SpecArrayDimSize(C, 256);
  cdt res = 0;
- matmul_loop_1: for(int i=0; i<16; i++){
+ matmul_loop_1: for(int i=0; i<256; i++){
 _ssdm_op_SpecPipeline(1, 1, 1, 0, "");
  res = 0;
-  matmul_loop_2: for(int j=0; j<8; j++){
+  matmul_loop_2: for(int j=0; j<64; j++){
    res += A[i][j] * B[j][i];
   }
   C[i] = res;
  }
 }
 
-void DopplerDelay(cdt rxmat[16][8], cdt rxmat_delay[16][8]){_ssdm_SpecArrayDimSize(rxmat, 16);_ssdm_SpecArrayDimSize(rxmat_delay, 16);
- for(int i=0; i<16; i++){
+void DopplerDelay(cdt rxmat[256][64], cdt rxmat_delay[256][64]){_ssdm_SpecArrayDimSize(rxmat, 256);_ssdm_SpecArrayDimSize(rxmat_delay, 256);
+ for(int i=0; i<256; i++){
 _ssdm_op_SpecPipeline(1, 1, 1, 0, "");
- for(int j=0; j<8;j++){
+ for(int j=0; j<64;j++){
    rxmat_delay[i][j] = rxmat[i][j] * dd[j];
   }
  }
@@ -32112,14 +32112,14 @@ _ssdm_op_SpecInterface(&out_stream, "axis", 1, 1, "both", 0, 0, "", "", "", 0, 0
 _ssdm_op_SpecInterface(&in_stream, "axis", 1, 1, "both", 0, 0, "", "", "", 0, 0, 0, 0, "", "");
 _ssdm_op_SpecInterface(0, "s_axilite", 0, 0, "", 0, 0, "control", "", "", 0, 0, 0, 0, "", "");
 
- cdt static rxmat[16][8];
+ cdt static rxmat[256][64];
 _ssdm_SpecArrayPartition( &rxmat, 2, "BLOCK", 4, "");
- cdt static rxmat_delay[16][8];
 
- cdt static xmat[8][16];
+
+ cdt static xmat[64][256];
 _ssdm_SpecArrayPartition( &xmat, 1, "CYCLIC", 4, "");
 
- cdt mulOut[16];
+ cdt mulOut[256];
 _ssdm_SpecArrayPartition( mulOut, 1, "BLOCK", 4, "");
 
  intSdCh valIn;
@@ -32128,8 +32128,8 @@ _ssdm_SpecArrayPartition( mulOut, 1, "BLOCK", 4, "");
 
 
 
- loop_input_A1: for(i=0;i<16;i++){
-  loop_input_A2: for(j=0;j<8;j++){
+ loop_input_A1: for(i=0;i<256;i++){
+  loop_input_A2: for(j=0;j<64;j++){
    valIn = in_stream.read();
    data.i = (unsigned int)valIn.data.range(63,32);
    rxmat[i][j].imag(data.f);
@@ -32139,8 +32139,8 @@ _ssdm_SpecArrayPartition( mulOut, 1, "BLOCK", 4, "");
   }
  }
 
- loop_input_B1: for(i=0;i<8;i++){
-  loop_input_B2: for(j=0;j<16;j++){
+ loop_input_B1: for(i=0;i<64;i++){
+  loop_input_B2: for(j=0;j<256;j++){
    valIn = in_stream.read();
    data.i = (unsigned int)valIn.data.range(63,32);
    xmat[i][j].imag(data.f);
@@ -32151,10 +32151,10 @@ _ssdm_SpecArrayPartition( mulOut, 1, "BLOCK", 4, "");
  }
 
 
- DopplerDelay(rxmat, rxmat_delay);
- DiagMatMul(rxmat_delay, xmat, mulOut);
 
- loop_out1: for(i=0;i<16;i++){
+ DiagMatMul(rxmat, xmat, mulOut);
+
+ loop_out1: for(i=0;i<256;i++){
 _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
  intSdCh valOut;
   data.f = mulOut[i].imag();
@@ -32164,7 +32164,7 @@ _ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
   valOut.data.range(31,0) = (ap_uint<32>)data.i;
 
 
-  valOut.last = ((i==16 -1))?1:0;
+  valOut.last = ((i==256 -1))?1:0;
   valOut.strb = -1;
   valOut.keep = -1;
   out_stream.write(valOut);

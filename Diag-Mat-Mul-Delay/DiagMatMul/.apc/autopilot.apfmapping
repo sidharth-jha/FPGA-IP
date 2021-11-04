@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="matmul.cpp" path="/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul.cpp"/>
     <originFiles name="matmul.h" path="/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul.h"/>
+    <originFiles name="matmul.cpp" path="/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul.cpp"/>
   </source>
   <testbench>
     <originFiles name="matmul-tb.cpp" path="/home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/matmul-tb.cpp"/>

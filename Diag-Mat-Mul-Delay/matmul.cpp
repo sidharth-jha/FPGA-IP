@@ -28,7 +28,7 @@ void matmul(hls::stream<intSdCh> &in_stream, hls::stream<outSdCh> &out_stream){
 
 	cdt static rxmat[dim_r][dim_c];
 #pragma HLS ARRAY_PARTITION variable=rxmat block factor=4 dim=2
-	cdt static rxmat_delay[dim_r][dim_c];
+//	cdt static rxmat_delay[dim_r][dim_c];
 
 	cdt static xmat[dim_c][dim_r];
 #pragma HLS ARRAY_PARTITION variable=xmat cyclic factor=4 dim=1
@@ -65,8 +65,8 @@ void matmul(hls::stream<intSdCh> &in_stream, hls::stream<outSdCh> &out_stream){
 	}
 
 
-	DopplerDelay(rxmat, rxmat_delay);
-	DiagMatMul(rxmat_delay, xmat, mulOut);
+//	DopplerDelay(rxmat, rxmat_delay);
+	DiagMatMul(rxmat, xmat, mulOut);
 
 	loop_out1: for(i=0;i<dim_r;i++){
 #pragma HLS PIPELINE

@@ -11,8 +11,8 @@
 #include <complex>
 #include "ap_int.h"
 
-#define dim_r 16 // Add different dimension for rows and cols, update testbench acc.
-#define dim_c 8
+#define dim_r 256 // Add different dimension for rows and cols, update testbench acc.
+#define dim_c 64
 #define DataWidth 64 // Make this 64 bit.
 
 typedef float T;

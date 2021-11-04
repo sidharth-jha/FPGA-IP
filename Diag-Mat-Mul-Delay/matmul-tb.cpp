@@ -110,8 +110,8 @@ int main(){
 
 // Function calling
 	matmul(inputStream,outputStream);
-	DopplerDelay_sw(A_cmpx, A_cmpx_dd);
-	matMulsw(A_cmpx_dd,B_cmpx,swOut);
+//	DopplerDelay_sw(A_cmpx, A_cmpx_dd);
+	matMulsw(A_cmpx,B_cmpx,swOut);
 
 	// assign output stream to hwout
 	for(i=0;i<dim_r;i++){

@@ -7,7 +7,7 @@ use ieee.std_logic_1164.all;
 
 entity matmul_fmul_32ns_dEe is
     generic (
-        ID         : integer := 17;
+        ID         : integer := 3;
         NUM_STAGE  : integer := 2;
         din0_WIDTH : integer := 32;
         din1_WIDTH : integer := 32;
@@ -44,9 +44,6 @@ architecture arch of matmul_fmul_32ns_dEe is
     signal r_tdata   : std_logic_vector(31 downto 0);
     signal din0_buf1 : std_logic_vector(din0_WIDTH-1 downto 0);
     signal din1_buf1 : std_logic_vector(din1_WIDTH-1 downto 0);
-    signal ce_r      : std_logic;
-    signal dout_i    : std_logic_vector(dout_WIDTH-1 downto 0);
-    signal dout_r    : std_logic_vector(dout_WIDTH-1 downto 0);
 begin
     --------------------- Instantiation -----------------
     matmul_ap_fmul_0_max_dsp_32_u : component matmul_ap_fmul_0_max_dsp_32
@@ -64,7 +61,7 @@ begin
     a_tdata  <= din0_buf1;
     b_tvalid <= '1';
     b_tdata  <= din1_buf1;
-    dout_i   <= r_tdata;
+    dout     <= r_tdata;
 
     --------------------- Input buffer ------------------
     process (clk) begin
@@ -76,19 +73,4 @@ begin
         end if;
     end process;
 
-    process (clk) begin
-        if clk'event and clk = '1' then
-            ce_r <= ce;
-        end if;
-    end process;
-
-    process (clk) begin
-        if clk'event and clk = '1' then
-            if ce_r = '1' then
-                dout_r <= dout_i;
-            end if;
-        end if;
-    end process;
-
-    dout <= dout_i when ce_r = '1' else dout_r;
 end architecture;

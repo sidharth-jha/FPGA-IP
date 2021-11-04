@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'matmul'" level="0">
-<item name = "Date">Wed Oct 20 23:15:02 2021
+<item name = "Date">Sat Oct 30 19:27:43 2021
 </item>
 <item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
 <item name = "Project">DiagMatMul</item>
@@ -24,25 +24,24 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">424, 424, 4.240 us, 4.240 us, 424, 424, none</column>
+<column name="">36296, 36296, 0.363 ms, 0.363 ms, 36296, 36296, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_DiagMatMul_fu_625">DiagMatMul, 56, 56, 0.560 us, 0.560 us, 56, 56, none</column>
-<column name="grp_DopplerDelay_fu_709">DopplerDelay, 24, 24, 0.240 us, 0.240 us, 24, 24, none</column>
+<column name="grp_DiagMatMul_fu_589">DiagMatMul, 2370, 2370, 23.700 us, 23.700 us, 2370, 2370, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- Loop 1">15, 15, 1, -, -, 16, no</column>
-<column name="- loop_input_A1">160, 160, 10, -, -, 16, no</column>
-<column name=" + loop_input_A2">8, 8, 1, -, -, 8, no</column>
-<column name="- loop_input_B1">144, 144, 18, -, -, 8, no</column>
-<column name=" + loop_input_B2">16, 16, 1, -, -, 16, no</column>
-<column name="- loop_out1">17, 17, 3, 1, 1, 16, yes</column>
+<column name="- Loop 1">255, 255, 1, -, -, 256, no</column>
+<column name="- loop_input_A1">16896, 16896, 66, -, -, 256, no</column>
+<column name=" + loop_input_A2">64, 64, 1, -, -, 64, no</column>
+<column name="- loop_input_B1">16512, 16512, 258, -, -, 64, no</column>
+<column name=" + loop_input_B2">256, 256, 1, -, -, 256, no</column>
+<column name="- loop_out1">257, 257, 3, 1, 1, 256, yes</column>
 </table>
 </item>
 </section>

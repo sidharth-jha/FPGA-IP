@@ -5,8 +5,8 @@
 ############################################################
 open_project DiagMatMul
 set_top matmul
-add_files matmul.cpp
 add_files matmul.h
+add_files matmul.cpp
 add_files -tb matmul-tb.cpp -cflags "-Wno-unknown-pragmas" -csimflags "-Wno-unknown-pragmas"
 open_solution "solution1"
 set_part {xczu28dr-ffvg1517-2-e}

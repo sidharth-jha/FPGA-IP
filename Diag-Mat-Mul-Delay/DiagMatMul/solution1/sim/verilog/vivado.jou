@@ -14,3 +14,4 @@ source open_wave.tcl
 open_wave_config /home/sidharth/Documents/BTP/FPGA-IP/Diag-Mat-Mul-Delay/DiagMatMul/solution1/sim/verilog/matmul.wcfg
 current_wave_config {matmul.wcfg}
 add_wave {{/apatb_matmul_top/in_stream_TDATA}} {{/apatb_matmul_top/in_stream_TVALID}} {{/apatb_matmul_top/in_stream_TREADY}} {{/apatb_matmul_top/in_stream_TKEEP}} {{/apatb_matmul_top/in_stream_TSTRB}} {{/apatb_matmul_top/in_stream_TLAST}} {{/apatb_matmul_top/out_stream_TDATA}} {{/apatb_matmul_top/out_stream_TVALID}} {{/apatb_matmul_top/out_stream_TREADY}} {{/apatb_matmul_top/out_stream_TKEEP}} {{/apatb_matmul_top/out_stream_TSTRB}} {{/apatb_matmul_top/out_stream_TLAST}} 
+close_sim
