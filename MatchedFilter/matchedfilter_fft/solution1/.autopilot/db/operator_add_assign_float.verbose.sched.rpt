@@ -1,0 +1,148 @@
+
+
+================================================================
+== Vivado HLS Report for 'operator_add_assign_float'
+================================================================
+* Date:           Wed Nov  3 17:13:24 2021
+
+* Version:        2020.1 (Build 2897737 on Wed May 27 20:21:37 MDT 2020)
+* Project:        matchedfilter_fft
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu28dr-ffvg1517-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 6.437 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+----------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline |
+    |   min   |   max   |    min    |    max    | min | max |   Type   |
+    +---------+---------+-----------+-----------+-----+-----+----------+
+    |        3|        3| 30.000 ns | 30.000 ns |    1|    1| function |
+    +---------+---------+-----------+-----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 1
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 4
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 4
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 4, States = { 1 2 3 4 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 6.43>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%p_z_M_imag_read_1 = call float @_ssdm_op_Read.ap_auto.float(float %p_z_M_imag_read)"   --->   Operation 5 'read' 'p_z_M_imag_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%p_z_M_real_read_1 = call float @_ssdm_op_Read.ap_auto.float(float %p_z_M_real_read)"   --->   Operation 6 'read' 'p_z_M_real_read_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%complex_M_imag_read = call float @_ssdm_op_Read.ap_auto.float(float %complex_float_M_imag_read)"   --->   Operation 7 'read' 'complex_M_imag_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%complex_M_real_read = call float @_ssdm_op_Read.ap_auto.float(float %complex_float_M_real_read)"   --->   Operation 8 'read' 'complex_M_real_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [4/4] (6.43ns)   --->   "%complex_M_real_writ = fadd float %complex_M_real_read, %p_z_M_real_read_1"   --->   Operation 9 'fadd' 'complex_M_real_writ' <Predicate = true> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 10 [4/4] (6.43ns)   --->   "%complex_M_imag_writ = fadd float %complex_M_imag_read, %p_z_M_imag_read_1"   --->   Operation 10 'fadd' 'complex_M_imag_writ' <Predicate = true> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 2 <SV = 1> <Delay = 6.43>
+ST_2 : Operation 11 [3/4] (6.43ns)   --->   "%complex_M_real_writ = fadd float %complex_M_real_read, %p_z_M_real_read_1"   --->   Operation 11 'fadd' 'complex_M_real_writ' <Predicate = true> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 12 [3/4] (6.43ns)   --->   "%complex_M_imag_writ = fadd float %complex_M_imag_read, %p_z_M_imag_read_1"   --->   Operation 12 'fadd' 'complex_M_imag_writ' <Predicate = true> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 3 <SV = 2> <Delay = 6.43>
+ST_3 : Operation 13 [2/4] (6.43ns)   --->   "%complex_M_real_writ = fadd float %complex_M_real_read, %p_z_M_real_read_1"   --->   Operation 13 'fadd' 'complex_M_real_writ' <Predicate = true> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 14 [2/4] (6.43ns)   --->   "%complex_M_imag_writ = fadd float %complex_M_imag_read, %p_z_M_imag_read_1"   --->   Operation 14 'fadd' 'complex_M_imag_writ' <Predicate = true> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 4 <SV = 3> <Delay = 6.43>
+ST_4 : Operation 15 [1/4] (6.43ns)   --->   "%complex_M_real_writ = fadd float %complex_M_real_read, %p_z_M_real_read_1"   --->   Operation 15 'fadd' 'complex_M_real_writ' <Predicate = true> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 16 [1/4] (6.43ns)   --->   "%complex_M_imag_writ = fadd float %complex_M_imag_read, %p_z_M_imag_read_1"   --->   Operation 16 'fadd' 'complex_M_imag_writ' <Predicate = true> <Delay = 6.43> <Core = "FAddSub">   --->   Core 105 'FAddSub' <Latency = 3> <II = 1> <Delay = 6.43> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 17 [1/1] (0.00ns)   --->   "%mrv = insertvalue { float, float } undef, float %complex_M_real_writ, 0"   --->   Operation 17 'insertvalue' 'mrv' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 18 [1/1] (0.00ns)   --->   "%mrv_1 = insertvalue { float, float } %mrv, float %complex_M_imag_writ, 1"   --->   Operation 18 'insertvalue' 'mrv_1' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 19 [1/1] (0.00ns)   --->   "ret { float, float } %mrv_1"   --->   Operation 19 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 6.44ns
+The critical path consists of the following:
+	wire read on port 'p_z_M_imag_read' [5]  (0 ns)
+	'fadd' operation ('complex<float>._M_imag') [10]  (6.44 ns)
+
+ <State 2>: 6.44ns
+The critical path consists of the following:
+	'fadd' operation ('complex<float>._M_real') [9]  (6.44 ns)
+
+ <State 3>: 6.44ns
+The critical path consists of the following:
+	'fadd' operation ('complex<float>._M_real') [9]  (6.44 ns)
+
+ <State 4>: 6.44ns
+The critical path consists of the following:
+	'fadd' operation ('complex<float>._M_real') [9]  (6.44 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

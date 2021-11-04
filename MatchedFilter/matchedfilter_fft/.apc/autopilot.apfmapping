@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="matchedfilter.h" path="C:\Users\sidjha\Documents\BTP\JRC-HLS\MatchedFilter\matchedfilter.h"/>
+    <originFiles name="top_matchedfilter.cpp" path="C:\Users\sidjha\Documents\BTP\JRC-HLS\MatchedFilter\top_matchedfilter.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="testbench_matchedfilter.cpp" path="C:\Users\sidjha\Documents\BTP\JRC-HLS\MatchedFilter\testbench_matchedfilter.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-04T15:51:27.718+0530"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-04T15:51:27.693+0530"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('A_M_real_load_2', top_matchedfilter.cpp:9) on array 'A_M_real' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'A_M_real'." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:19:50.065+0530" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'operator+=&lt;float>' to 'operator_add_assign_float'." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:13:23.370+0530" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'operator*&lt;float>' to 'operator_mul_float'." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:13:20.031+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'std::complex&lt;float>::operator+=&lt;float>' to 'operator+=&lt;float>' " projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:13:12.400+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'std::operator*&lt;float>' to 'operator*&lt;float>' " projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:13:09.177+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C._M_imag[3]' in function 'DiagMatMul' (top_matchedfilter.cpp:11:3)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:57.887+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C._M_imag[2]' in function 'DiagMatMul' (top_matchedfilter.cpp:11:3)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:49.132+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C._M_imag[1]' in function 'DiagMatMul' (top_matchedfilter.cpp:11:3)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:49.105+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C._M_imag[0]' in function 'DiagMatMul' (top_matchedfilter.cpp:11:3)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:49.086+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C._M_real[3]' in function 'DiagMatMul' (top_matchedfilter.cpp:11:3)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:49.066+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C._M_real[2]' in function 'DiagMatMul' (top_matchedfilter.cpp:11:3)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:49.045+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C._M_real[1]' in function 'DiagMatMul' (top_matchedfilter.cpp:11:3)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:49.023+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'C._M_real[0]' in function 'DiagMatMul' (top_matchedfilter.cpp:11:3)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:49.001+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_imag.3' in function 'matmul' (top_matchedfilter.cpp:49:4)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.980+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_imag.2' in function 'matmul' (top_matchedfilter.cpp:49:4)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.952+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_imag.1' in function 'matmul' (top_matchedfilter.cpp:49:4)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.933+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_imag.0' in function 'matmul' (top_matchedfilter.cpp:49:4)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.910+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_real.3' in function 'matmul' (top_matchedfilter.cpp:49:4)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.886+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_real.2' in function 'matmul' (top_matchedfilter.cpp:49:4)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.863+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_real.1' in function 'matmul' (top_matchedfilter.cpp:49:4)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.841+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_real.0' in function 'matmul' (top_matchedfilter.cpp:49:4)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.816+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'mulOut._M_imag.3' in function 'matmul' (top_matchedfilter.cpp:36:17)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.777+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'mulOut._M_imag.2' in function 'matmul' (top_matchedfilter.cpp:36:17)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.755+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'mulOut._M_imag.1' in function 'matmul' (top_matchedfilter.cpp:36:17)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.733+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'mulOut._M_imag.0' in function 'matmul' (top_matchedfilter.cpp:36:17)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.702+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'mulOut._M_real.3' in function 'matmul' (top_matchedfilter.cpp:36:17)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.676+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'mulOut._M_real.2' in function 'matmul' (top_matchedfilter.cpp:36:17)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.653+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'mulOut._M_real.1' in function 'matmul' (top_matchedfilter.cpp:36:17)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.581+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'mulOut._M_real.0' in function 'matmul' (top_matchedfilter.cpp:36:17)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.556+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'xmat._M_imag.0' in function 'matmul' (top_matchedfilter.cpp:33:28)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.535+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'xmat._M_real.0' in function 'matmul' (top_matchedfilter.cpp:33:28)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.514+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_imag.3' in function 'matmul_.preheader122' (top_matchedfilter.cpp:29:29)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.451+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_imag.2' in function 'matmul_.preheader122' (top_matchedfilter.cpp:29:29)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.433+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_imag.1' in function 'matmul_.preheader122' (top_matchedfilter.cpp:29:29)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.412+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_imag.0' in function 'matmul_.preheader122' (top_matchedfilter.cpp:29:29)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.394+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_real.3' in function 'matmul_.preheader122' (top_matchedfilter.cpp:29:29)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.379+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_real.2' in function 'matmul_.preheader122' (top_matchedfilter.cpp:29:29)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.358+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_real.1' in function 'matmul_.preheader122' (top_matchedfilter.cpp:29:29)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.337+0530" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rxmat._M_real.0' in function 'matmul_.preheader122' (top_matchedfilter.cpp:29:29)." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:48.319+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:07.006+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library 'C:/Xilinx/Vivado/2020.1/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-03T17:12:05.426+0530" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="WARNING: [HLS 200-40] Cannot find library 'xilinx/zynquplusRFSOC/zynquplusRFSOC'." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-04T15:51:21.627+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library 'C:/Xilinx/Vivado/2020.1/common/technology/xilinx/zynquplusRFSOC/zynquplusRFSOC.lib'." projectName="matchedfilter_fft" solutionName="solution1" date="2021-11-04T15:51:20.162+0530" type="Warning"/>
+      </csimLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

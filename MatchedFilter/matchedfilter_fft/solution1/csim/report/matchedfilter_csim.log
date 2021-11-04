@@ -1,0 +1,153 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../testbench_matchedfilter.cpp in debug mode
+   Compiling ../../../../top_matchedfilter.cpp in debug mode
+   Generating csim.exe
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+REAL====>	Hardware Output = 0.000000
+IMAG====>	Hardware Output = 0.000000
+Last signal: 1
+REAL====>	Hardware Output = 0.000000 , Actual output = -1240.000000
+IMAG====>	Hardware Output = 0.000000 , Actual output = -1240.000000
+REAL====>	Hardware Output = 0.000000 , Actual output = 344.000000
+IMAG====>	Hardware Output = 0.000000 , Actual output = -2344.000000
+REAL====>	Hardware Output = 0.000000 , Actual output = 2136.000000
+IMAG====>	Hardware Output = 0.000000 , Actual output = -3176.000000
+REAL====>	Hardware Output = 0.000000 , Actual output = 4136.000000
+IMAG====>	Hardware Output = 0.000000 , Actual output = -3736.000000
+Success!
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
