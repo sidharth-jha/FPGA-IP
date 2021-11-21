@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="matmult.h" path="C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1\dmm_64x4096\matmult.h"/>
+    <originFiles name="matmult_top.cpp" path="C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1\dmm_64x4096\matmult_top.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="tb_matmult.cpp" path="C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1\dmm_64x4096\tb_matmult.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

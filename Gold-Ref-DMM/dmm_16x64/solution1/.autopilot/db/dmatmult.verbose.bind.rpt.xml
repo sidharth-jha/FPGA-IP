@@ -1,0 +1,51 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'dmatmult'" level="0">
+<item name = "Date">Sun Nov 21 23:27:44 2021
+</item>
+<item name = "Version">2020.1 (Build 2897737 on Wed May 27 20:21:37 MDT 2020)</item>
+<item name = "Project">dmm_64x4096</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xczu28dr-ffvg1517-2-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 8.419 ns, 1.25 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">4460, 4460, 44.600 us, 44.600 us, 4460, 4460, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_kernel_mmult_fu_2228">kernel_mmult, 280, 280, 2.800 us, 2.800 us, 280, 280, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- load_rxmat">2080, 2080, 130, -, -, 16, no</column>
+<column name=" + load_rxmat.1">128, 128, 2, -, -, 64, no</column>
+<column name="- load_xmat">2080, 2080, 130, -, -, 16, no</column>
+<column name=" + load_xmat.1">128, 128, 2, -, -, 64, no</column>
+<column name="- Loop 3">16, 16, 1, -, -, 16, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'out_vector_M_imag_7_1' is power-on initialization." projectName="dmm_64x4096" solutionName="solution1" date="2021-11-21T23:27:59.007+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'out_vector_M_imag_7' is power-on initialization." projectName="dmm_64x4096" solutionName="solution1" date="2021-11-21T23:27:58.932+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'out_vector_M_imag_6_1' is power-on initialization." projectName="dmm_64x4096" solutionName="solution1" date="2021-11-21T23:27:58.921+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'out_vector_M_imag_6' is power-on initialization." projectName="dmm_64x4096" solutionName="solution1" date="2021-11-21T23:27:58.905+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'out_vector_M_imag_5_1' is power-on initialization." projectName="dmm_64x4096" solutionName="solution1" date="2021-11-21T23:27:58.894+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'out_vector_M_imag_5' is power-on initialization." projectName="dmm_64x4096" solutionName="solution1" date="2021-11-21T23:27:58.884+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'out_vector_M_imag_4_1' is power-on initialization." projectName="dmm_64x4096" solutionName="solution1" date="2021-11-21T23:27:58.873+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'out_vector_M_imag_4' is power-on initialization." projectName="dmm_64x4096" solutionName="solution1" date="2021-11-21T23:27:58.861+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'out_vector_M_imag_3_1' is power-on initialization." projectName="dmm_64x4096" solutionName="solution1" date="2021-11-21T23:27:58.849+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'out_vector_M_imag_3' is power-on initialization." projectName="dmm_64x4096" solutionName="solution1" date="2021-11-21T23:27:58.840+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'out_vector_M_imag_2_1' is power-on initialization." projectName="dmm_64x4096" solutionName="solution1" date="2021-11-21T23:27:58.828+0530" type="Warning"/>
+      </synLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
