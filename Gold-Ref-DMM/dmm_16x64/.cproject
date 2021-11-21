@@ -55,6 +55,8 @@
                                     									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include"/>
                                     									
+                                    <listOptionValue builtIn="false" value="C:/Users/sidjha/Documents/BTP/FPGA-IP/Gold-Ref-DMM"/>
+                                    									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include/etc"/>
                                     									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/auto_cc/include"/>
@@ -90,6 +92,8 @@
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include/ap_sysc"/>
                                     									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="C:/Users/sidjha/Documents/BTP/FPGA-IP/Gold-Ref-DMM"/>
                                     									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include/etc"/>
                                     									
@@ -161,6 +165,36 @@
                         					
                     </folderInfo>
                     					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.155499921.461364303" name="tb_matmult.cpp" rcbsApplicability="disable" resourcePath="testbench/tb_matmult.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1759362124.2051808183">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1759362124.2051808183" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1759362124">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.53811554" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option id="gnu.cpp.compiler.option.include.paths.490290271" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Users/sidjha/Documents/BTP/FPGA-IP/Gold-Ref-DMM"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/auto_cc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/systemc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.360061661" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.298353363" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
                     <sourceEntries>
                         						
                         <entry excluding="solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
@@ -227,6 +261,8 @@
                                     									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include"/>
                                     									
+                                    <listOptionValue builtIn="false" value="C:/Users/sidjha/Documents/BTP/FPGA-IP/Gold-Ref-DMM"/>
+                                    									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include/etc"/>
                                     									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/auto_cc/include"/>
@@ -252,6 +288,8 @@
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include/ap_sysc"/>
                                     									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="C:/Users/sidjha/Documents/BTP/FPGA-IP/Gold-Ref-DMM"/>
                                     									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include/etc"/>
                                     									
@@ -313,6 +351,36 @@
                         					
                     </folderInfo>
                     					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.187929204.1343740389" name="tb_matmult.cpp" rcbsApplicability="disable" resourcePath="testbench/tb_matmult.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.202523048.558831121">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.202523048.558831121" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.202523048">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.642522978" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option id="gnu.cpp.compiler.option.include.paths.81097002" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Users/sidjha/Documents/BTP/FPGA-IP/Gold-Ref-DMM"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/auto_cc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/systemc/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.91691657" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.438798833" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
                     <sourceEntries>
                         						
                         <entry excluding="solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
@@ -335,17 +403,19 @@
         	
     </storageModule>
     	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
     <storageModule moduleId="scannerConfiguration">
         		
         <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
         		
-        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.187929204;cdt.managedbuild.config.gnu.exe.release.187929204.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.1431893718;cdt.managedbuild.tool.gnu.c.compiler.input.400030180">
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.155499921;cdt.managedbuild.config.gnu.exe.debug.155499921.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1440674458;cdt.managedbuild.tool.gnu.c.compiler.input.528558559">
             			
             <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
             		
         </scannerConfigBuildInfo>
         		
-        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.155499921;cdt.managedbuild.config.gnu.exe.debug.155499921.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1440674458;cdt.managedbuild.tool.gnu.c.compiler.input.528558559">
+        <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.187929204;cdt.managedbuild.config.gnu.exe.release.187929204.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.1431893718;cdt.managedbuild.tool.gnu.c.compiler.input.400030180">
             			
             <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
             		
@@ -364,7 +434,5 @@
         </scannerConfigBuildInfo>
         	
     </storageModule>
-    	
-    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
     
 </cproject>
