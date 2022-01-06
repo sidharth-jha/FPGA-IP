@@ -5,8 +5,12 @@
     <downStreamTool>
         <DownStreamTool name="vivado"/>
     </downStreamTool>
+    <clockList>
+        <clock default="false" name="default" period="10"/>
+    </clockList>
     <config>
         <schedule model="dmatmult"/>
+        <config_export format="ip_catalog" rtl="verilog"/>
     </config>
     <UIConfigurations>
         <UIAutosynConf boardInfo="Zynq UltraScale+ ZCU111 Evaluation Platform (xczu28dr-ffvg1517-2-e) " hideTrivialOp="true" isBasedOnBoard="true" isSolutionDirty="false" isStopAskAgain="false" showDetailDesignViewer="false">
@@ -40,8 +44,8 @@
             </RTLs>
         </UIAutoSimConf>
     </UIConfigurations>
-    <ExportDesign askAgain="true" evaluate="false" flow="false" flowChoice="syn" formatName="ip_catalog" rtl="verilog" rtlButton="false" rtlCombo="verilog">
-        <Format formatName="ip_catalog"/>
+    <ExportDesign askAgain="true" evaluate="false" flow="false" flowChoice="syn" formatName="ip_catalog" rtl="verilog" rtlButton="true" rtlCombo="verilog">
+        <Format formatName="ip_catalog" description="" vendor="" library="" ipname="" version="" driver_input_dir="" display_name="" taxonomy=""/>
         <Format formatName="sysgen"/>
         <Format formatName="sysgen_ise"/>
         <Format formatName="syn_dcp"/>
@@ -58,7 +62,7 @@
         <value string="solution1"/>
     </name>
     <project>
-        <value string="dmm_64x4096"/>
+        <value string="dmm_16x64"/>
     </project>
     <targetInfo>
         <TargetInfo value="xczu28dr:-ffvg1517:-2-e"/>
@@ -67,8 +71,5 @@
         <library name="DefaultPlatform" value="xilinx/zynquplus/zynquplus"/>
         <library name="DefaultPlatform" value="xilinx/zynquplus/zynquplus_fpv7"/>
     </libraryList>
-    <clockList>
-        <clock name="default" default="false" period="10"/>
-    </clockList>
 </solution>
 

@@ -3,10 +3,10 @@
 ================================================================
 == Vivado HLS Report for 'dmatmult'
 ================================================================
-* Date:           Sun Nov 21 23:28:02 2021
+* Date:           Mon Nov 22 00:04:29 2021
 
 * Version:        2020.1 (Build 2897737 on Wed May 27 20:21:37 MDT 2020)
-* Project:        dmm_64x4096
+* Project:        dmm_16x64
 * Solution:       solution1
 * Product family: zynquplus
 * Target device:  xczu28dr-ffvg1517-2-e

@@ -133,9 +133,9 @@
       "impl\/misc\/dmatmult_ap_fmul_0_max_dsp_32_ip.tcl",
       "impl\/misc\/dmatmult_ap_fsub_2_full_dsp_32_ip.tcl"
     ],
-    "DesignXml": "C:\/Users\/sidjha\/Documents\/BTP\/JRC-HLS\/DiagonalMatrixMult-64x4096\/Trial-1\/dmm_64x4096\/solution1\/.autopilot\/db\/dmatmult.design.xml",
-    "DebugDir": "C:\/Users\/sidjha\/Documents\/BTP\/JRC-HLS\/DiagonalMatrixMult-64x4096\/Trial-1\/dmm_64x4096\/solution1\/.debug",
-    "ProtoInst": ["C:\/Users\/sidjha\/Documents\/BTP\/JRC-HLS\/DiagonalMatrixMult-64x4096\/Trial-1\/dmm_64x4096\/solution1\/.debug\/dmatmult.protoinst"]
+    "DesignXml": "C:\/Users\/sidjha\/Documents\/BTP\/FPGA-IP\/Gold-Ref-DMM\/dmm_16x64\/solution1\/.autopilot\/db\/dmatmult.design.xml",
+    "DebugDir": "C:\/Users\/sidjha\/Documents\/BTP\/FPGA-IP\/Gold-Ref-DMM\/dmm_16x64\/solution1\/.debug",
+    "ProtoInst": ["C:\/Users\/sidjha\/Documents\/BTP\/FPGA-IP\/Gold-Ref-DMM\/dmm_16x64\/solution1\/.debug\/dmatmult.protoinst"]
   },
   "SubcoreInfo": {
     "HasXpmMemory": false,
@@ -717,7 +717,7 @@
   },
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2021-11-21 23:28:08 +0530",
+    "Time": "2021-11-22 00:04:35 +0530",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.1"
   }

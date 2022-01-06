@@ -1,5 +1,5 @@
-# 1 "dmm_64x4096/matmult_top.cpp"
-# 1 "dmm_64x4096/matmult_top.cpp" 1
+# 1 "dmm_16x64/matmult_top.cpp"
+# 1 "dmm_16x64/matmult_top.cpp" 1
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 152 "<built-in>" 3
@@ -152,8 +152,8 @@ extern "C" {
 }
 # 9 "<command line>" 2
 # 1 "<built-in>" 2
-# 1 "dmm_64x4096/matmult_top.cpp" 2
-# 1 "dmm_64x4096/matmult.h" 1
+# 1 "dmm_16x64/matmult_top.cpp" 2
+# 1 "dmm_16x64/matmult.h" 1
 
 
 
@@ -15573,7 +15573,7 @@ namespace std {
   static ios_base::Init __ioinit;
 
 }
-# 5 "dmm_64x4096/matmult.h" 2
+# 5 "dmm_16x64/matmult.h" 2
 # 1 "C:/Xilinx/Vivado/2020.1/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 1 3
 
 
@@ -15805,7 +15805,7 @@ extern "C" {
 
 # 1 "C:/Xilinx/Vivado/2020.1/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\_mingw_print_pop.h" 1 3
 # 511 "C:/Xilinx/Vivado/2020.1/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdio.h" 2 3
-# 6 "dmm_64x4096/matmult.h" 2
+# 6 "dmm_16x64/matmult.h" 2
 # 1 "C:/Xilinx/Vivado/2020.1/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 1 3
 
 
@@ -16311,7 +16311,7 @@ void * __mingw_aligned_realloc (void *_Memory, size_t _Size, size_t _Offset);
 
 #pragma pack(pop)
 # 630 "C:/Xilinx/Vivado/2020.1/win64/tools/clang/bin/../lib/clang/3.1/../../../x86_64-w64-mingw32/include\\stdlib.h" 2 3
-# 7 "dmm_64x4096/matmult.h" 2
+# 7 "dmm_16x64/matmult.h" 2
 
 
 # 1 "C:/Xilinx/Vivado/2020.1/common/technology/autopilot\\hls_stream.h" 1
@@ -16527,7 +16527,7 @@ public:
 };
 
 }
-# 10 "dmm_64x4096/matmult.h" 2
+# 10 "dmm_16x64/matmult.h" 2
 # 1 "C:/Xilinx/Vivado/2020.1/common/technology/autopilot\\ap_axi_sdata.h" 1
 # 86 "C:/Xilinx/Vivado/2020.1/common/technology/autopilot\\ap_axi_sdata.h"
 # 1 "C:/Xilinx/Vivado/2020.1/common/technology/autopilot/ap_int.h" 1
@@ -22802,7 +22802,7 @@ template<int D>
     qdma_axis(ap_uint<D> d = ap_uint<D>(), ap_uint<(D+7)/8> k = ap_uint<(D+7)/8>(), ap_uint<1> l = ap_uint<1>()) : data(d), keep(k), last(l) {}
     qdma_axis(const qdma_axis<D, 0, 0, 0> &d) : data(d.data), keep(d.keep), last(d.last) {}
   };
-# 11 "dmm_64x4096/matmult.h" 2
+# 11 "dmm_16x64/matmult.h" 2
 # 1 "C:/Xilinx/Vivado/2020.1/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\complex" 1 3
 # 41 "C:/Xilinx/Vivado/2020.1/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\complex" 3
 # 41 "C:/Xilinx/Vivado/2020.1/win64/tools/clang/bin\\..\\lib\\clang\\3.1/../../../include/c++/4.5.2\\complex" 3
@@ -25717,9 +25717,9 @@ namespace __gnu_cxx {
     };
 
 }
-# 12 "dmm_64x4096/matmult.h" 2
+# 12 "dmm_16x64/matmult.h" 2
 # 1 "C:/Xilinx/Vivado/2020.1/common/technology/autopilot/ap_int.h" 1
-# 13 "dmm_64x4096/matmult.h" 2
+# 13 "dmm_16x64/matmult.h" 2
 
 
 
@@ -25743,7 +25743,7 @@ typedef union{
 void matmul(hls::stream<inSdCh> &In, hls::stream<outSdCh> &Out);
 
 template <typename T> void kernel_mmult(T a[16][64], T b[64][16], T out[16]);
-# 2 "dmm_64x4096/matmult_top.cpp" 2
+# 2 "dmm_16x64/matmult_top.cpp" 2
 
 
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
+    <originFiles name="matmult_top.cpp" path="C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM\dmm_16x64\matmult_top.cpp"/>
     <originFiles name="matmult.h" path="C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM\matmult.h"/>
     <originFiles name="matmult.h" path="C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM\dmm_16x64\matmult.h"/>
-    <originFiles name="matmult_top.cpp" path="C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM\dmm_16x64\matmult_top.cpp"/>
   </source>
   <testbench>
     <originFiles name="tb_matmult.cpp" path="C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM\dmm_16x64\tb_matmult.cpp"/>

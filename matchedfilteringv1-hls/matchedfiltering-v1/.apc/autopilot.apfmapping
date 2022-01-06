@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="matchedfiltering.h" path="C:\Users\sidjha\Documents\BTP\MatchedFilteringIP\v1\matchedfilteringv1-hls\matchedfiltering-v1\matchedfiltering.h"/>
+    <originFiles name="top.cpp" path="C:\Users\sidjha\Documents\BTP\MatchedFilteringIP\v1\matchedfilteringv1-hls\matchedfiltering-v1\top.cpp"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>

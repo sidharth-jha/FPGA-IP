@@ -244,7 +244,7 @@
               <type>0</type>
               <id>183</id>
               <name>_ln74</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>74</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -252,13 +252,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
                     <item class_id="12" tracking_level="0" version="0">
                       <first class_id="13" tracking_level="0" version="0">
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>74</second>
@@ -329,7 +329,7 @@
               <type>0</type>
               <id>186</id>
               <name>icmp_ln74</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>74</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -337,13 +337,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>74</second>
@@ -378,7 +378,7 @@
               <type>0</type>
               <id>188</id>
               <name>i</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>74</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -386,13 +386,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>74</second>
@@ -427,7 +427,7 @@
               <type>0</type>
               <id>189</id>
               <name>_ln74</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>74</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -435,13 +435,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>74</second>
@@ -477,7 +477,7 @@
               <type>0</type>
               <id>193</id>
               <name>_ln75</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>75</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -485,13 +485,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>75</second>
@@ -562,7 +562,7 @@
               <type>0</type>
               <id>196</id>
               <name>icmp_ln75</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>75</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -570,13 +570,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>75</second>
@@ -611,7 +611,7 @@
               <type>0</type>
               <id>198</id>
               <name>j</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>75</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -619,13 +619,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>75</second>
@@ -660,7 +660,7 @@
               <type>0</type>
               <id>199</id>
               <name>_ln75</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>75</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -668,13 +668,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>75</second>
@@ -710,7 +710,7 @@
               <type>0</type>
               <id>201</id>
               <name>empty_10</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>76</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -718,13 +718,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>76</second>
@@ -762,7 +762,7 @@
               <type>0</type>
               <id>202</id>
               <name>tmp_data_V_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>76</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -770,13 +770,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>76</second>
@@ -810,7 +810,7 @@
               <type>0</type>
               <id>203</id>
               <name>trunc_ln681</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>77</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -818,13 +818,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>77</second>
@@ -858,7 +858,7 @@
               <type>0</type>
               <id>204</id>
               <name>trunc_ln78_1</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -866,13 +866,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -909,7 +909,7 @@
               <type>0</type>
               <id>205</id>
               <name>trunc_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -917,13 +917,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -957,7 +957,7 @@
               <type>0</type>
               <id>206</id>
               <name>tmp_6</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -965,13 +965,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1007,7 +1007,7 @@
               <type>0</type>
               <id>207</id>
               <name>zext_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1015,13 +1015,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1055,7 +1055,7 @@
               <type>0</type>
               <id>208</id>
               <name>rxmat_M_imag_0_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1063,13 +1063,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1105,7 +1105,7 @@
               <type>0</type>
               <id>209</id>
               <name>rxmat_M_imag_1_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1113,13 +1113,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1155,7 +1155,7 @@
               <type>0</type>
               <id>210</id>
               <name>rxmat_M_imag_10_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1163,13 +1163,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1205,7 +1205,7 @@
               <type>0</type>
               <id>211</id>
               <name>rxmat_M_imag_11_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1213,13 +1213,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1255,7 +1255,7 @@
               <type>0</type>
               <id>212</id>
               <name>rxmat_M_imag_12_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1263,13 +1263,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1305,7 +1305,7 @@
               <type>0</type>
               <id>213</id>
               <name>rxmat_M_imag_13_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1313,13 +1313,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1355,7 +1355,7 @@
               <type>0</type>
               <id>214</id>
               <name>rxmat_M_imag_14_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1363,13 +1363,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1405,7 +1405,7 @@
               <type>0</type>
               <id>215</id>
               <name>rxmat_M_imag_15_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1413,13 +1413,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1455,7 +1455,7 @@
               <type>0</type>
               <id>216</id>
               <name>rxmat_M_imag_16_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1463,13 +1463,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1505,7 +1505,7 @@
               <type>0</type>
               <id>217</id>
               <name>rxmat_M_imag_17_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1513,13 +1513,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1555,7 +1555,7 @@
               <type>0</type>
               <id>218</id>
               <name>rxmat_M_imag_18_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1563,13 +1563,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1605,7 +1605,7 @@
               <type>0</type>
               <id>219</id>
               <name>rxmat_M_imag_19_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1613,13 +1613,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1655,7 +1655,7 @@
               <type>0</type>
               <id>220</id>
               <name>rxmat_M_imag_2_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1663,13 +1663,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1705,7 +1705,7 @@
               <type>0</type>
               <id>221</id>
               <name>rxmat_M_imag_20_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1713,13 +1713,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1755,7 +1755,7 @@
               <type>0</type>
               <id>222</id>
               <name>rxmat_M_imag_21_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1763,13 +1763,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1805,7 +1805,7 @@
               <type>0</type>
               <id>223</id>
               <name>rxmat_M_imag_22_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1813,13 +1813,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1855,7 +1855,7 @@
               <type>0</type>
               <id>224</id>
               <name>rxmat_M_imag_23_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1863,13 +1863,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1905,7 +1905,7 @@
               <type>0</type>
               <id>225</id>
               <name>rxmat_M_imag_24_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1913,13 +1913,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -1955,7 +1955,7 @@
               <type>0</type>
               <id>226</id>
               <name>rxmat_M_imag_25_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -1963,13 +1963,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2005,7 +2005,7 @@
               <type>0</type>
               <id>227</id>
               <name>rxmat_M_imag_26_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2013,13 +2013,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2055,7 +2055,7 @@
               <type>0</type>
               <id>228</id>
               <name>rxmat_M_imag_27_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2063,13 +2063,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2105,7 +2105,7 @@
               <type>0</type>
               <id>229</id>
               <name>rxmat_M_imag_28_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2113,13 +2113,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2155,7 +2155,7 @@
               <type>0</type>
               <id>230</id>
               <name>rxmat_M_imag_29_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2163,13 +2163,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2205,7 +2205,7 @@
               <type>0</type>
               <id>231</id>
               <name>rxmat_M_imag_3_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2213,13 +2213,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2255,7 +2255,7 @@
               <type>0</type>
               <id>232</id>
               <name>rxmat_M_imag_30_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2263,13 +2263,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2305,7 +2305,7 @@
               <type>0</type>
               <id>233</id>
               <name>rxmat_M_imag_31_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2313,13 +2313,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2355,7 +2355,7 @@
               <type>0</type>
               <id>234</id>
               <name>rxmat_M_imag_4_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2363,13 +2363,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2405,7 +2405,7 @@
               <type>0</type>
               <id>235</id>
               <name>rxmat_M_imag_5_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2413,13 +2413,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2455,7 +2455,7 @@
               <type>0</type>
               <id>236</id>
               <name>rxmat_M_imag_6_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2463,13 +2463,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2505,7 +2505,7 @@
               <type>0</type>
               <id>237</id>
               <name>rxmat_M_imag_7_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2513,13 +2513,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2555,7 +2555,7 @@
               <type>0</type>
               <id>238</id>
               <name>rxmat_M_imag_8_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2563,13 +2563,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2605,7 +2605,7 @@
               <type>0</type>
               <id>239</id>
               <name>rxmat_M_imag_9_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2613,13 +2613,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2655,7 +2655,7 @@
               <type>0</type>
               <id>240</id>
               <name>rxmat_M_real_0_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2663,13 +2663,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2705,7 +2705,7 @@
               <type>0</type>
               <id>241</id>
               <name>rxmat_M_real_1_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2713,13 +2713,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2755,7 +2755,7 @@
               <type>0</type>
               <id>242</id>
               <name>rxmat_M_real_10_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2763,13 +2763,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2805,7 +2805,7 @@
               <type>0</type>
               <id>243</id>
               <name>rxmat_M_real_11_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2813,13 +2813,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2855,7 +2855,7 @@
               <type>0</type>
               <id>244</id>
               <name>rxmat_M_real_12_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2863,13 +2863,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2905,7 +2905,7 @@
               <type>0</type>
               <id>245</id>
               <name>rxmat_M_real_13_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2913,13 +2913,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -2955,7 +2955,7 @@
               <type>0</type>
               <id>246</id>
               <name>rxmat_M_real_14_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -2963,13 +2963,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3005,7 +3005,7 @@
               <type>0</type>
               <id>247</id>
               <name>rxmat_M_real_15_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3013,13 +3013,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3055,7 +3055,7 @@
               <type>0</type>
               <id>248</id>
               <name>rxmat_M_real_16_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3063,13 +3063,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3105,7 +3105,7 @@
               <type>0</type>
               <id>249</id>
               <name>rxmat_M_real_17_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3113,13 +3113,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3155,7 +3155,7 @@
               <type>0</type>
               <id>250</id>
               <name>rxmat_M_real_18_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3163,13 +3163,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3205,7 +3205,7 @@
               <type>0</type>
               <id>251</id>
               <name>rxmat_M_real_19_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3213,13 +3213,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3255,7 +3255,7 @@
               <type>0</type>
               <id>252</id>
               <name>rxmat_M_real_2_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3263,13 +3263,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3305,7 +3305,7 @@
               <type>0</type>
               <id>253</id>
               <name>rxmat_M_real_20_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3313,13 +3313,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3355,7 +3355,7 @@
               <type>0</type>
               <id>254</id>
               <name>rxmat_M_real_21_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3363,13 +3363,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3405,7 +3405,7 @@
               <type>0</type>
               <id>255</id>
               <name>rxmat_M_real_22_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3413,13 +3413,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3455,7 +3455,7 @@
               <type>0</type>
               <id>256</id>
               <name>rxmat_M_real_23_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3463,13 +3463,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3505,7 +3505,7 @@
               <type>0</type>
               <id>257</id>
               <name>rxmat_M_real_24_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3513,13 +3513,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3555,7 +3555,7 @@
               <type>0</type>
               <id>258</id>
               <name>rxmat_M_real_25_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3563,13 +3563,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3605,7 +3605,7 @@
               <type>0</type>
               <id>259</id>
               <name>rxmat_M_real_26_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3613,13 +3613,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3655,7 +3655,7 @@
               <type>0</type>
               <id>260</id>
               <name>rxmat_M_real_27_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3663,13 +3663,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3705,7 +3705,7 @@
               <type>0</type>
               <id>261</id>
               <name>rxmat_M_real_28_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3713,13 +3713,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3755,7 +3755,7 @@
               <type>0</type>
               <id>262</id>
               <name>rxmat_M_real_29_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3763,13 +3763,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3805,7 +3805,7 @@
               <type>0</type>
               <id>263</id>
               <name>rxmat_M_real_3_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3813,13 +3813,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3855,7 +3855,7 @@
               <type>0</type>
               <id>264</id>
               <name>rxmat_M_real_30_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3863,13 +3863,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3905,7 +3905,7 @@
               <type>0</type>
               <id>265</id>
               <name>rxmat_M_real_31_add</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3913,13 +3913,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -3955,7 +3955,7 @@
               <type>0</type>
               <id>266</id>
               <name>rxmat_M_real_4_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -3963,13 +3963,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -4005,7 +4005,7 @@
               <type>0</type>
               <id>267</id>
               <name>rxmat_M_real_5_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4013,13 +4013,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -4055,7 +4055,7 @@
               <type>0</type>
               <id>268</id>
               <name>rxmat_M_real_6_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4063,13 +4063,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -4105,7 +4105,7 @@
               <type>0</type>
               <id>269</id>
               <name>rxmat_M_real_7_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4113,13 +4113,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -4155,7 +4155,7 @@
               <type>0</type>
               <id>270</id>
               <name>rxmat_M_real_8_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4163,13 +4163,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -4205,7 +4205,7 @@
               <type>0</type>
               <id>271</id>
               <name>rxmat_M_real_9_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4213,13 +4213,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -4255,7 +4255,7 @@
               <type>0</type>
               <id>272</id>
               <name>bitcast_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4263,13 +4263,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -4303,7 +4303,7 @@
               <type>0</type>
               <id>273</id>
               <name>p_Result_1</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>80</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4311,13 +4311,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>80</second>
@@ -4354,7 +4354,7 @@
               <type>0</type>
               <id>274</id>
               <name>bitcast_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4362,13 +4362,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -4402,7 +4402,7 @@
               <type>0</type>
               <id>275</id>
               <name>_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4410,13 +4410,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -4513,7 +4513,7 @@
               <type>0</type>
               <id>277</id>
               <name>rxmat_M_real_30_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4521,13 +4521,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -4562,7 +4562,7 @@
               <type>0</type>
               <id>278</id>
               <name>rxmat_M_imag_30_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4570,13 +4570,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -4645,7 +4645,7 @@
               <type>0</type>
               <id>281</id>
               <name>rxmat_M_real_29_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4653,13 +4653,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -4694,7 +4694,7 @@
               <type>0</type>
               <id>282</id>
               <name>rxmat_M_imag_29_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4702,13 +4702,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -4777,7 +4777,7 @@
               <type>0</type>
               <id>285</id>
               <name>rxmat_M_real_28_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4785,13 +4785,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -4826,7 +4826,7 @@
               <type>0</type>
               <id>286</id>
               <name>rxmat_M_imag_28_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4834,13 +4834,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -4909,7 +4909,7 @@
               <type>0</type>
               <id>289</id>
               <name>rxmat_M_real_27_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4917,13 +4917,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -4958,7 +4958,7 @@
               <type>0</type>
               <id>290</id>
               <name>rxmat_M_imag_27_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -4966,13 +4966,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -5041,7 +5041,7 @@
               <type>0</type>
               <id>293</id>
               <name>rxmat_M_real_26_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5049,13 +5049,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -5090,7 +5090,7 @@
               <type>0</type>
               <id>294</id>
               <name>rxmat_M_imag_26_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5098,13 +5098,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -5173,7 +5173,7 @@
               <type>0</type>
               <id>297</id>
               <name>rxmat_M_real_25_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5181,13 +5181,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -5222,7 +5222,7 @@
               <type>0</type>
               <id>298</id>
               <name>rxmat_M_imag_25_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5230,13 +5230,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -5305,7 +5305,7 @@
               <type>0</type>
               <id>301</id>
               <name>rxmat_M_real_24_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5313,13 +5313,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -5354,7 +5354,7 @@
               <type>0</type>
               <id>302</id>
               <name>rxmat_M_imag_24_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5362,13 +5362,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -5437,7 +5437,7 @@
               <type>0</type>
               <id>305</id>
               <name>rxmat_M_real_23_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5445,13 +5445,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -5486,7 +5486,7 @@
               <type>0</type>
               <id>306</id>
               <name>rxmat_M_imag_23_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5494,13 +5494,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -5569,7 +5569,7 @@
               <type>0</type>
               <id>309</id>
               <name>rxmat_M_real_22_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5577,13 +5577,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -5618,7 +5618,7 @@
               <type>0</type>
               <id>310</id>
               <name>rxmat_M_imag_22_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5626,13 +5626,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -5701,7 +5701,7 @@
               <type>0</type>
               <id>313</id>
               <name>rxmat_M_real_21_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5709,13 +5709,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -5750,7 +5750,7 @@
               <type>0</type>
               <id>314</id>
               <name>rxmat_M_imag_21_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5758,13 +5758,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -5833,7 +5833,7 @@
               <type>0</type>
               <id>317</id>
               <name>rxmat_M_real_20_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5841,13 +5841,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -5882,7 +5882,7 @@
               <type>0</type>
               <id>318</id>
               <name>rxmat_M_imag_20_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5890,13 +5890,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -5965,7 +5965,7 @@
               <type>0</type>
               <id>321</id>
               <name>rxmat_M_real_19_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -5973,13 +5973,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -6014,7 +6014,7 @@
               <type>0</type>
               <id>322</id>
               <name>rxmat_M_imag_19_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6022,13 +6022,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -6097,7 +6097,7 @@
               <type>0</type>
               <id>325</id>
               <name>rxmat_M_real_18_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6105,13 +6105,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -6146,7 +6146,7 @@
               <type>0</type>
               <id>326</id>
               <name>rxmat_M_imag_18_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6154,13 +6154,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -6229,7 +6229,7 @@
               <type>0</type>
               <id>329</id>
               <name>rxmat_M_real_17_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6237,13 +6237,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -6278,7 +6278,7 @@
               <type>0</type>
               <id>330</id>
               <name>rxmat_M_imag_17_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6286,13 +6286,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -6361,7 +6361,7 @@
               <type>0</type>
               <id>333</id>
               <name>rxmat_M_real_16_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6369,13 +6369,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -6410,7 +6410,7 @@
               <type>0</type>
               <id>334</id>
               <name>rxmat_M_imag_16_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6418,13 +6418,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -6493,7 +6493,7 @@
               <type>0</type>
               <id>337</id>
               <name>rxmat_M_real_15_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6501,13 +6501,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -6542,7 +6542,7 @@
               <type>0</type>
               <id>338</id>
               <name>rxmat_M_imag_15_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6550,13 +6550,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -6625,7 +6625,7 @@
               <type>0</type>
               <id>341</id>
               <name>rxmat_M_real_14_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6633,13 +6633,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -6674,7 +6674,7 @@
               <type>0</type>
               <id>342</id>
               <name>rxmat_M_imag_14_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6682,13 +6682,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -6757,7 +6757,7 @@
               <type>0</type>
               <id>345</id>
               <name>rxmat_M_real_13_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6765,13 +6765,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -6806,7 +6806,7 @@
               <type>0</type>
               <id>346</id>
               <name>rxmat_M_imag_13_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6814,13 +6814,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -6889,7 +6889,7 @@
               <type>0</type>
               <id>349</id>
               <name>rxmat_M_real_12_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6897,13 +6897,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -6938,7 +6938,7 @@
               <type>0</type>
               <id>350</id>
               <name>rxmat_M_imag_12_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -6946,13 +6946,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -7021,7 +7021,7 @@
               <type>0</type>
               <id>353</id>
               <name>rxmat_M_real_11_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7029,13 +7029,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -7070,7 +7070,7 @@
               <type>0</type>
               <id>354</id>
               <name>rxmat_M_imag_11_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7078,13 +7078,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -7153,7 +7153,7 @@
               <type>0</type>
               <id>357</id>
               <name>rxmat_M_real_10_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7161,13 +7161,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -7202,7 +7202,7 @@
               <type>0</type>
               <id>358</id>
               <name>rxmat_M_imag_10_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7210,13 +7210,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -7285,7 +7285,7 @@
               <type>0</type>
               <id>361</id>
               <name>rxmat_M_real_9_addr_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7293,13 +7293,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -7334,7 +7334,7 @@
               <type>0</type>
               <id>362</id>
               <name>rxmat_M_imag_9_addr_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7342,13 +7342,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -7417,7 +7417,7 @@
               <type>0</type>
               <id>365</id>
               <name>rxmat_M_real_8_addr_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7425,13 +7425,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -7466,7 +7466,7 @@
               <type>0</type>
               <id>366</id>
               <name>rxmat_M_imag_8_addr_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7474,13 +7474,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -7549,7 +7549,7 @@
               <type>0</type>
               <id>369</id>
               <name>rxmat_M_real_7_addr_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7557,13 +7557,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -7598,7 +7598,7 @@
               <type>0</type>
               <id>370</id>
               <name>rxmat_M_imag_7_addr_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7606,13 +7606,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -7681,7 +7681,7 @@
               <type>0</type>
               <id>373</id>
               <name>rxmat_M_real_6_addr_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7689,13 +7689,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -7730,7 +7730,7 @@
               <type>0</type>
               <id>374</id>
               <name>rxmat_M_imag_6_addr_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7738,13 +7738,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -7813,7 +7813,7 @@
               <type>0</type>
               <id>377</id>
               <name>rxmat_M_real_5_addr_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7821,13 +7821,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -7862,7 +7862,7 @@
               <type>0</type>
               <id>378</id>
               <name>rxmat_M_imag_5_addr_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7870,13 +7870,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -7945,7 +7945,7 @@
               <type>0</type>
               <id>381</id>
               <name>rxmat_M_real_4_addr_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -7953,13 +7953,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -7994,7 +7994,7 @@
               <type>0</type>
               <id>382</id>
               <name>rxmat_M_imag_4_addr_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8002,13 +8002,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -8077,7 +8077,7 @@
               <type>0</type>
               <id>385</id>
               <name>rxmat_M_real_3_addr_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8085,13 +8085,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -8126,7 +8126,7 @@
               <type>0</type>
               <id>386</id>
               <name>rxmat_M_imag_3_addr_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8134,13 +8134,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -8209,7 +8209,7 @@
               <type>0</type>
               <id>389</id>
               <name>rxmat_M_real_2_addr_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8217,13 +8217,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -8258,7 +8258,7 @@
               <type>0</type>
               <id>390</id>
               <name>rxmat_M_imag_2_addr_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8266,13 +8266,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -8341,7 +8341,7 @@
               <type>0</type>
               <id>393</id>
               <name>rxmat_M_real_1_addr_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8349,13 +8349,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -8390,7 +8390,7 @@
               <type>0</type>
               <id>394</id>
               <name>rxmat_M_imag_1_addr_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8398,13 +8398,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -8473,7 +8473,7 @@
               <type>0</type>
               <id>397</id>
               <name>rxmat_M_real_0_addr_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8481,13 +8481,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -8522,7 +8522,7 @@
               <type>0</type>
               <id>398</id>
               <name>rxmat_M_imag_0_addr_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8530,13 +8530,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -8605,7 +8605,7 @@
               <type>0</type>
               <id>401</id>
               <name>rxmat_M_real_31_add_write_ln78</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>78</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8613,13 +8613,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>78</second>
@@ -8654,7 +8654,7 @@
               <type>0</type>
               <id>402</id>
               <name>rxmat_M_imag_31_add_write_ln81</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>81</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8662,13 +8662,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>81</second>
@@ -8737,7 +8737,7 @@
               <type>0</type>
               <id>405</id>
               <name>_ln75</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>75</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8745,13 +8745,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>75</second>
@@ -8785,7 +8785,7 @@
               <type>0</type>
               <id>408</id>
               <name>_ln74</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>74</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8793,13 +8793,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>74</second>
@@ -8833,7 +8833,7 @@
               <type>0</type>
               <id>410</id>
               <name>_ln86</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>86</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8841,13 +8841,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>86</second>
@@ -8918,7 +8918,7 @@
               <type>0</type>
               <id>413</id>
               <name>icmp_ln86</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>86</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8926,13 +8926,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>86</second>
@@ -8967,7 +8967,7 @@
               <type>0</type>
               <id>415</id>
               <name>i_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>86</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -8975,13 +8975,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>86</second>
@@ -9016,7 +9016,7 @@
               <type>0</type>
               <id>416</id>
               <name>_ln86</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>86</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9024,13 +9024,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>86</second>
@@ -9066,7 +9066,7 @@
               <type>0</type>
               <id>420</id>
               <name>zext_ln87</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>87</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9074,13 +9074,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>87</second>
@@ -9114,7 +9114,7 @@
               <type>0</type>
               <id>421</id>
               <name>_ln87</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>87</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9122,13 +9122,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>87</second>
@@ -9199,7 +9199,7 @@
               <type>0</type>
               <id>424</id>
               <name>icmp_ln87</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>87</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9207,13 +9207,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>87</second>
@@ -9248,7 +9248,7 @@
               <type>0</type>
               <id>426</id>
               <name>j_1</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>87</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9256,13 +9256,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>87</second>
@@ -9297,7 +9297,7 @@
               <type>0</type>
               <id>427</id>
               <name>_ln87</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>87</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9305,13 +9305,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>87</second>
@@ -9347,7 +9347,7 @@
               <type>0</type>
               <id>429</id>
               <name>empty_14</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>88</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9355,13 +9355,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>88</second>
@@ -9399,7 +9399,7 @@
               <type>0</type>
               <id>430</id>
               <name>tmp_data_V_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>88</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9407,13 +9407,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>88</second>
@@ -9447,7 +9447,7 @@
               <type>0</type>
               <id>431</id>
               <name>trunc_ln681_1</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>89</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9455,13 +9455,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>89</second>
@@ -9495,7 +9495,7 @@
               <type>0</type>
               <id>432</id>
               <name>trunc_ln90_1</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9503,13 +9503,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -9546,7 +9546,7 @@
               <type>0</type>
               <id>433</id>
               <name>trunc_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9554,13 +9554,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -9594,7 +9594,7 @@
               <type>0</type>
               <id>434</id>
               <name>tmp_8</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9602,13 +9602,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -9644,7 +9644,7 @@
               <type>0</type>
               <id>435</id>
               <name>zext_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9652,13 +9652,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -9692,7 +9692,7 @@
               <type>0</type>
               <id>436</id>
               <name>add_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9700,13 +9700,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -9741,7 +9741,7 @@
               <type>0</type>
               <id>437</id>
               <name>zext_ln90_1</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9749,13 +9749,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -9789,7 +9789,7 @@
               <type>0</type>
               <id>438</id>
               <name>xmat_M_imag_0_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9797,13 +9797,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -9839,7 +9839,7 @@
               <type>0</type>
               <id>439</id>
               <name>xmat_M_imag_1_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9847,13 +9847,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -9889,7 +9889,7 @@
               <type>0</type>
               <id>440</id>
               <name>xmat_M_imag_10_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9897,13 +9897,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -9939,7 +9939,7 @@
               <type>0</type>
               <id>441</id>
               <name>xmat_M_imag_11_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9947,13 +9947,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -9989,7 +9989,7 @@
               <type>0</type>
               <id>442</id>
               <name>xmat_M_imag_12_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -9997,13 +9997,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10039,7 +10039,7 @@
               <type>0</type>
               <id>443</id>
               <name>xmat_M_imag_13_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10047,13 +10047,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10089,7 +10089,7 @@
               <type>0</type>
               <id>444</id>
               <name>xmat_M_imag_14_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10097,13 +10097,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10139,7 +10139,7 @@
               <type>0</type>
               <id>445</id>
               <name>xmat_M_imag_15_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10147,13 +10147,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10189,7 +10189,7 @@
               <type>0</type>
               <id>446</id>
               <name>xmat_M_imag_16_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10197,13 +10197,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10239,7 +10239,7 @@
               <type>0</type>
               <id>447</id>
               <name>xmat_M_imag_17_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10247,13 +10247,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10289,7 +10289,7 @@
               <type>0</type>
               <id>448</id>
               <name>xmat_M_imag_18_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10297,13 +10297,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10339,7 +10339,7 @@
               <type>0</type>
               <id>449</id>
               <name>xmat_M_imag_19_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10347,13 +10347,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10389,7 +10389,7 @@
               <type>0</type>
               <id>450</id>
               <name>xmat_M_imag_2_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10397,13 +10397,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10439,7 +10439,7 @@
               <type>0</type>
               <id>451</id>
               <name>xmat_M_imag_20_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10447,13 +10447,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10489,7 +10489,7 @@
               <type>0</type>
               <id>452</id>
               <name>xmat_M_imag_21_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10497,13 +10497,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10539,7 +10539,7 @@
               <type>0</type>
               <id>453</id>
               <name>xmat_M_imag_22_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10547,13 +10547,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10589,7 +10589,7 @@
               <type>0</type>
               <id>454</id>
               <name>xmat_M_imag_23_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10597,13 +10597,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10639,7 +10639,7 @@
               <type>0</type>
               <id>455</id>
               <name>xmat_M_imag_24_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10647,13 +10647,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10689,7 +10689,7 @@
               <type>0</type>
               <id>456</id>
               <name>xmat_M_imag_25_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10697,13 +10697,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10739,7 +10739,7 @@
               <type>0</type>
               <id>457</id>
               <name>xmat_M_imag_26_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10747,13 +10747,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10789,7 +10789,7 @@
               <type>0</type>
               <id>458</id>
               <name>xmat_M_imag_27_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10797,13 +10797,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10839,7 +10839,7 @@
               <type>0</type>
               <id>459</id>
               <name>xmat_M_imag_28_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10847,13 +10847,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10889,7 +10889,7 @@
               <type>0</type>
               <id>460</id>
               <name>xmat_M_imag_29_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10897,13 +10897,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10939,7 +10939,7 @@
               <type>0</type>
               <id>461</id>
               <name>xmat_M_imag_3_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10947,13 +10947,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -10989,7 +10989,7 @@
               <type>0</type>
               <id>462</id>
               <name>xmat_M_imag_30_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -10997,13 +10997,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11039,7 +11039,7 @@
               <type>0</type>
               <id>463</id>
               <name>xmat_M_imag_31_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11047,13 +11047,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11089,7 +11089,7 @@
               <type>0</type>
               <id>464</id>
               <name>xmat_M_imag_4_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11097,13 +11097,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11139,7 +11139,7 @@
               <type>0</type>
               <id>465</id>
               <name>xmat_M_imag_5_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11147,13 +11147,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11189,7 +11189,7 @@
               <type>0</type>
               <id>466</id>
               <name>xmat_M_imag_6_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11197,13 +11197,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11239,7 +11239,7 @@
               <type>0</type>
               <id>467</id>
               <name>xmat_M_imag_7_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11247,13 +11247,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11289,7 +11289,7 @@
               <type>0</type>
               <id>468</id>
               <name>xmat_M_imag_8_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11297,13 +11297,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11339,7 +11339,7 @@
               <type>0</type>
               <id>469</id>
               <name>xmat_M_imag_9_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11347,13 +11347,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11389,7 +11389,7 @@
               <type>0</type>
               <id>470</id>
               <name>xmat_M_real_0_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11397,13 +11397,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11439,7 +11439,7 @@
               <type>0</type>
               <id>471</id>
               <name>xmat_M_real_1_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11447,13 +11447,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11489,7 +11489,7 @@
               <type>0</type>
               <id>472</id>
               <name>xmat_M_real_10_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11497,13 +11497,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11539,7 +11539,7 @@
               <type>0</type>
               <id>473</id>
               <name>xmat_M_real_11_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11547,13 +11547,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11589,7 +11589,7 @@
               <type>0</type>
               <id>474</id>
               <name>xmat_M_real_12_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11597,13 +11597,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11639,7 +11639,7 @@
               <type>0</type>
               <id>475</id>
               <name>xmat_M_real_13_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11647,13 +11647,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11689,7 +11689,7 @@
               <type>0</type>
               <id>476</id>
               <name>xmat_M_real_14_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11697,13 +11697,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11739,7 +11739,7 @@
               <type>0</type>
               <id>477</id>
               <name>xmat_M_real_15_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11747,13 +11747,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11789,7 +11789,7 @@
               <type>0</type>
               <id>478</id>
               <name>xmat_M_real_16_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11797,13 +11797,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11839,7 +11839,7 @@
               <type>0</type>
               <id>479</id>
               <name>xmat_M_real_17_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11847,13 +11847,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11889,7 +11889,7 @@
               <type>0</type>
               <id>480</id>
               <name>xmat_M_real_18_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11897,13 +11897,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11939,7 +11939,7 @@
               <type>0</type>
               <id>481</id>
               <name>xmat_M_real_19_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11947,13 +11947,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -11989,7 +11989,7 @@
               <type>0</type>
               <id>482</id>
               <name>xmat_M_real_2_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -11997,13 +11997,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12039,7 +12039,7 @@
               <type>0</type>
               <id>483</id>
               <name>xmat_M_real_20_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12047,13 +12047,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12089,7 +12089,7 @@
               <type>0</type>
               <id>484</id>
               <name>xmat_M_real_21_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12097,13 +12097,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12139,7 +12139,7 @@
               <type>0</type>
               <id>485</id>
               <name>xmat_M_real_22_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12147,13 +12147,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12189,7 +12189,7 @@
               <type>0</type>
               <id>486</id>
               <name>xmat_M_real_23_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12197,13 +12197,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12239,7 +12239,7 @@
               <type>0</type>
               <id>487</id>
               <name>xmat_M_real_24_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12247,13 +12247,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12289,7 +12289,7 @@
               <type>0</type>
               <id>488</id>
               <name>xmat_M_real_25_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12297,13 +12297,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12339,7 +12339,7 @@
               <type>0</type>
               <id>489</id>
               <name>xmat_M_real_26_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12347,13 +12347,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12389,7 +12389,7 @@
               <type>0</type>
               <id>490</id>
               <name>xmat_M_real_27_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12397,13 +12397,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12439,7 +12439,7 @@
               <type>0</type>
               <id>491</id>
               <name>xmat_M_real_28_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12447,13 +12447,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12489,7 +12489,7 @@
               <type>0</type>
               <id>492</id>
               <name>xmat_M_real_29_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12497,13 +12497,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12539,7 +12539,7 @@
               <type>0</type>
               <id>493</id>
               <name>xmat_M_real_3_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12547,13 +12547,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12589,7 +12589,7 @@
               <type>0</type>
               <id>494</id>
               <name>xmat_M_real_30_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12597,13 +12597,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12639,7 +12639,7 @@
               <type>0</type>
               <id>495</id>
               <name>xmat_M_real_31_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12647,13 +12647,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12689,7 +12689,7 @@
               <type>0</type>
               <id>496</id>
               <name>xmat_M_real_4_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12697,13 +12697,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12739,7 +12739,7 @@
               <type>0</type>
               <id>497</id>
               <name>xmat_M_real_5_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12747,13 +12747,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12789,7 +12789,7 @@
               <type>0</type>
               <id>498</id>
               <name>xmat_M_real_6_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12797,13 +12797,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12839,7 +12839,7 @@
               <type>0</type>
               <id>499</id>
               <name>xmat_M_real_7_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12847,13 +12847,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12889,7 +12889,7 @@
               <type>0</type>
               <id>500</id>
               <name>xmat_M_real_8_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12897,13 +12897,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12939,7 +12939,7 @@
               <type>0</type>
               <id>501</id>
               <name>xmat_M_real_9_addr</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12947,13 +12947,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -12989,7 +12989,7 @@
               <type>0</type>
               <id>502</id>
               <name>bitcast_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -12997,13 +12997,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -13037,7 +13037,7 @@
               <type>0</type>
               <id>503</id>
               <name>p_Result_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>92</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13045,13 +13045,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>92</second>
@@ -13088,7 +13088,7 @@
               <type>0</type>
               <id>504</id>
               <name>bitcast_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13096,13 +13096,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -13136,7 +13136,7 @@
               <type>0</type>
               <id>505</id>
               <name>_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13144,13 +13144,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -13247,7 +13247,7 @@
               <type>0</type>
               <id>507</id>
               <name>xmat_M_real_30_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13255,13 +13255,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -13296,7 +13296,7 @@
               <type>0</type>
               <id>508</id>
               <name>xmat_M_imag_30_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13304,13 +13304,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -13379,7 +13379,7 @@
               <type>0</type>
               <id>511</id>
               <name>xmat_M_real_29_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13387,13 +13387,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -13428,7 +13428,7 @@
               <type>0</type>
               <id>512</id>
               <name>xmat_M_imag_29_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13436,13 +13436,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -13511,7 +13511,7 @@
               <type>0</type>
               <id>515</id>
               <name>xmat_M_real_28_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13519,13 +13519,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -13560,7 +13560,7 @@
               <type>0</type>
               <id>516</id>
               <name>xmat_M_imag_28_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13568,13 +13568,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -13643,7 +13643,7 @@
               <type>0</type>
               <id>519</id>
               <name>xmat_M_real_27_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13651,13 +13651,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -13692,7 +13692,7 @@
               <type>0</type>
               <id>520</id>
               <name>xmat_M_imag_27_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13700,13 +13700,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -13775,7 +13775,7 @@
               <type>0</type>
               <id>523</id>
               <name>xmat_M_real_26_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13783,13 +13783,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -13824,7 +13824,7 @@
               <type>0</type>
               <id>524</id>
               <name>xmat_M_imag_26_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13832,13 +13832,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -13907,7 +13907,7 @@
               <type>0</type>
               <id>527</id>
               <name>xmat_M_real_25_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13915,13 +13915,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -13956,7 +13956,7 @@
               <type>0</type>
               <id>528</id>
               <name>xmat_M_imag_25_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -13964,13 +13964,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -14039,7 +14039,7 @@
               <type>0</type>
               <id>531</id>
               <name>xmat_M_real_24_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14047,13 +14047,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -14088,7 +14088,7 @@
               <type>0</type>
               <id>532</id>
               <name>xmat_M_imag_24_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14096,13 +14096,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -14171,7 +14171,7 @@
               <type>0</type>
               <id>535</id>
               <name>xmat_M_real_23_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14179,13 +14179,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -14220,7 +14220,7 @@
               <type>0</type>
               <id>536</id>
               <name>xmat_M_imag_23_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14228,13 +14228,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -14303,7 +14303,7 @@
               <type>0</type>
               <id>539</id>
               <name>xmat_M_real_22_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14311,13 +14311,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -14352,7 +14352,7 @@
               <type>0</type>
               <id>540</id>
               <name>xmat_M_imag_22_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14360,13 +14360,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -14435,7 +14435,7 @@
               <type>0</type>
               <id>543</id>
               <name>xmat_M_real_21_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14443,13 +14443,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -14484,7 +14484,7 @@
               <type>0</type>
               <id>544</id>
               <name>xmat_M_imag_21_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14492,13 +14492,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -14567,7 +14567,7 @@
               <type>0</type>
               <id>547</id>
               <name>xmat_M_real_20_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14575,13 +14575,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -14616,7 +14616,7 @@
               <type>0</type>
               <id>548</id>
               <name>xmat_M_imag_20_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14624,13 +14624,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -14699,7 +14699,7 @@
               <type>0</type>
               <id>551</id>
               <name>xmat_M_real_19_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14707,13 +14707,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -14748,7 +14748,7 @@
               <type>0</type>
               <id>552</id>
               <name>xmat_M_imag_19_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14756,13 +14756,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -14831,7 +14831,7 @@
               <type>0</type>
               <id>555</id>
               <name>xmat_M_real_18_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14839,13 +14839,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -14880,7 +14880,7 @@
               <type>0</type>
               <id>556</id>
               <name>xmat_M_imag_18_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14888,13 +14888,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -14963,7 +14963,7 @@
               <type>0</type>
               <id>559</id>
               <name>xmat_M_real_17_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -14971,13 +14971,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -15012,7 +15012,7 @@
               <type>0</type>
               <id>560</id>
               <name>xmat_M_imag_17_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15020,13 +15020,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -15095,7 +15095,7 @@
               <type>0</type>
               <id>563</id>
               <name>xmat_M_real_16_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15103,13 +15103,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -15144,7 +15144,7 @@
               <type>0</type>
               <id>564</id>
               <name>xmat_M_imag_16_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15152,13 +15152,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -15227,7 +15227,7 @@
               <type>0</type>
               <id>567</id>
               <name>xmat_M_real_15_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15235,13 +15235,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -15276,7 +15276,7 @@
               <type>0</type>
               <id>568</id>
               <name>xmat_M_imag_15_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15284,13 +15284,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -15359,7 +15359,7 @@
               <type>0</type>
               <id>571</id>
               <name>xmat_M_real_14_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15367,13 +15367,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -15408,7 +15408,7 @@
               <type>0</type>
               <id>572</id>
               <name>xmat_M_imag_14_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15416,13 +15416,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -15491,7 +15491,7 @@
               <type>0</type>
               <id>575</id>
               <name>xmat_M_real_13_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15499,13 +15499,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -15540,7 +15540,7 @@
               <type>0</type>
               <id>576</id>
               <name>xmat_M_imag_13_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15548,13 +15548,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -15623,7 +15623,7 @@
               <type>0</type>
               <id>579</id>
               <name>xmat_M_real_12_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15631,13 +15631,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -15672,7 +15672,7 @@
               <type>0</type>
               <id>580</id>
               <name>xmat_M_imag_12_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15680,13 +15680,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -15755,7 +15755,7 @@
               <type>0</type>
               <id>583</id>
               <name>xmat_M_real_11_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15763,13 +15763,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -15804,7 +15804,7 @@
               <type>0</type>
               <id>584</id>
               <name>xmat_M_imag_11_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15812,13 +15812,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -15887,7 +15887,7 @@
               <type>0</type>
               <id>587</id>
               <name>xmat_M_real_10_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15895,13 +15895,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -15936,7 +15936,7 @@
               <type>0</type>
               <id>588</id>
               <name>xmat_M_imag_10_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -15944,13 +15944,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -16019,7 +16019,7 @@
               <type>0</type>
               <id>591</id>
               <name>xmat_M_real_9_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16027,13 +16027,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -16068,7 +16068,7 @@
               <type>0</type>
               <id>592</id>
               <name>xmat_M_imag_9_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16076,13 +16076,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -16151,7 +16151,7 @@
               <type>0</type>
               <id>595</id>
               <name>xmat_M_real_8_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16159,13 +16159,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -16200,7 +16200,7 @@
               <type>0</type>
               <id>596</id>
               <name>xmat_M_imag_8_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16208,13 +16208,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -16283,7 +16283,7 @@
               <type>0</type>
               <id>599</id>
               <name>xmat_M_real_7_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16291,13 +16291,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -16332,7 +16332,7 @@
               <type>0</type>
               <id>600</id>
               <name>xmat_M_imag_7_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16340,13 +16340,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -16415,7 +16415,7 @@
               <type>0</type>
               <id>603</id>
               <name>xmat_M_real_6_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16423,13 +16423,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -16464,7 +16464,7 @@
               <type>0</type>
               <id>604</id>
               <name>xmat_M_imag_6_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16472,13 +16472,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -16547,7 +16547,7 @@
               <type>0</type>
               <id>607</id>
               <name>xmat_M_real_5_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16555,13 +16555,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -16596,7 +16596,7 @@
               <type>0</type>
               <id>608</id>
               <name>xmat_M_imag_5_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16604,13 +16604,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -16679,7 +16679,7 @@
               <type>0</type>
               <id>611</id>
               <name>xmat_M_real_4_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16687,13 +16687,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -16728,7 +16728,7 @@
               <type>0</type>
               <id>612</id>
               <name>xmat_M_imag_4_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16736,13 +16736,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -16811,7 +16811,7 @@
               <type>0</type>
               <id>615</id>
               <name>xmat_M_real_3_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16819,13 +16819,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -16860,7 +16860,7 @@
               <type>0</type>
               <id>616</id>
               <name>xmat_M_imag_3_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16868,13 +16868,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -16943,7 +16943,7 @@
               <type>0</type>
               <id>619</id>
               <name>xmat_M_real_2_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -16951,13 +16951,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -16992,7 +16992,7 @@
               <type>0</type>
               <id>620</id>
               <name>xmat_M_imag_2_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17000,13 +17000,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -17075,7 +17075,7 @@
               <type>0</type>
               <id>623</id>
               <name>xmat_M_real_1_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17083,13 +17083,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -17124,7 +17124,7 @@
               <type>0</type>
               <id>624</id>
               <name>xmat_M_imag_1_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17132,13 +17132,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -17207,7 +17207,7 @@
               <type>0</type>
               <id>627</id>
               <name>xmat_M_real_0_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17215,13 +17215,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -17256,7 +17256,7 @@
               <type>0</type>
               <id>628</id>
               <name>xmat_M_imag_0_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17264,13 +17264,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -17339,7 +17339,7 @@
               <type>0</type>
               <id>631</id>
               <name>xmat_M_real_31_addr_write_ln90</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>90</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17347,13 +17347,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>90</second>
@@ -17388,7 +17388,7 @@
               <type>0</type>
               <id>632</id>
               <name>xmat_M_imag_31_addr_write_ln93</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>93</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17396,13 +17396,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>93</second>
@@ -17471,7 +17471,7 @@
               <type>0</type>
               <id>635</id>
               <name>_ln87</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>87</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17479,13 +17479,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>87</second>
@@ -17519,7 +17519,7 @@
               <type>0</type>
               <id>638</id>
               <name>_ln86</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>86</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17527,13 +17527,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>86</second>
@@ -17567,7 +17567,7 @@
               <type>0</type>
               <id>640</id>
               <name>out_vector_M_real_0_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17575,13 +17575,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -17615,7 +17615,7 @@
               <type>0</type>
               <id>641</id>
               <name>out_vector_M_real_0_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17623,13 +17623,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -17663,7 +17663,7 @@
               <type>0</type>
               <id>642</id>
               <name>out_vector_M_real_1_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17671,13 +17671,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -17711,7 +17711,7 @@
               <type>0</type>
               <id>643</id>
               <name>out_vector_M_real_1_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17719,13 +17719,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -17759,7 +17759,7 @@
               <type>0</type>
               <id>644</id>
               <name>out_vector_M_real_2_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17767,13 +17767,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -17807,7 +17807,7 @@
               <type>0</type>
               <id>645</id>
               <name>out_vector_M_real_2_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17815,13 +17815,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -17855,7 +17855,7 @@
               <type>0</type>
               <id>646</id>
               <name>out_vector_M_real_3_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17863,13 +17863,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -17903,7 +17903,7 @@
               <type>0</type>
               <id>647</id>
               <name>out_vector_M_real_3_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17911,13 +17911,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -17951,7 +17951,7 @@
               <type>0</type>
               <id>648</id>
               <name>out_vector_M_real_4_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -17959,13 +17959,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -17999,7 +17999,7 @@
               <type>0</type>
               <id>649</id>
               <name>out_vector_M_real_4_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18007,13 +18007,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18047,7 +18047,7 @@
               <type>0</type>
               <id>650</id>
               <name>out_vector_M_real_5_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18055,13 +18055,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18095,7 +18095,7 @@
               <type>0</type>
               <id>651</id>
               <name>out_vector_M_real_5_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18103,13 +18103,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18143,7 +18143,7 @@
               <type>0</type>
               <id>652</id>
               <name>out_vector_M_real_6_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18151,13 +18151,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18191,7 +18191,7 @@
               <type>0</type>
               <id>653</id>
               <name>out_vector_M_real_6_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18199,13 +18199,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18239,7 +18239,7 @@
               <type>0</type>
               <id>654</id>
               <name>out_vector_M_real_7_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18247,13 +18247,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18287,7 +18287,7 @@
               <type>0</type>
               <id>655</id>
               <name>out_vector_M_real_7_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18295,13 +18295,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18335,7 +18335,7 @@
               <type>0</type>
               <id>656</id>
               <name>out_vector_M_imag_0_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18343,13 +18343,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18383,7 +18383,7 @@
               <type>0</type>
               <id>657</id>
               <name>out_vector_M_imag_0_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18391,13 +18391,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18431,7 +18431,7 @@
               <type>0</type>
               <id>658</id>
               <name>out_vector_M_imag_1_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18439,13 +18439,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18479,7 +18479,7 @@
               <type>0</type>
               <id>659</id>
               <name>out_vector_M_imag_1_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18487,13 +18487,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18527,7 +18527,7 @@
               <type>0</type>
               <id>660</id>
               <name>out_vector_M_imag_2_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18535,13 +18535,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18575,7 +18575,7 @@
               <type>0</type>
               <id>661</id>
               <name>out_vector_M_imag_2_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18583,13 +18583,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18623,7 +18623,7 @@
               <type>0</type>
               <id>662</id>
               <name>out_vector_M_imag_3_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18631,13 +18631,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18671,7 +18671,7 @@
               <type>0</type>
               <id>663</id>
               <name>out_vector_M_imag_3_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18679,13 +18679,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18719,7 +18719,7 @@
               <type>0</type>
               <id>664</id>
               <name>out_vector_M_imag_4_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18727,13 +18727,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18767,7 +18767,7 @@
               <type>0</type>
               <id>665</id>
               <name>out_vector_M_imag_4_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18775,13 +18775,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18815,7 +18815,7 @@
               <type>0</type>
               <id>666</id>
               <name>out_vector_M_imag_5_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18823,13 +18823,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18863,7 +18863,7 @@
               <type>0</type>
               <id>667</id>
               <name>out_vector_M_imag_5_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18871,13 +18871,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18911,7 +18911,7 @@
               <type>0</type>
               <id>668</id>
               <name>out_vector_M_imag_6_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18919,13 +18919,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -18959,7 +18959,7 @@
               <type>0</type>
               <id>669</id>
               <name>out_vector_M_imag_6_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -18967,13 +18967,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19007,7 +19007,7 @@
               <type>0</type>
               <id>670</id>
               <name>out_vector_M_imag_7_2</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19015,13 +19015,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19055,7 +19055,7 @@
               <type>0</type>
               <id>671</id>
               <name>out_vector_M_imag_7_3</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19063,13 +19063,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19103,7 +19103,7 @@
               <type>0</type>
               <id>672</id>
               <name>call_ret</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19111,13 +19111,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19311,7 +19311,7 @@
               <type>0</type>
               <id>673</id>
               <name>out_vector_M_real_0_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19319,13 +19319,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19359,7 +19359,7 @@
               <type>0</type>
               <id>674</id>
               <name>out_vector_M_real_0_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19367,13 +19367,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19409,7 +19409,7 @@
               <type>0</type>
               <id>675</id>
               <name>out_vector_M_real_0_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19417,13 +19417,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19457,7 +19457,7 @@
               <type>0</type>
               <id>676</id>
               <name>out_vector_M_real_0_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19465,13 +19465,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19507,7 +19507,7 @@
               <type>0</type>
               <id>677</id>
               <name>out_vector_M_real_1_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19515,13 +19515,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19555,7 +19555,7 @@
               <type>0</type>
               <id>678</id>
               <name>out_vector_M_real_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19563,13 +19563,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19605,7 +19605,7 @@
               <type>0</type>
               <id>679</id>
               <name>out_vector_M_real_1_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19613,13 +19613,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19653,7 +19653,7 @@
               <type>0</type>
               <id>680</id>
               <name>out_vector_M_real_1_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19661,13 +19661,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19703,7 +19703,7 @@
               <type>0</type>
               <id>681</id>
               <name>out_vector_M_real_2_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19711,13 +19711,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19751,7 +19751,7 @@
               <type>0</type>
               <id>682</id>
               <name>out_vector_M_real_2_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19759,13 +19759,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19801,7 +19801,7 @@
               <type>0</type>
               <id>683</id>
               <name>out_vector_M_real_2_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19809,13 +19809,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19849,7 +19849,7 @@
               <type>0</type>
               <id>684</id>
               <name>out_vector_M_real_2_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19857,13 +19857,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19899,7 +19899,7 @@
               <type>0</type>
               <id>685</id>
               <name>out_vector_M_real_3_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19907,13 +19907,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19947,7 +19947,7 @@
               <type>0</type>
               <id>686</id>
               <name>out_vector_M_real_3_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -19955,13 +19955,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -19997,7 +19997,7 @@
               <type>0</type>
               <id>687</id>
               <name>out_vector_M_real_3_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20005,13 +20005,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20045,7 +20045,7 @@
               <type>0</type>
               <id>688</id>
               <name>out_vector_M_real_3_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20053,13 +20053,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20095,7 +20095,7 @@
               <type>0</type>
               <id>689</id>
               <name>out_vector_M_real_4_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20103,13 +20103,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20143,7 +20143,7 @@
               <type>0</type>
               <id>690</id>
               <name>out_vector_M_real_4_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20151,13 +20151,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20193,7 +20193,7 @@
               <type>0</type>
               <id>691</id>
               <name>out_vector_M_real_4_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20201,13 +20201,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20241,7 +20241,7 @@
               <type>0</type>
               <id>692</id>
               <name>out_vector_M_real_4_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20249,13 +20249,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20291,7 +20291,7 @@
               <type>0</type>
               <id>693</id>
               <name>out_vector_M_real_5_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20299,13 +20299,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20339,7 +20339,7 @@
               <type>0</type>
               <id>694</id>
               <name>out_vector_M_real_5_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20347,13 +20347,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20389,7 +20389,7 @@
               <type>0</type>
               <id>695</id>
               <name>out_vector_M_real_5_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20397,13 +20397,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20437,7 +20437,7 @@
               <type>0</type>
               <id>696</id>
               <name>out_vector_M_real_5_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20445,13 +20445,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20487,7 +20487,7 @@
               <type>0</type>
               <id>697</id>
               <name>out_vector_M_real_6_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20495,13 +20495,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20535,7 +20535,7 @@
               <type>0</type>
               <id>698</id>
               <name>out_vector_M_real_6_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20543,13 +20543,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20585,7 +20585,7 @@
               <type>0</type>
               <id>699</id>
               <name>out_vector_M_real_6_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20593,13 +20593,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20633,7 +20633,7 @@
               <type>0</type>
               <id>700</id>
               <name>out_vector_M_real_6_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20641,13 +20641,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20683,7 +20683,7 @@
               <type>0</type>
               <id>701</id>
               <name>out_vector_M_real_7_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20691,13 +20691,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20731,7 +20731,7 @@
               <type>0</type>
               <id>702</id>
               <name>out_vector_M_real_7_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20739,13 +20739,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20781,7 +20781,7 @@
               <type>0</type>
               <id>703</id>
               <name>out_vector_M_real_7_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20789,13 +20789,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20829,7 +20829,7 @@
               <type>0</type>
               <id>704</id>
               <name>out_vector_M_real_7_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20837,13 +20837,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20879,7 +20879,7 @@
               <type>0</type>
               <id>705</id>
               <name>out_vector_M_imag_0_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20887,13 +20887,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20927,7 +20927,7 @@
               <type>0</type>
               <id>706</id>
               <name>out_vector_M_imag_0_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20935,13 +20935,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -20977,7 +20977,7 @@
               <type>0</type>
               <id>707</id>
               <name>out_vector_M_imag_0_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -20985,13 +20985,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21025,7 +21025,7 @@
               <type>0</type>
               <id>708</id>
               <name>out_vector_M_imag_0_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21033,13 +21033,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21075,7 +21075,7 @@
               <type>0</type>
               <id>709</id>
               <name>out_vector_M_imag_1_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21083,13 +21083,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21123,7 +21123,7 @@
               <type>0</type>
               <id>710</id>
               <name>out_vector_M_imag_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21131,13 +21131,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21173,7 +21173,7 @@
               <type>0</type>
               <id>711</id>
               <name>out_vector_M_imag_1_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21181,13 +21181,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21221,7 +21221,7 @@
               <type>0</type>
               <id>712</id>
               <name>out_vector_M_imag_1_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21229,13 +21229,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21271,7 +21271,7 @@
               <type>0</type>
               <id>713</id>
               <name>out_vector_M_imag_2_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21279,13 +21279,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21319,7 +21319,7 @@
               <type>0</type>
               <id>714</id>
               <name>out_vector_M_imag_2_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21327,13 +21327,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21369,7 +21369,7 @@
               <type>0</type>
               <id>715</id>
               <name>out_vector_M_imag_2_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21377,13 +21377,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21417,7 +21417,7 @@
               <type>0</type>
               <id>716</id>
               <name>out_vector_M_imag_2_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21425,13 +21425,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21467,7 +21467,7 @@
               <type>0</type>
               <id>717</id>
               <name>out_vector_M_imag_3_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21475,13 +21475,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21515,7 +21515,7 @@
               <type>0</type>
               <id>718</id>
               <name>out_vector_M_imag_3_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21523,13 +21523,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21565,7 +21565,7 @@
               <type>0</type>
               <id>719</id>
               <name>out_vector_M_imag_3_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21573,13 +21573,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21613,7 +21613,7 @@
               <type>0</type>
               <id>720</id>
               <name>out_vector_M_imag_3_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21621,13 +21621,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21663,7 +21663,7 @@
               <type>0</type>
               <id>721</id>
               <name>out_vector_M_imag_4_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21671,13 +21671,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21711,7 +21711,7 @@
               <type>0</type>
               <id>722</id>
               <name>out_vector_M_imag_4_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21719,13 +21719,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21761,7 +21761,7 @@
               <type>0</type>
               <id>723</id>
               <name>out_vector_M_imag_4_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21769,13 +21769,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21809,7 +21809,7 @@
               <type>0</type>
               <id>724</id>
               <name>out_vector_M_imag_4_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21817,13 +21817,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21859,7 +21859,7 @@
               <type>0</type>
               <id>725</id>
               <name>out_vector_M_imag_5_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21867,13 +21867,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21907,7 +21907,7 @@
               <type>0</type>
               <id>726</id>
               <name>out_vector_M_imag_5_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21915,13 +21915,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -21957,7 +21957,7 @@
               <type>0</type>
               <id>727</id>
               <name>out_vector_M_imag_5_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -21965,13 +21965,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -22005,7 +22005,7 @@
               <type>0</type>
               <id>728</id>
               <name>out_vector_M_imag_5_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22013,13 +22013,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -22055,7 +22055,7 @@
               <type>0</type>
               <id>729</id>
               <name>out_vector_M_imag_6_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22063,13 +22063,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -22103,7 +22103,7 @@
               <type>0</type>
               <id>730</id>
               <name>out_vector_M_imag_6_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22111,13 +22111,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -22153,7 +22153,7 @@
               <type>0</type>
               <id>731</id>
               <name>out_vector_M_imag_6_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22161,13 +22161,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -22201,7 +22201,7 @@
               <type>0</type>
               <id>732</id>
               <name>out_vector_M_imag_6_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22209,13 +22209,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -22251,7 +22251,7 @@
               <type>0</type>
               <id>733</id>
               <name>out_vector_M_imag_7_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22259,13 +22259,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -22299,7 +22299,7 @@
               <type>0</type>
               <id>734</id>
               <name>out_vector_M_imag_7_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22307,13 +22307,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -22349,7 +22349,7 @@
               <type>0</type>
               <id>735</id>
               <name>out_vector_M_imag_7_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22357,13 +22357,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -22397,7 +22397,7 @@
               <type>0</type>
               <id>736</id>
               <name>out_vector_M_imag_7_1_write_ln98</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>98</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22405,13 +22405,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>98</second>
@@ -22447,7 +22447,7 @@
               <type>0</type>
               <id>737</id>
               <name>_ln100</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>100</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22455,13 +22455,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>100</second>
@@ -22532,7 +22532,7 @@
               <type>0</type>
               <id>740</id>
               <name>icmp_ln100</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>100</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22540,13 +22540,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>100</second>
@@ -22581,7 +22581,7 @@
               <type>0</type>
               <id>742</id>
               <name>i_1</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>100</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22589,13 +22589,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>100</second>
@@ -22630,7 +22630,7 @@
               <type>0</type>
               <id>743</id>
               <name>_ln100</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>100</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22638,13 +22638,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>100</second>
@@ -22680,7 +22680,7 @@
               <type>0</type>
               <id>745</id>
               <name>trunc_ln102</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>102</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22688,13 +22688,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>102</second>
@@ -22728,7 +22728,7 @@
               <type>0</type>
               <id>746</id>
               <name>zext_ln102</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>102</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22736,13 +22736,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>102</second>
@@ -22776,7 +22776,7 @@
               <type>0</type>
               <id>747</id>
               <name>tmp_4</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>102</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22784,13 +22784,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>102</second>
@@ -22841,7 +22841,7 @@
               <type>0</type>
               <id>748</id>
               <name>bitcast_ln102</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>102</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22849,13 +22849,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>102</second>
@@ -22889,7 +22889,7 @@
               <type>0</type>
               <id>749</id>
               <name>tmp_5</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>105</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22897,13 +22897,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>105</second>
@@ -22954,7 +22954,7 @@
               <type>0</type>
               <id>750</id>
               <name>bitcast_ln105</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>105</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -22962,13 +22962,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>105</second>
@@ -23002,7 +23002,7 @@
               <type>0</type>
               <id>751</id>
               <name>p_Result_s</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>106</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -23010,13 +23010,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>106</second>
@@ -23052,7 +23052,7 @@
               <type>0</type>
               <id>752</id>
               <name>temp_last_V</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>109</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -23060,13 +23060,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>109</second>
@@ -23101,7 +23101,7 @@
               <type>0</type>
               <id>753</id>
               <name>out_stream_V_data_V_write_ln113</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>113</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -23109,13 +23109,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>113</second>
@@ -23157,7 +23157,7 @@
               <type>0</type>
               <id>754</id>
               <name>_ln100</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>100</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -23165,13 +23165,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>100</second>
@@ -23205,7 +23205,7 @@
               <type>0</type>
               <id>756</id>
               <name>_ln115</name>
-              <fileName>dmm_64x4096/matmult_top.cpp</fileName>
+              <fileName>dmm_16x64/matmult_top.cpp</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>115</lineNumber>
               <contextFuncName>dmatmult</contextFuncName>
@@ -23213,13 +23213,13 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>C:\Users\sidjha\Documents\BTP\JRC-HLS\DiagonalMatrixMult-64x4096\Trial-1</first>
+                  <first>C:\Users\sidjha\Documents\BTP\FPGA-IP\Gold-Ref-DMM</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>dmm_64x4096/matmult_top.cpp</first>
+                        <first>dmm_16x64/matmult_top.cpp</first>
                         <second>dmatmult</second>
                       </first>
                       <second>115</second>

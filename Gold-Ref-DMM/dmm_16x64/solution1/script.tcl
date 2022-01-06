@@ -11,8 +11,9 @@ add_files -tb dmm_16x64/tb_matmult.cpp -cflags "-Wno-unknown-pragmas" -csimflags
 open_solution "solution1"
 set_part {xczu28dr-ffvg1517-2-e}
 create_clock -period 10 -name default
+config_export -format ip_catalog -rtl verilog
 #source "./dmm_16x64/solution1/directives.tcl"
 csim_design
 csynth_design
 cosim_design
-export_design -format ip_catalog
+export_design -rtl verilog -format ip_catalog

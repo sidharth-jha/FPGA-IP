@@ -42,7 +42,7 @@ set SCTraceOption all
 set TargetInfo xczu28dr:-ffvg1517:-2-e
 set SourceFiles {sc {} c ../matmult_top.cpp}
 set SourceFlags {sc {} c {{}}}
-set DirectiveFile C:/Users/sidjha/Documents/BTP/JRC-HLS/DiagonalMatrixMult-64x4096/Trial-1/dmm_64x4096/solution1/solution1.directive
+set DirectiveFile C:/Users/sidjha/Documents/BTP/FPGA-IP/Gold-Ref-DMM/dmm_16x64/solution1/solution1.directive
 set TBFiles {verilog ../tb_matmult.cpp bc ../tb_matmult.cpp vhdl ../tb_matmult.cpp sc ../tb_matmult.cpp cas ../tb_matmult.cpp c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
