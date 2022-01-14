@@ -1,0 +1,375 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfilteringv2-hls'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'.
+Command: synth_design -top design_1_wrapper -part xczu28dr-ffvg1517-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-1540] The version limit for your license is '2021.08' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14245
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2763.684 ; gain = 150.684 ; free physical = 107206 ; free virtual = 123220
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_smc_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_smc_0' (1#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_axi_smc_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'S03_AXI_awready' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7071] port 'S03_AXI_wready' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7071] port 'S03_AXI_bid' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7071] port 'S03_AXI_bresp' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7071] port 'S03_AXI_buser' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7071] port 'S03_AXI_bvalid' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7071] port 'S03_AXI_arready' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7071] port 'S03_AXI_rid' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7071] port 'S03_AXI_rdata' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7071] port 'S03_AXI_rresp' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7071] port 'S03_AXI_rlast' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7071] port 'S03_AXI_ruser' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7071] port 'S03_AXI_rvalid' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+WARNING: [Synth 8-7023] instance 'axi_smc' of module 'design_1_axi_smc_0' has 128 connections declared, but only 115 given [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:254]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_dma_0_2' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_axi_dma_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_dma_0_2' (2#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_axi_dma_0_2_stub.v:6]
+WARNING: [Synth 8-7071] port 's2mm_prmry_reset_out_n' of module 'design_1_axi_dma_0_2' is unconnected for instance 'dma_op' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:370]
+WARNING: [Synth 8-7071] port 's2mm_introut' of module 'design_1_axi_dma_0_2' is unconnected for instance 'dma_op' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:370]
+WARNING: [Synth 8-7071] port 'axi_dma_tstvec' of module 'design_1_axi_dma_0_2' is unconnected for instance 'dma_op' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:370]
+WARNING: [Synth 8-7023] instance 'dma_op' of module 'design_1_axi_dma_0_2' has 43 connections declared, but only 40 given [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:370]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_dma_0_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_axi_dma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_dma_0_0' (3#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_axi_dma_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mm2s_prmry_reset_out_n' of module 'design_1_axi_dma_0_0' is unconnected for instance 'dma_rxmat' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:411]
+WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'design_1_axi_dma_0_0' is unconnected for instance 'dma_rxmat' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:411]
+WARNING: [Synth 8-7071] port 'axi_dma_tstvec' of module 'design_1_axi_dma_0_0' is unconnected for instance 'dma_rxmat' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:411]
+WARNING: [Synth 8-7023] instance 'dma_rxmat' of module 'design_1_axi_dma_0_0' has 40 connections declared, but only 37 given [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:411]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_dma_0_1' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_axi_dma_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_dma_0_1' (4#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_axi_dma_0_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'mm2s_prmry_reset_out_n' of module 'design_1_axi_dma_0_1' is unconnected for instance 'dma_xmat' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:449]
+WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'design_1_axi_dma_0_1' is unconnected for instance 'dma_xmat' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:449]
+WARNING: [Synth 8-7071] port 'axi_dma_tstvec' of module 'design_1_axi_dma_0_1' is unconnected for instance 'dma_xmat' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:449]
+WARNING: [Synth 8-7023] instance 'dma_xmat' of module 'design_1_axi_dma_0_1' has 40 connections declared, but only 37 given [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:449]
+INFO: [Synth 8-6157] synthesizing module 'design_1_matchedfilteringp1_0_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_matchedfilteringp1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_matchedfilteringp1_0_0' (5#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_matchedfilteringp1_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'design_1_matchedfilteringp1_0_0' is unconnected for instance 'matchedfilteringp1_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:487]
+WARNING: [Synth 8-7071] port 'out_stream_TKEEP' of module 'design_1_matchedfilteringp1_0_0' is unconnected for instance 'matchedfilteringp1_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:487]
+WARNING: [Synth 8-7071] port 'out_stream_TSTRB' of module 'design_1_matchedfilteringp1_0_0' is unconnected for instance 'matchedfilteringp1_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:487]
+WARNING: [Synth 8-7023] instance 'matchedfilteringp1_0' of module 'design_1_matchedfilteringp1_0_0' has 38 connections declared, but only 35 given [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:487]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ps8_0_axi_periph_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:821]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_QJIMLI' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:1828]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_QJIMLI' (6#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:1828]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1D3SAH3' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:1960]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1D3SAH3' (7#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:1960]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_P3UMW5' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:2085]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_P3UMW5' (8#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:2085]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_1E9R4HW' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:2210]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_1E9R4HW' (9#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:2210]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1A7ZMW4' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:2335]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_ds_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_ds_0' (10#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (11#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1A7ZMW4' (12#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:2335]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_KGUFR9' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:2745]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_ds_1' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_auto_ds_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_ds_1' (13#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_auto_ds_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (14#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_KGUFR9' (15#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:2745]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (16#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_xbar_0_stub.v:6]
+WARNING: [Synth 8-689] width (4) of port connection 'm_axi_wstrb' does not match port width (16) of module 'design_1_xbar_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:1805]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'design_1_xbar_0' is unconnected for instance 'xbar' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:1787]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'design_1_xbar_0' is unconnected for instance 'xbar' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:1787]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'design_1_xbar_0' has 40 connections declared, but only 38 given [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:1787]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ps8_0_axi_periph_0' (17#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:821]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps8_0_99M_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_rst_ps8_0_99M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps8_0_99M_0' (18#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_rst_ps8_0_99M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:677]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:677]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:677]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_rst_ps8_0_99M_0' is unconnected for instance 'rst_ps8_0_99M' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:677]
+WARNING: [Synth 8-7023] instance 'rst_ps8_0_99M' of module 'design_1_rst_ps8_0_99M_0' has 10 connections declared, but only 6 given [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:677]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xfft_0_1' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_xfft_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xfft_0_1' (19#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_xfft_0_1_stub.v:6]
+WARNING: [Synth 8-7071] port 's_axis_config_tready' of module 'design_1_xfft_0_1' is unconnected for instance 'xfft_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:684]
+WARNING: [Synth 8-7071] port 'event_frame_started' of module 'design_1_xfft_0_1' is unconnected for instance 'xfft_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:684]
+WARNING: [Synth 8-7071] port 'event_tlast_unexpected' of module 'design_1_xfft_0_1' is unconnected for instance 'xfft_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:684]
+WARNING: [Synth 8-7071] port 'event_tlast_missing' of module 'design_1_xfft_0_1' is unconnected for instance 'xfft_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:684]
+WARNING: [Synth 8-7071] port 'event_status_channel_halt' of module 'design_1_xfft_0_1' is unconnected for instance 'xfft_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:684]
+WARNING: [Synth 8-7071] port 'event_data_in_channel_halt' of module 'design_1_xfft_0_1' is unconnected for instance 'xfft_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:684]
+WARNING: [Synth 8-7071] port 'event_data_out_channel_halt' of module 'design_1_xfft_0_1' is unconnected for instance 'xfft_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:684]
+WARNING: [Synth 8-7023] instance 'xfft_0' of module 'design_1_xfft_0_1' has 18 connections declared, but only 11 given [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:684]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_0_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 0 - type: integer 
+	Parameter CONST_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (20#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_0_0' (21#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_1_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/synth/design_1_xlconstant_1_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant__parameterized0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant__parameterized0' (21#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_1_0' (22#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/synth/design_1_xlconstant_1_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_zynq_ultra_ps_e_0_0' (23#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/.Xil/Vivado-14218-iiitd-B560M-DS3H-AC/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'maxigp0_awuser' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:700]
+WARNING: [Synth 8-7071] port 'maxigp0_aruser' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:700]
+WARNING: [Synth 8-7071] port 'maxigp1_awuser' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:700]
+WARNING: [Synth 8-7071] port 'maxigp1_aruser' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:700]
+WARNING: [Synth 8-7071] port 'saxigp2_bid' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:700]
+WARNING: [Synth 8-7071] port 'saxigp2_rid' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:700]
+WARNING: [Synth 8-7071] port 'emio_uart1_txd' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:700]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'design_1_zynq_ultra_ps_e_0_0' has 125 connections declared, but only 118 given [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:700]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (24#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (25#1) [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2801.590 ; gain = 188.590 ; free physical = 107814 ; free virtual = 123829
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2821.402 ; gain = 208.402 ; free physical = 107870 ; free virtual = 123885
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2821.402 ; gain = 208.402 ; free physical = 107870 ; free virtual = 123885
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2821.402 ; gain = 0.000 ; free physical = 107863 ; free virtual = 123878
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+WARNING: [Vivado 12-584] No ports matched ''. [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc:2]
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_matchedfilteringp1_0_0/design_1_matchedfilteringp1_0_0/design_1_matchedfilteringp1_0_0_in_context.xdc] for cell 'design_1_i/matchedfilteringp1_0'
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_matchedfilteringp1_0_0/design_1_matchedfilteringp1_0_0/design_1_matchedfilteringp1_0_0_in_context.xdc] for cell 'design_1_i/matchedfilteringp1_0'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/xbar'
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/xbar'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_in_context.xdc] for cell 'design_1_i/rst_ps8_0_99M'
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_in_context.xdc] for cell 'design_1_i/rst_ps8_0_99M'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0/design_1_axi_dma_0_0_in_context.xdc] for cell 'design_1_i/dma_rxmat'
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0/design_1_axi_dma_0_0_in_context.xdc] for cell 'design_1_i/dma_rxmat'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_1/design_1_axi_dma_0_1/design_1_axi_dma_0_0_in_context.xdc] for cell 'design_1_i/dma_xmat'
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_1/design_1_axi_dma_0_1/design_1_axi_dma_0_0_in_context.xdc] for cell 'design_1_i/dma_xmat'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0/design_1_axi_smc_0_in_context.xdc] for cell 'design_1_i/axi_smc'
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0/design_1_axi_smc_0_in_context.xdc] for cell 'design_1_i/axi_smc'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_2/design_1_axi_dma_0_2/design_1_axi_dma_0_2_in_context.xdc] for cell 'design_1_i/dma_op'
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_2/design_1_axi_dma_0_2/design_1_axi_dma_0_2_in_context.xdc] for cell 'design_1_i/dma_op'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_xfft_0_1/design_1_xfft_0_1/design_1_xfft_0_1_in_context.xdc] for cell 'design_1_i/xfft_0'
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_xfft_0_1/design_1_xfft_0_1/design_1_xfft_0_1_in_context.xdc] for cell 'design_1_i/xfft_0'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc'
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc'
+Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2964.871 ; gain = 0.000 ; free physical = 107761 ; free virtual = 123776
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00 . Memory (MB): peak = 2964.871 ; gain = 0.000 ; free physical = 107760 ; free virtual = 123775
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2964.871 ; gain = 351.871 ; free physical = 107848 ; free virtual = 123864
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu28dr-ffvg1517-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2964.871 ; gain = 351.871 ; free physical = 107848 ; free virtual = 123864
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/matchedfilteringp1_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/rst_ps8_0_99M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/dma_rxmat. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/dma_xmat. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_smc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/dma_op. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xfft_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2964.871 ; gain = 351.871 ; free physical = 107848 ; free virtual = 123864
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2964.871 ; gain = 351.871 ; free physical = 107851 ; free virtual = 123867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 4272 (col length:192)
+BRAMs: 2160 (col length: RAMB18 192 RAMB36 96)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2964.871 ; gain = 351.871 ; free physical = 107838 ; free virtual = 123857
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 3297.949 ; gain = 684.949 ; free physical = 107340 ; free virtual = 123359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 3298.949 ; gain = 685.949 ; free physical = 107339 ; free virtual = 123359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 3318.988 ; gain = 705.988 ; free physical = 107337 ; free virtual = 123357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 3324.926 ; gain = 711.926 ; free physical = 107337 ; free virtual = 123357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 3324.926 ; gain = 711.926 ; free physical = 107337 ; free virtual = 123357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 3324.926 ; gain = 711.926 ; free physical = 107337 ; free virtual = 123357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 3324.926 ; gain = 711.926 ; free physical = 107337 ; free virtual = 123357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 3324.926 ; gain = 711.926 ; free physical = 107337 ; free virtual = 123357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 3324.926 ; gain = 711.926 ; free physical = 107337 ; free virtual = 123357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------------+----------+
+|      |BlackBox name                   |Instances |
++------+--------------------------------+----------+
+|1     |design_1_xbar_0                 |         1|
+|2     |design_1_auto_ds_0              |         1|
+|3     |design_1_auto_pc_0              |         1|
+|4     |design_1_auto_ds_1              |         1|
+|5     |design_1_auto_pc_1              |         1|
+|6     |design_1_axi_smc_0              |         1|
+|7     |design_1_axi_dma_0_2            |         1|
+|8     |design_1_axi_dma_0_0            |         1|
+|9     |design_1_axi_dma_0_1            |         1|
+|10    |design_1_matchedfilteringp1_0_0 |         1|
+|11    |design_1_rst_ps8_0_99M_0        |         1|
+|12    |design_1_xfft_0_1               |         1|
+|13    |design_1_zynq_ultra_ps_e_0_0    |         1|
++------+--------------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------+------+
+|      |Cell                          |Count |
++------+------------------------------+------+
+|1     |design_1_auto_ds              |     2|
+|3     |design_1_auto_pc              |     2|
+|5     |design_1_axi_dma_0            |     3|
+|8     |design_1_axi_smc              |     1|
+|9     |design_1_matchedfilteringp1_0 |     1|
+|10    |design_1_rst_ps8_0_99M        |     1|
+|11    |design_1_xbar                 |     1|
+|12    |design_1_xfft_0               |     1|
+|13    |design_1_zynq_ultra_ps_e_0    |     1|
++------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 3324.926 ; gain = 711.926 ; free physical = 107337 ; free virtual = 123357
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 3324.926 ; gain = 568.457 ; free physical = 107378 ; free virtual = 123397
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 3324.934 ; gain = 711.926 ; free physical = 107378 ; free virtual = 123397
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3324.934 ; gain = 0.000 ; free physical = 107449 ; free virtual = 123469
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3367.582 ; gain = 0.000 ; free physical = 107373 ; free virtual = 123393
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+69 Infos, 56 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:43 . Memory (MB): peak = 3379.551 ; gain = 1193.523 ; free physical = 107464 ; free virtual = 123484
+INFO: [Common 17-1381] The checkpoint '/home/iiitd/Documents/Sidharth_BTP/matchedfiltering/v2/matchedfiltering/matchedfilteringv2-bd/matchedfilteringv2-bd.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 14 01:43:23 2022...
