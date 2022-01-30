@@ -105,7 +105,6 @@ void doppler_delay(cdt rxmat[dim_r][dim_c], cdt rxmat_dd[dim_r][dim_c], int angl
 
 void single_doppler(cdt rxmat[dim_r][dim_c], cdt xmat[dim_c][dim_r], cdt y_doppler[no_of_angles][dim_r]){
 	for(int i=0; i<no_of_angles; i++){
-#pragma HLS PIPELINE
 		cdt rxmat_dd[dim_r][dim_c];
 #pragma HLS ARRAY_PARTITION variable=rxmat_dd cyclic factor=5 dim=2
 		doppler_delay(rxmat, rxmat_dd, i);
